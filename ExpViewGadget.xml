@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="ExpenseView.com Gadget" scrolling="true" category="tools" height="300" description="A gadget to help users track their expenses.  The gadget allows a user to quickly add and analyze expenses at ExpenseView.com.  ExpenseView is a free personal finance site that helps people understand how they're spending their money." author="Rens M" author_email="contactus+expenseGadget@expenseview.com" author_location="Boston" author_affiliation="ExpenseView.com" screenshot="http://www.expenseview.com/images/gadgetSnapshot.png" thumbnail="http://www.expenseview.com/images/gadgetThumbnail.png" /> 
+  <Content type="url" href="http://www.expenseview.com/gadgetLogin.aspx" /> 
+</Module>

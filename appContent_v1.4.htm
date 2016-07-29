@@ -1,0 +1,44 @@
+﻿
+    <div id="expensePage">
+        <div class="panel" id="div_addExpensePanel" style="display:none"></div>            
+        <div class="panel" id="div_searchExpPanel" style="display:none"></div>
+        <div class="panel" id="div_expCategoryPanel" style="display: none"></div>    
+        <div class="panel" id="div_expPieChartPanel"></div>
+
+        <div class="panel" id="div_expTrends" style="display: none">    
+            <span class="panelHeader">Expense Trends</span>
+            &nbsp;<a href="#" onmouseout="hideTooltip();" onmouseover="showTooltip(this);" tipitle="View you spending trends for the past 12 months."><img src="images/information.jpg" style=" border: 0px" /></a>
+            <div id="expTrendsGraph"></div>
+        </div>    
+    </div>
+
+    <div id="incomePage">
+        <div id="div_addIncomePanel" class="panel" style="display:none"></div>        
+        <div id="div_incomeCategoryPanel" class="panel" style="display:none"></div>    
+        <div id="div_searchIncomePanel" class="panel" style="display:none"></div>           
+        <div id="div_incomePieChartPanel" class="panel"  style="display:none"></div>
+        <div id="div_incomeTrends" class="panel" style="display:none"></div>    
+    </div>
+
+    <div id="balancePage">
+        <div class="panel" id="balanceSumPanel" style="display:none">           
+            <span class="panelHeader">Current Balance:&nbsp;</span> 
+             <span id="currentBalanceDiv" class="showText"></span>    
+             <br />&nbsp;&nbsp;<br />
+
+            <span class="panelHeader">Balance Changes</span>                     
+            &nbsp;<a href="#" onmouseout="hideTooltip();" onmouseover="showTooltip(this);" tipitle="Balance changes are highlighed in red if they're less than the expected value."><img src="images/information.jpg" style=" border: 0px" /></a>              
+            <div id="balanceSumTable"></div>
+             <br />&nbsp;&nbsp;<br />
+
+            <span class="panelHeader">Expected Balance Changes</span>       
+            &nbsp;<a href="#" onmouseout="hideTooltip();" onmouseover="showTooltip(this);" tipitle="Expected change is derived by subtracting the expected income of the income categories from the expected budget of the expense categories."><img src="images/information.jpg" style=" border: 0px" /></a>              
+            <div id="expectedBalanceDiv"></div>            
+             <br />&nbsp;&nbsp;<br />
+        </div>                            
+   </div>
+
+    <div id="welcomePage">
+        <div class="panel" id="div_landingPagePanel" style="display:none">           
+        </div>                            
+   </div>   

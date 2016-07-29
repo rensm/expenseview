@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7D5B588-7283-4A5E-B475-C102D7AFF612}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExpenseView</RootNamespace>
+    <AssemblyName>ExpenseView</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="am.Charts">
+      <HintPath>Service\ExternalAPI\am.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="blowery.Web.HttpCompress, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Service\ExternalAPI\Compression\blowery.Web.HttpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Service\ExternalAPI\Quartz\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="EcmaScript.NET.modified">
+      <HintPath>Service\ExternalAPI\EcmaScript.NET.modified.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock, Version=0.9.8316.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Jayrock.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock.Json, Version=0.9.8316.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Jayrock.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Quartz">
+      <HintPath>Service\ExternalAPI\Quartz\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Yahoo.Yui.Compressor, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f8b4b81ec75097e2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Service\ExternalAPI\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\am.Charts.dll" />
+    <Content Include="Charts\incomeTrends_settings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Charts\expTrends_settings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Charts\trendChartSettings.xml" />
+    <Content Include="Client\Lib\jquery-1.7.2.min.js" />
+    <Content Include="Client\Lib\jquery-ui-1.8.19.custom.min.js" />
+    <Content Include="Client\Mobile\Breakdown.html" />
+    <Content Include="Client\Mobile\Expense.html" />
+    <Content Include="Client\Mobile\images\ajax-loader.png" />
+    <Content Include="Client\Mobile\Income.html" />
+    <Content Include="Client\Mobile\Login.html" />
+    <Content Include="Client\Mobile\jquery-1.6.2.min.js" />
+    <Content Include="Client\Mobile\jquery.mobile-1.0b1.css" />
+    <Content Include="Client\Mobile\jquery.mobile-1.0b1.js" />
+    <Content Include="Client\Lib\date.js" />
+    <Content Include="Client\Lib\jquery-1.4.2.min.js" />
+    <Content Include="Client\Lib\jquery-ui-1.8.4.custom.min.js" />
+    <Content Include="Client\Lib\mColorPicker.js" />
+    <Content Include="Client\Mobile\Savings.html" />
+    <Content Include="Client\Panel\ViewTrendsPanel.js" />
+    <Content Include="Client\Mobile\phonegap.0.9.5.1.jar" />
+    <Content Include="Client\Mobile\phonegap.0.9.5.1.js" />
+    <Content Include="crossdomain.xml" />
+    <Content Include="css\border-radius.htc" />
+    <Content Include="css\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="css\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="css\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="css\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="css\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="css\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="css\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="css\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="css\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="css\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="css\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="css\redmond\jquery-ui-1.8.19.custom.css" />
+    <Content Include="css\redmond\jquery-ui-1.8.4.custom.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Flash\amstock.swf" />
+    <Content Include="images\arrow_refresh.png" />
+    <Content Include="images\bg1_test.jpg" />
+    <Content Include="images\bodyBG_114.jpg" />
+    <Content Include="images\calendar.gif" />
+    <Content Include="images\chart_bar.png" />
+    <Content Include="images\chart_line.png" />
+    <Content Include="images\cog.png" />
+    <Content Include="images\color.png" />
+    <Content Include="images\colorpicker.png" />
+    <Content Include="images\facebook_small.png" />
+    <Content Include="images\f_logo.png" />
+    <Content Include="images\graybar.jpg" />
+    <Content Include="images\grid.gif" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\photoBackGround.jpg" />
+    <Content Include="images\wrap.gif" />
+    <Content Include="Maintenance.html" />
+    <Content Include="RecurringTransactions.aspx" />
+    <Content Include="Service\ExpMobileService.svc" />
+    <Content Include="Service\ExpViewService.asmx" />
+    <Content Include="Service\ExternalAPI\Jayrock.dll" />
+    <Content Include="Service\ExternalAPI\Jayrock.Json.dll" />
+    <Content Include="Service\ExternalAPI\Newtonsoft.Json.dll" />
+    <Content Include="Service\ExternalAPI\Newtonsoft.Json.XML" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="createUser.aspx.cs">
+      <DependentUpon>createUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createUser.aspx.designer.cs">
+      <DependentUpon>createUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gadgetDefault.aspx.designer.cs">
+      <DependentUpon>gadgetDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="generateReport.aspx.designer.cs">
+      <DependentUpon>generateReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JSMinifier.ashx.cs">
+      <DependentUpon>JSMinifier.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="RecurringTransactions.aspx.designer.cs">
+      <DependentUpon>RecurringTransactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecurrTransJob.cs" />
+    <Compile Include="Service\DataAccessor\RecurringTransationAccessor.cs" />
+    <Compile Include="Service\DataMapper\UserDataMapper.cs" />
+    <Compile Include="Service\DataObject\RecurringTransaction.cs" />
+    <Compile Include="Service\DataObject\UserCategories.cs" />
+    <Compile Include="Service\ExpJSONService.ashx.cs">
+      <DependentUpon>ExpJSONService.ashx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service\ExpMobileService.svc.cs">
+      <DependentUpon>ExpMobileService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\ExpViewService.asmx.cs">
+      <DependentUpon>ExpViewService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service\IExpMobileService.cs" />
+    <Compile Include="Service\TrendChartSettings.ashx.cs">
+      <DependentUpon>TrendChartSettings.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditAccountInfo.aspx.cs">
+      <DependentUpon>EditAccountInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAccountInfo.aspx.designer.cs">
+      <DependentUpon>EditAccountInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gadgetDefault.aspx.cs">
+      <DependentUpon>gadgetDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gadgetLogin.aspx.cs">
+      <DependentUpon>gadgetLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gadgetLogin.aspx.designer.cs">
+      <DependentUpon>gadgetLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="generateReport.aspx.cs">
+      <DependentUpon>generateReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newUserConfirm.aspx.cs">
+      <DependentUpon>newUserConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newUserConfirm.aspx.designer.cs">
+      <DependentUpon>newUserConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RecurringTransactions.aspx.cs">
+      <DependentUpon>RecurringTransactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resetPassword.aspx.cs">
+      <DependentUpon>resetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resetPassword.aspx.designer.cs">
+      <DependentUpon>resetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAccessor\CategoryAccessor.cs" />
+    <Compile Include="Service\DataAccessor\ExpenseAccessor.cs" />
+    <Compile Include="Service\DataAccessor\GraphAccessor.cs" />
+    <Compile Include="Service\DataAccessor\IncomeAccessor.cs" />
+    <Compile Include="Service\DataAccessor\TransactionAccessor.cs" />
+    <Compile Include="Service\DataAccessor\UserInfoAccessor.cs" />
+    <Compile Include="Service\DataObject\Category.cs" />
+    <Compile Include="Service\DataObject\CategoryMonthAmount.cs" />
+    <Compile Include="Service\DataObject\SavingsGoal.cs" />
+    <Compile Include="Service\DataObject\SubCategory.cs" />
+    <Compile Include="Service\DataObject\Transaction.cs" />
+    <Compile Include="Service\DataObject\UserInfo.cs" />
+    <Compile Include="Service\DataObject\UserSummary.cs" />
+    <Compile Include="Service\Util\AppData.cs" />
+    <Compile Include="Service\Util\DbUtil.cs" />
+    <Compile Include="Service\Util\EncodingUtility.cs" />
+    <Compile Include="Service\Util\MailSender.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\DataAccessor\AccessorResult.cs" />
+    <Compile Include="Service\TransImport\OFXFileImporter.cs" />
+    <Compile Include="totalCount.aspx.cs">
+      <DependentUpon>totalCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="totalCount.aspx.designer.cs">
+      <DependentUpon>totalCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionImport.aspx.cs">
+      <DependentUpon>TransactionImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TransactionImport.aspx.designer.cs">
+      <DependentUpon>TransactionImport.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appContent_v1.4.htm" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\BusyBoxDotNet.HeadScriptManager.dll" />
+    <Content Include="bin\OpenFlash.dll" />
+    <Content Include="bin\OpenFlash.pdb" />
+    <Content Include="cjs\DefaultJS_v1.4.js" />
+    <Content Include="cjs\GadgetModules_v1.5.js" />
+    <Content Include="Client\AppPage.js" />
+    <Content Include="Client\Lib\swfobject.js" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="Client\Panel\AddTransPanel.js" />
+    <Content Include="Client\Panel\BreakdownPieGraphPanel.js" />
+    <Content Include="Client\Panel\SearchTransPanel.js" />
+    <Content Include="Client\Data\TransData.js" />
+    <Content Include="Client\Lib\DhtmlWindow.js" />
+    <Content Include="Client\Pages\IncomePage.js" />
+    <Content Include="Client\Data\GraphData.js" />
+    <Content Include="Client\Utilities\Guid.js" />
+    <Content Include="css\DhtmlWindow.css" />
+    <Content Include="EditAccountInfo.aspx" />
+    <Content Include="ExpViewGadget.xml" />
+    <Content Include="Flash\open-flash-chart.swf" />
+    <Content Include="gadgetDefault.aspx" />
+    <Content Include="gadgetLogin.aspx" />
+    <Content Include="generateReport.aspx" />
+    <Content Include="images\close.gif" />
+    <Content Include="images\max.gif" />
+    <Content Include="images\min.gif" />
+    <Content Include="images\resize.gif" />
+    <Content Include="images\restore.gif" />
+    <Content Include="Client\Utilities\DateUtil.js" />
+    <Content Include="createUser.aspx" />
+    <Content Include="css\Gadget.css" />
+    <Content Include="css\SimplePages.css" />
+    <Content Include="css\Style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="genericErrorPage.htm" />
+    <Content Include="Global.asax" />
+    <Content Include="images\add.png" />
+    <Content Include="images\addToGoogle.gif" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\arrowleftmonth.gif" />
+    <Content Include="images\arrowrightmonth.gif" />
+    <Content Include="images\blueTableBL.gif" />
+    <Content Include="images\blueTableBR.gif" />
+    <Content Include="images\blueTableTL.gif" />
+    <Content Include="images\blueTableTR.gif" />
+    <Content Include="images\bullet_toggle_minus.png" />
+    <Content Include="images\bullet_toggle_plus.png" />
+    <Content Include="images\color_tabs_left.gif" />
+    <Content Include="images\color_tabs_right.gif" />
+    <Content Include="images\delete.gif" />
+    <Content Include="images\delicious.small.gif" />
+    <Content Include="images\error.gif" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\gadgetSnapshot.PNG" />
+    <Content Include="images\gadgetThumbnail.png" />
+    <Content Include="images\greenTableBL.gif" />
+    <Content Include="images\greenTableBR.gif" />
+    <Content Include="images\greenTableTL.gif" />
+    <Content Include="images\greenTableTR.gif" />
+    <Content Include="images\hide.png" />
+    <Content Include="images\icon_calendar.png" />
+    <Content Include="images\information.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\loading_arrows.gif" />
+    <Content Include="images\loading_flower.gif" />
+    <Content Include="images\loginPageBotLeftCorner.gif" />
+    <Content Include="images\loginPageBotRightCorner.gif" />
+    <Content Include="images\loginPageTopLeftCorner.gif" />
+    <Content Include="images\loginPageTopRightCorner.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\modifiedLogo.gif" />
+    <Content Include="images\page_excel.png" />
+    <Content Include="images\remove.png" />
+    <Content Include="images\revision.png" />
+    <Content Include="images\SampleGraph.gif" />
+    <Content Include="images\SampleGraph.png" />
+    <Content Include="images\show.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\SSAddExp.png" />
+    <Content Include="images\SSEditExpCat.png" />
+    <Content Include="images\SSExpPieChart.png" />
+    <Content Include="images\table_edit.gif" />
+    <Content Include="images\updated_header.gif" />
+    <Content Include="images\updated_header.png" />
+    <Content Include="Client\Panel\EditCategoryPanel.js" />
+    <Content Include="Client\App.js" />
+    <Content Include="Client\Data\CategoryData.js" />
+    <Content Include="Client\Jazmin.exe" />
+    <Content Include="Client\Lib\JsonServiceProxy.js" />
+    <Content Include="Client\Lib\Json.js" />
+    <Content Include="Client\Modules\AddCategoryModule.js" />
+    <Content Include="Client\Modules\AddTransModule.js" />
+    <Content Include="Client\Modules\BalanceChangeTableModule.js" />
+    <Content Include="Client\Modules\BarGraphModule.js" />
+    <Content Include="Client\Modules\CalendarModule.js" />
+    <Content Include="Client\Modules\CategoryTableModule.js" />
+    <Content Include="Client\Modules\ExpectedBalanceTableModule.js" />
+    <Content Include="Client\Modules\PieGraphModule.js" />
+    <Content Include="Client\Modules\SearchTransModule.js" />
+    <Content Include="Client\Modules\TransSummaryTableModule.js" />
+    <Content Include="Client\Modules\TransTableModule.js" />
+    <Content Include="Client\Modules\TransTrendChartModule.js" />
+    <Content Include="Client\Utilities\ContentLoader.js" />
+    <Content Include="Client\Pages\BalancePage.js" />
+    <Content Include="Client\Pages\ExpensePage.js" />
+    <Content Include="Client\Utilities\FieldFunctions.js" />
+    <Content Include="Client\Utilities\FormatFunctions.js" />
+    <Content Include="Client\Utilities\StringBuffer.js" />
+    <Content Include="Client\Utilities\Tooltip.js" />
+    <Content Include="Client\Utilities\ValidationFunctions.js" />
+    <Content Include="newUserConfirm.aspx" />
+    <Content Include="resetPassword.aspx" />
+    <Content Include="Service\ExternalAPI\Compression\blowery.Web.HttpCompress.dll" />
+    <Content Include="Service\ExternalAPI\Compression\blowery.Web.HttpCompress.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="totalCount.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Client\CreateDefaultPageJS.bat" />
+    <Content Include="Service\TrendChartSettings.ashx" />
+    <Content Include="JSMinifier.ashx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="aboutUs.htm" />
+    <Content Include="Client\Gadget.js" />
+    <Content Include="images\chart_pie.png" />
+    <Content Include="images\folder_table.png" />
+    <Content Include="Service\ExternalAPI\Compression\blowery.Web.HttpCompress.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TransactionImport.aspx" />
+    <Content Include="viewSnapshots.htm" />
+    <Content Include="Service\ExpJSONService.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="OpenFlash\OpenFlash.csproj">
+      <Project>{EB2D119D-50B5-45CC-B162-CA07E1294F59}</Project>
+      <Name>OpenFlash</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="aspnet_client\App_Data\" />
+    <Folder Include="Upload\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>8080</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/expViewWeb</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

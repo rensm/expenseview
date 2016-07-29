@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Only the settings with values not equal to defaults are in this file. If you want to see the
+full list of available settings, check the amstock_settings.xml file in the amstock folder. -->
+<settings>
+  <margins>5</margins>
+  <max_series>100</max_series>
+  <equal_spacing>false</equal_spacing>
+  <text_size>10</text_size>
+
+  <header>
+    <enabled>false</enabled>
+  </header>
+
+  <number_format>  
+    <letters>
+       <letter number="1000">K</letter>
+       <letter number="1000000">M</letter>
+       <letter number="1000000000">B</letter>
+    </letters>
+    <decimal_separator>.</decimal_separator>
+    <digits_after_decimal>
+      <data>3</data>
+    </digits_after_decimal>
+  </number_format>
+
+  <date_formats>
+    <first_week_day>0</first_week_day>
+  </date_formats>
+  
+  <data_sets> 
+    <data_set did="0">
+       <title>Expenses</title>
+       <short>Expenses</short>
+       <description>All expenses that have been recorded in the system.</description>
+       <color>#1C75B9</color>
+       <csv>
+         <reverse>true</reverse>
+         <separator>,</separator>
+         <date_format>YYYY-MM-DD</date_format>
+         <decimal_separator>.</decimal_separator>
+         <columns>
+           <column>date</column>
+           <column>close</column>  
+         </columns>
+         <data>2011-02-04,45.3200
+2010-11-10,23.0000
+2010-10-08,33.2200
+2010-10-04,65.0500
+2010-10-04,42.9700
+2010-10-02,26.3600
+2010-10-02,41.3600
+2010-10-02,69.1800
+2010-10-02,201.0000
+2010-09-28,29.9900
+2010-09-28,103.0000
+2010-09-23,9.9900
+2010-09-23,19.9900
+2010-09-23,1946.7600
+2010-09-22,83.0000
+2010-09-22,24.8000
+2010-09-18,36.9900
+2010-09-14,811.6100
+2010-09-10,5500.0000
+2010-09-07,75.4500
+2010-09-07,65.0500
+2010-08-30,11.0000
+2010-08-30,22.0000
+2010-08-30,23.2200
+2010-08-30,76.9900
+2010-08-30,23.2100
+2010-08-30,67.9900
+2010-08-30,77.9900
+2010-08-30,77.0000
+2010-08-30,654.0000
+2010-08-30,33.0000
+2010-08-30,12.2200
+2010-08-30,3.2200
+2010-08-30,12.2200
+2010-08-30,34.3300
+2010-08-30,33.0000
+2010-08-28,1300.0000
+2010-08-28,33.0000
+2010-08-28,12.0000
+2010-08-28,12.0000
+2010-08-28,22.0000
+2010-08-28,23.2200
+2010-08-02,33.2300
+2010-02-02,67.0000
+2010-02-02,33.0000
+2010-01-27,800.0000
+2010-01-18,67.0000
+2010-01-12,7.5000
+2009-11-13,141.1600
+2009-11-12,8.3700
+2009-11-09,70.0000
+2009-11-09,37.5000
+2009-11-09,704.8000
+2009-11-09,144.0000
+2009-11-07,380.2000
+2009-11-07,22.5000
+2009-11-03,6.0000
+2009-11-02,65.5400
+2009-11-02,64.0000
+2009-11-01,56.9900
+2009-10-31,619.2000
+2009-10-31,8.1700
+2009-10-30,100.0000
+2009-10-29,16.3500
+2009-10-29,7.3200
+2009-10-29,3.9200
+2009-10-29,244.6000
+2009-10-29,452.2000
+2009-10-29,22.5000
+2009-10-28,3.9200
+2009-10-26,14.2500
+2009-10-26,6.1800
+2009-10-26,7.8600
+2009-10-24,13.1600
+2009-10-22,2.2900
+2009-10-21,8.1700
+2009-10-19,9.1700
+2009-10-17,7.3200
+2009-10-17,3.9200
+2009-10-17,201.8600
+2009-10-16,29.9900
+</data>
+       </csv>
+    </data_set>         
+  </data_sets>
+
+  <charts>
+  	<chart cid="0">
+  		<bg_color>f5f5f5,ffffff</bg_color>
+      <border_color>#CCCCCC</border_color>
+      <border_alpha>100</border_alpha>
+     
+      <grid>
+        <x>
+          <dashed>true</dashed>    
+        </x>        
+       
+        <y_left>
+          <color>cccccc</color>
+          <alpha>100</alpha>
+          <dashed>true</dashed>    
+        </y_left>    
+      </grid>
+
+      <values>
+        <y_left>
+          <enabled>true</enabled>
+        </y_left>
+      </values>
+
+      <legend>
+        <graph_on_off>true</graph_on_off>
+        <fade_others_to>10</fade_others_to>
+        <show_date>true</show_date>
+      </legend>
+
+  		<graphs>
+  			<graph gid="0">
+  			  <axis>left</axis>
+  				<type>column</type>
+  				<data_sources>
+  				  <close>close</close>
+          </data_sources>
+          <fill_alpha>60</fill_alpha>
+          <width>30</width>
+          <legend>
+            <date key="true" title="true"><![CDATA[{close}]]></date>
+            <period key="true" title="true"><![CDATA[{close}]]></period>
+          </legend>
+        </graph>
+
+      </graphs>
+  	</chart>
+  </charts>
+  
+
+  
+  <period_selector>
+    <button>
+      <bg_color_hover>b81d1b</bg_color_hover>
+      <bg_color_selected>b81d1b</bg_color_selected>
+      <text_color_hover>ffffff</text_color_hover>
+      <text_color_selected>ffffff</text_color_selected>
+    </button>
+  
+		<periods>		
+    	<period type="MM" count="6">6M</period>
+    	<period selected="true" type="YYYY" count="1">1Y</period>
+    	<period type="MAX">MAX</period>
+		</periods>
+		
+		<periods_title>Zoom:</periods_title>
+		<custom_period_title>Custom date range:</custom_period_title> 
+  </period_selector>
+
+  <header>
+    <enabled></enabled>
+    <text><![CDATA[<b>{title}</b> ({short}) {description}]]></text>
+    <text_size>12</text_size>
+  </header>
+
+  <plot_area>
+    <border_color>cccccc</border_color>
+  </plot_area>
+
+  <scroller>
+    <enabled>true</enabled>
+    <height>50</height>    
+    <graph_data_source>close</graph_data_source>
+    <bg_color>f5f5f5,ffffff</bg_color>
+    <resize_button_style>dragger</resize_button_style>
+  </scroller>
+
+</settings>

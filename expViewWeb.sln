@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "expViewWeb", "expViewWeb.csproj", "{F7D5B588-7283-4A5E-B475-C102D7AFF612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFlash", "OpenFlash\OpenFlash.csproj", "{EB2D119D-50B5-45CC-B162-CA07E1294F59}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D5B588-7283-4A5E-B475-C102D7AFF612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D5B588-7283-4A5E-B475-C102D7AFF612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D5B588-7283-4A5E-B475-C102D7AFF612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D5B588-7283-4A5E-B475-C102D7AFF612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2D119D-50B5-45CC-B162-CA07E1294F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2D119D-50B5-45CC-B162-CA07E1294F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2D119D-50B5-45CC-B162-CA07E1294F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2D119D-50B5-45CC-B162-CA07E1294F59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
