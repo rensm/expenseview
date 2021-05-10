@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>ExpenseView</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="../../Client/Mobile/jquery.mobile-1.0b1.css"">
+    <script type="text/javascript" charset="utf-8" src="../../Client/Mobile/phonegap.0.9.5.1.js"></script>      
+	<script type="text/javascript" src="../../Client/Mobile/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="../../Client/Mobile/jquery.mobile-1.0b1.js">
+	</script>  
+	<script language="javascript" type="text/javascript">
+		function Login() 
+		{
+		alert('hello start testing!');
+		$.ajax({
+		    type: "POST",
+		    url: "http://localhost/expViewWeb/Service/ExpMobileService.svc/LoginUser",
+		    data: '{ "username": "' + $("#txtUsername").val() + '", "password" : "' + $("#txtPassword").val() + '" }',
+		    contentType: "application/json; charset=utf-8",
+		    dataType: "json",
+		    success: function (data) {
+		        var result = JSON.stringify(data);
+		        alert(result);
+		        window.location = "/expViewWeb/Client/Mobile/Breakdown.html";
+		    },
+		    error: function (xhr, err) {
+		        alert(err);
+		        alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+		        alert("responseText: " + xhr.responseText);
+		    }
+		});
+                        	
+                        	alert('method done!');
+    	}
+		</script>
+  </head>
+<div data-role="page" id="home" class="type-interior"> 
+  <body>
+  <h2>ExpenseView Login</h2>
+		
+  <br>
+    <div data-role="content"> 
+  <b>Username:  <input type="text" id="txtUsername" /><br/>
+  Password:</b> <input type="password" id="txtPassword" /><br />
+
+        <div class="content-primary"> 
+            <div data-role="fieldcontain"> 
+                <label for="slider">Remember me:</label> 
+                <select name="slider" id="slider" data-role="slider"> 
+                    <option value="off">Off</option> 
+                    <option value="on">On</option> 
+                </select> 
+            </div> 
+        </div>
+        <input type="button" value="Login" onclick="Login();"/>  
+
+    </div>
+</div>
+ 
+  </body>
+</html>

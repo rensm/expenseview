@@ -1,0 +1,590 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20140308194139[0:GMT]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Bank of America
+                <FID>5959
+            </FI>
+            <INTU.BID>6526
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS>
+            <TRNUID>20140308194139[0:GMT]
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <CCSTMTRS>
+                <CURDEF>USD
+                <CCACCTFROM>
+                    <ACCTID>4147341023828811
+                </CCACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20140211180000[0:GMT]
+                    <DTEND>20140306180000[0:GMT]
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140211180000[0:GMT]
+                        <TRNAMT>-8.75
+                        <FITID>201402111
+                        <CORRECTFITID>201402111
+                        <CORRECTACTION>REPLACE
+                        <NAME>NETFLIX.COM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140212180000[0:GMT]
+                        <TRNAMT>-54.22
+                        <FITID>201402122
+                        <CORRECTFITID>201402122
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON MKTPLACE PMTS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140213180000[0:GMT]
+                        <TRNAMT>-33.75
+                        <FITID>201402133
+                        <CORRECTFITID>201402133
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON MKTPLACE PMTS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140215180000[0:GMT]
+                        <TRNAMT>-9.30
+                        <FITID>201402154
+                        <CORRECTFITID>201402154
+                        <CORRECTACTION>REPLACE
+                        <NAME>QFC #5866
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140215180000[0:GMT]
+                        <TRNAMT>-56.63
+                        <FITID>201402155
+                        <CORRECTFITID>201402155
+                        <CORRECTACTION>REPLACE
+                        <NAME>WHOLEFDS RSQ 10103
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140215180000[0:GMT]
+                        <TRNAMT>-17.00
+                        <FITID>201402156
+                        <CORRECTFITID>201402156
+                        <CORRECTACTION>REPLACE
+                        <NAME>HOMEWOOD SUITES
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-26.13
+                        <FITID>201402177
+                        <CORRECTFITID>201402177
+                        <CORRECTACTION>REPLACE
+                        <NAME>STEVENS PASS BULLS TOO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-40.59
+                        <FITID>201402178
+                        <CORRECTFITID>201402178
+                        <CORRECTACTION>REPLACE
+                        <NAME>MANN PETROLEUM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-25.58
+                        <FITID>201402179
+                        <CORRECTFITID>201402179
+                        <CORRECTACTION>REPLACE
+                        <NAME>SHELL OIL 57445961105
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-3.00
+                        <FITID>2014021710
+                        <CORRECTFITID>2014021710
+                        <CORRECTACTION>REPLACE
+                        <NAME>QFC #5866
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-6.57
+                        <FITID>2014021711
+                        <CORRECTFITID>2014021711
+                        <CORRECTACTION>REPLACE
+                        <NAME>WHOLEFDS RSQ 10103
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-20.50
+                        <FITID>2014021712
+                        <CORRECTFITID>2014021712
+                        <CORRECTACTION>REPLACE
+                        <NAME>WHOLEFDS RSQ 10103
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-48.17
+                        <FITID>2014021713
+                        <CORRECTFITID>2014021713
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON.COM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140217180000[0:GMT]
+                        <TRNAMT>-35.14
+                        <FITID>2014021714
+                        <CORRECTFITID>2014021714
+                        <CORRECTACTION>REPLACE
+                        <NAME>CHAIYO THAI CUISINE
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140218180000[0:GMT]
+                        <TRNAMT>-18.20
+                        <FITID>2014021815
+                        <CORRECTFITID>2014021815
+                        <CORRECTACTION>REPLACE
+                        <NAME>SHELL OIL 57445613102
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140219180000[0:GMT]
+                        <TRNAMT>-10.00
+                        <FITID>2014021916
+                        <CORRECTFITID>2014021916
+                        <CORRECTACTION>REPLACE
+                        <NAME>ALASKA AIR 0272141863
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140219180000[0:GMT]
+                        <TRNAMT>-10.00
+                        <FITID>2014021917
+                        <CORRECTFITID>2014021917
+                        <CORRECTACTION>REPLACE
+                        <NAME>ALASKA AIR 0272141863
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140219180000[0:GMT]
+                        <TRNAMT>-50.00
+                        <FITID>2014021918
+                        <CORRECTFITID>2014021918
+                        <CORRECTACTION>REPLACE
+                        <NAME>ALASKA AIR 0272141863
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140219180000[0:GMT]
+                        <TRNAMT>-19.30
+                        <FITID>2014021919
+                        <CORRECTFITID>2014021919
+                        <CORRECTACTION>REPLACE
+                        <NAME>QFC #5866
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140220180000[0:GMT]
+                        <TRNAMT>-313.00
+                        <FITID>2014022020
+                        <CORRECTFITID>2014022020
+                        <CORRECTACTION>REPLACE
+                        <NAME>ALASKA AIR 0272142073
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140220180000[0:GMT]
+                        <TRNAMT>-148.49
+                        <FITID>2014022021
+                        <CORRECTFITID>2014022021
+                        <CORRECTACTION>REPLACE
+                        <NAME>AT&amp;T*BILL PAYMENT
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140220180000[0:GMT]
+                        <TRNAMT>-28.57
+                        <FITID>2014022022
+                        <CORRECTFITID>2014022022
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON.COM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140220180000[0:GMT]
+                        <TRNAMT>-39.50
+                        <FITID>2014022023
+                        <CORRECTFITID>2014022023
+                        <CORRECTACTION>REPLACE
+                        <NAME>NEW ROOTS ORGANICS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140221180000[0:GMT]
+                        <TRNAMT>-33.61
+                        <FITID>2014022124
+                        <CORRECTFITID>2014022124
+                        <CORRECTACTION>REPLACE
+                        <NAME>CHEVRON 00203477
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140221180000[0:GMT]
+                        <TRNAMT>-10.07
+                        <FITID>2014022125
+                        <CORRECTFITID>2014022125
+                        <CORRECTACTION>REPLACE
+                        <NAME>HOME CAKE DECORATING S
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140221180000[0:GMT]
+                        <TRNAMT>-28.48
+                        <FITID>2014022126
+                        <CORRECTFITID>2014022126
+                        <CORRECTACTION>REPLACE
+                        <NAME>SHELL OIL 57444033104
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140221180000[0:GMT]
+                        <TRNAMT>-74.54
+                        <FITID>2014022127
+                        <CORRECTFITID>2014022127
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON MKTPLACE PMTS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140221180000[0:GMT]
+                        <TRNAMT>-21.83
+                        <FITID>2014022128
+                        <CORRECTFITID>2014022128
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON.COM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140221180000[0:GMT]
+                        <TRNAMT>-21.83
+                        <FITID>2014022129
+                        <CORRECTFITID>2014022129
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON.COM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140221180000[0:GMT]
+                        <TRNAMT>-23.40
+                        <FITID>2014022130
+                        <CORRECTFITID>2014022130
+                        <CORRECTACTION>REPLACE
+                        <NAME>NORTH BEND BAR &amp; GRILL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140222180000[0:GMT]
+                        <TRNAMT>-140.87
+                        <FITID>2014022231
+                        <CORRECTFITID>2014022231
+                        <CORRECTACTION>REPLACE
+                        <NAME>TRADER JOE'S #137 QPS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140222180000[0:GMT]
+                        <TRNAMT>-25.90
+                        <FITID>2014022232
+                        <CORRECTFITID>2014022232
+                        <CORRECTACTION>REPLACE
+                        <NAME>FLYING SQUIRREL PIZZA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140224180000[0:GMT]
+                        <TRNAMT>-52.16
+                        <FITID>2014022433
+                        <CORRECTFITID>2014022433
+                        <CORRECTACTION>REPLACE
+                        <NAME>QFC #5866
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140224180000[0:GMT]
+                        <TRNAMT>-0.88
+                        <FITID>2014022434
+                        <CORRECTFITID>2014022434
+                        <CORRECTACTION>REPLACE
+                        <NAME>WALGREENS #4157
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140224180000[0:GMT]
+                        <TRNAMT>-16.00
+                        <FITID>2014022435
+                        <CORRECTFITID>2014022435
+                        <CORRECTACTION>REPLACE
+                        <NAME>REPUBLIC PARKING 30 50
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140224180000[0:GMT]
+                        <TRNAMT>-22.57
+                        <FITID>2014022436
+                        <CORRECTFITID>2014022436
+                        <CORRECTACTION>REPLACE
+                        <NAME>VPI*PET INSURANCE
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140224180000[0:GMT]
+                        <TRNAMT>-43.97
+                        <FITID>2014022437
+                        <CORRECTFITID>2014022437
+                        <CORRECTACTION>REPLACE
+                        <NAME>SQ *FINNRIVER FARM &amp; C
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140225180000[0:GMT]
+                        <TRNAMT>-6.99
+                        <FITID>2014022538
+                        <CORRECTFITID>2014022538
+                        <CORRECTACTION>REPLACE
+                        <NAME>SAFEWAY STORE00005389
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140225180000[0:GMT]
+                        <TRNAMT>-13.55
+                        <FITID>2014022539
+                        <CORRECTFITID>2014022539
+                        <CORRECTACTION>REPLACE
+                        <NAME>WSFERRIES-KI 888808797
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140225180000[0:GMT]
+                        <TRNAMT>-108.21
+                        <FITID>2014022540
+                        <CORRECTFITID>2014022540
+                        <CORRECTACTION>REPLACE
+                        <NAME>FINS COASTAL CUISINE
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140226180000[0:GMT]
+                        <TRNAMT>-16.41
+                        <FITID>2014022641
+                        <CORRECTFITID>2014022641
+                        <CORRECTACTION>REPLACE
+                        <NAME>BED BATH &amp; BEYOND #120
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140227180000[0:GMT]
+                        <TRNAMT>-25.00
+                        <FITID>2014022742
+                        <CORRECTFITID>2014022742
+                        <CORRECTACTION>REPLACE
+                        <NAME>WPY*ZOEYS BROKEN LEG
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140227180000[0:GMT]
+                        <TRNAMT>-31.13
+                        <FITID>2014022743
+                        <CORRECTFITID>2014022743
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON.COM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140228180000[0:GMT]
+                        <TRNAMT>-8.90
+                        <FITID>2014022844
+                        <CORRECTFITID>2014022844
+                        <CORRECTACTION>REPLACE
+                        <NAME>QFC #5866
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140301180000[0:GMT]
+                        <TRNAMT>-34.00
+                        <FITID>2014030145
+                        <CORRECTFITID>2014030145
+                        <CORRECTACTION>REPLACE
+                        <NAME>CHEVRON 00092022
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140301180000[0:GMT]
+                        <TRNAMT>-10.22
+                        <FITID>2014030146
+                        <CORRECTFITID>2014030146
+                        <CORRECTACTION>REPLACE
+                        <NAME>SAFEWAY STORE00015503
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140301180000[0:GMT]
+                        <TRNAMT>-18.72
+                        <FITID>2014030147
+                        <CORRECTFITID>2014030147
+                        <CORRECTACTION>REPLACE
+                        <NAME>VPI*PET INSURANCE
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140301180000[0:GMT]
+                        <TRNAMT>-49.00
+                        <FITID>2014030148
+                        <CORRECTFITID>2014030148
+                        <CORRECTACTION>REPLACE
+                        <NAME>LIVINGSOCIAL*
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140303180000[0:GMT]
+                        <TRNAMT>-30.25
+                        <FITID>2014030349
+                        <CORRECTFITID>2014030349
+                        <CORRECTACTION>REPLACE
+                        <NAME>CHEVRON 00091292
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140303180000[0:GMT]
+                        <TRNAMT>-40.13
+                        <FITID>2014030350
+                        <CORRECTFITID>2014030350
+                        <CORRECTACTION>REPLACE
+                        <NAME>WHOLEFDS RSQ 10103
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140303180000[0:GMT]
+                        <TRNAMT>-59.25
+                        <FITID>2014030351
+                        <CORRECTFITID>2014030351
+                        <CORRECTACTION>REPLACE
+                        <NAME>TRADER JOE'S #137 QPS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140303180000[0:GMT]
+                        <TRNAMT>-41.92
+                        <FITID>2014030352
+                        <CORRECTFITID>2014030352
+                        <CORRECTACTION>REPLACE
+                        <NAME>CHAIYO THAI CUISINE
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140304180000[0:GMT]
+                        <TRNAMT>-21.95
+                        <FITID>2014030453
+                        <CORRECTFITID>2014030453
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMAZON MKTPLACE PMTS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140305180000[0:GMT]
+                        <TRNAMT>-5.00
+                        <FITID>2014030554
+                        <CORRECTFITID>2014030554
+                        <CORRECTACTION>REPLACE
+                        <NAME>IPM 800 1ST AVENUE
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140306180000[0:GMT]
+                        <TRNAMT>-5.37
+                        <FITID>2014030655
+                        <CORRECTFITID>2014030655
+                        <CORRECTACTION>REPLACE
+                        <NAME>TULLYS COFFEE #01088
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140306180000[0:GMT]
+                        <TRNAMT>-21.71
+                        <FITID>2014030656
+                        <CORRECTFITID>2014030656
+                        <CORRECTACTION>REPLACE
+                        <NAME>LAST DROP
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140306180000[0:GMT]
+                        <TRNAMT>-16.21
+                        <FITID>2014030657
+                        <CORRECTFITID>2014030657
+                        <CORRECTACTION>REPLACE
+                        <NAME>WHOLEFDS RSQ 10103
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140306180000[0:GMT]
+                        <TRNAMT>-58.71
+                        <FITID>2014030658
+                        <CORRECTFITID>2014030658
+                        <CORRECTACTION>REPLACE
+                        <NAME>COMCAST CABLE COMM
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140306180000[0:GMT]
+                        <TRNAMT>-39.50
+                        <FITID>2014030659
+                        <CORRECTFITID>2014030659
+                        <CORRECTACTION>REPLACE
+                        <NAME>NEW ROOTS ORGANICS
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20140306180000[0:GMT]
+                        <TRNAMT>-12.00
+                        <FITID>2014030660
+                        <CORRECTFITID>2014030660
+                        <CORRECTACTION>REPLACE
+                        <NAME>AMPCO PARKING 1ST AND
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>-0.00
+                    <DTASOF>20140308194139[0:GMT]
+                </LEDGERBAL>
+            </CCSTMTRS>
+        </CCSTMTTRNRS>
+    </CREDITCARDMSGSRSV1>
+</OFX>

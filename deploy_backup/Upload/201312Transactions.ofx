@@ -1,0 +1,345 @@
+
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+	<SIGNONMSGSRSV1>
+		<SONRS>
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+			<DTSERVER>20140101180644[-5:EST]
+			<LANGUAGE>ENG
+			
+			
+		</SONRS>
+	</SIGNONMSGSRSV1>
+	<BANKMSGSRSV1>
+		<STMTTRNRS>
+			<TRNUID>0
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+	
+			<STMTRS>
+				<CURDEF>USD
+	
+					<BANKACCTFROM>
+						
+							<BANKID>211391825
+						
+						
+							<ACCTID>5069306S5
+						
+						
+							<ACCTTYPE>CHECKING
+						
+					</BANKACCTFROM>
+	
+				<BANKTRANLIST>
+					<DTSTART>20131201000000[-5:EST]
+					<DTEND>20131231000000[-5:EST]
+	
+					
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131231000000[-5:EST]
+							<TRNAMT>-6500.00
+							<FITID>1329
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131231000000[-5:EST]
+							<TRNAMT>500.00
+							<FITID>1328
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131230000000[-5:EST]
+							<TRNAMT>-184.93
+							<FITID>1327
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>12/30/2013 07:29 #293221.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131230000000[-5:EST]
+							<TRNAMT>6970.00
+							<FITID>1326
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP131231
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131230000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1325
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16629145. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20131228000000[-5:EST]
+							<TRNAMT>200.00
+							<FITID>1324
+							
+							<NAME>TRANSFER FROM MBR 5189129 ACCT	
+
+
+                                                        <MEMO>12/28/2013 08:00 #273613.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131227000000[-5:EST]
+							<TRNAMT>-20.00
+							<FITID>13231024
+							<CHECKNUM>1024
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131224000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>1322
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1224 1101 571245 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131224000000[-5:EST]
+							<TRNAMT>-105.77
+							<FITID>1321
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>KOHL'S DEPT STRSCHG PYMT 131221
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131223000000[-5:EST]
+							<TRNAMT>-70.00
+							<FITID>13207022
+							<CHECKNUM>7022
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131217000000[-5:EST]
+							<TRNAMT>-39.00
+							<FITID>13191023
+							<CHECKNUM>1023
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131216000000[-5:EST]
+							<TRNAMT>-169.18
+							<FITID>1318
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.121613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131213000000[-5:EST]
+							<TRNAMT>-51.00
+							<FITID>13171022
+							<CHECKNUM>1022
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131212000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>1316
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1212 1939 484602 11201 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131210000000[-5:EST]
+							<TRNAMT>-102.50
+							<FITID>1315
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1210 1523 930759 700 W. BRANDON BLVD. BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131206000000[-5:EST]
+							<TRNAMT>-997.00
+							<FITID>13141021
+							<CHECKNUM>1021
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131205000000[-5:EST]
+							<TRNAMT>-26.00
+							<FITID>13131020
+							<CHECKNUM>1020
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131205000000[-5:EST]
+							<TRNAMT>-62.18
+							<FITID>1312
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 120513
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131205000000[-5:EST]
+							<TRNAMT>1500.00
+							<FITID>1311
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>Apex Clearing ACH Dec 05
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131204000000[-5:EST]
+							<TRNAMT>-116.72
+							<FITID>1310
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>#DI3305DIWEST16577175. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131202000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1309
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635215706268721766
+
+						</STMTTRN>
+						
+	
+				</BANKTRANLIST>
+	
+				<LEDGERBAL>
+					<BALAMT>900.89
+					<DTASOF>20140101180644[-5:EST]
+				</LEDGERBAL>
+	
+				<AVAILBAL>
+					<BALAMT>900.89
+					<DTASOF>20140101180644[-5:EST]
+				</AVAILBAL>
+	
+			</STMTRS>
+		</STMTTRNRS>
+	</BANKMSGSRSV1>
+		
+	
+</OFX>
+

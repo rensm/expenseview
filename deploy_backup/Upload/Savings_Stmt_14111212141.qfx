@@ -1,0 +1,1802 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="expires" CONTENT="Tue, 11 Nov 1980 01:00:00 GMT">
+<script language="javascript" src="/infojsp/includes/activepath.js"></script>
+<script language="JavaScript" src="/infojsp/includes/validationfunction.js"></script>
+<script language="javascript" src="/jsfiles/alertMsg.js"></script>
+<script language="javascript" src="/jsfiles/HBSTalertMsg.js"></script>
+<script language="javascript">
+var strUserClass="";
+var strAllCards="";
+
+var NS6 = (document.getElementById&&!document.all) ? true : false;
+if(NS6){
+        strUserClass=CBOL_CHK_top.topUserClass;
+        strAllCards=CBOL_CHK_top.topAllCards;
+}
+else{
+if(top.CBOL){
+        strUserClass=top.CBOL.topUserClass;
+        strAllCards=top.CBOL.topAllCards;
+		}else{
+        strUserClass=top.CONTROL.cbol.topUserClass;
+        strAllCards=top.CONTROL.cbol.topAllCards;
+}
+}
+
+
+
+</script>
+</head>
+
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+
+<form name="f1" method="post" >
+<input type="hidden" name="codeType" value=""/> 
+<input type="hidden" name="eaccno" value=""/>
+<input type="hidden" name="Key" value=""/>
+<table border="0" cellspacing="1" cellpadding="0" width="605">
+<tr>
+<td align="center" height="12" colspan="6">
+<img height="12" width="450" src="/infojsp/images/accsumhd.gif"></td>
+</tr>
+
+<tr>
+<td class="ar" bgcolor="#006699" align="center">
+<font class="ar" color="#FFFFFF" face="Arial, Helvetica, sans-serif">
+<b>Savings Account Number :  5-1XX9XX-X47</b>
+
+</font>
+<input type=hidden name=acctdesc value="Savings">
+
+<input type=hidden name=acctinfo value="5--1XX9X-X-X">
+</td>
+</tr>
+</table>
+
+<table bordercolor="violet" cellspacing="1" cellpadding="0" border="0" width="605">
+<tr align="center">
+<td valign="top">
+<table bordercolor="Red" cellpadding="0" cellspacing="0" border="0" align="left" width="605">
+<tr>
+
+<td height="60" colspan="3" class="ar"><b><span class="ar3"> SIJO KAITHAPARAMBIL JOSE</span></b>
+<input type=hidden name=custrname value="SIJO KAITHAPARAMBIL JOSE">
+
+<br>
+<span class="arb">
+<font color="#666666"><b>Savings</b><b> Account no.</b>
+</font>
+</span>5-1XX9XX-X47<br>
+<font color="#666666">
+<b><span class="arb">Summary of Account information  as of :</span></b>14/11/2012
+</font>
+<input name="hidaccinfo" type="hidden" value=5-1XX9XX-X47>
+</td>
+</tr>
+
+<tr>
+<td class="ar">Closing Balance </td><td align="right" class="ar">1,088.89&nbsp;
+				</td><td class="ar">&nbsp; INR</td>
+</tr>
+
+
+<tr>
+<td class="ar">
+Line Amount
+
+<font color="#FF0000">&nbsp;*</font> 
+
+	
+
+
+
+
+<input type="hidden" name=lineflag value="false">
+</td>
+<td align="right" class="ar">0.00&nbsp;
+				 </td><td class="ar">&nbsp; INR</td>
+		 <input type=hidden name=lineamt value="0.00">
+</tr>
+
+
+
+<tr>
+<td class="ar">Funds in clearing </td><td align="right" class="ar">0.00&nbsp;
+</td>
+<input type="hidden" name=fundsinclearing value="0.00">				 				 
+				 <td class="ar">&nbsp;
+			  INR</td>
+</tr>
+
+
+
+<tr>
+<td class="ar">Multi deposit balance </td><td align="right" class="ar">0.00&nbsp;
+				 </td>
+ <input type="hidden" name=multidepositbal value="0.00">
+				 <td class="ar">&nbsp;
+			  INR</td>
+</tr>
+
+<tr>
+<td class="ar">Money Multiplier Balance</td><td align="right" class="ar">0.00&nbsp;
+			   </td>
+<input type="hidden" name=moneymultiplierbal value="0.00">
+			   <td class="ar">&nbsp;
+			INR</td>
+
+</tr>
+
+
+
+
+<tr>
+<td class="ar">Withdrawable Balance<font color="#FF0000">&nbsp;**</font></td>
+<td align="right" class="ar">1,088.89&nbsp;
+				</td>
+<input type="hidden" name=withdrawablebal value="1,088.89">
+				<td class="ar">&nbsp;
+			   INR</td>
+</tr>
+
+<br>
+
+
+<tr>
+<td colspan="4" class="ar1"><i>
+<font color="maroon"><p>
+<font color="#FF0000">**</font>&nbsp;Withdrawable balance: Your withdrawable balance is the sum of your current balance, multiple deposit and money<br>&nbsp;&nbsp;&nbsp;&nbsp;multiplier. Funds in clearing are not part of your withdrawable balance. <br></p>
+
+
+<font color="maroon"><p>
+<font color="#FF0000">*</font>&nbsp&nbsp;Line amount: This is applicable only for current account customers.
+</p></font>
+<br>
+</i></td>
+</tr>
+
+
+
+
+  <tr>
+  <td align="center" height="12" colspan="6" width="605">
+  </td>
+  </tr>
+
+
+
+  <tr>
+  <td colspan="5">
+  <table bordercolor="blue" cellpadding="0" cellspacing="1" width="605" border="0">
+
+	
+
+
+
+
+
+
+<tr>
+<td class="arb" colspan="2">
+<font color="#006699">
+<b>Statement of account from </b>01/11/2012 to 14/11/2012	</font>
+</td>
+<input type=hidden name=fromdate value="01/11/2012">
+<input type=hidden name=todate value="14/11/2012">
+<td class="ar1" align="right"></td>
+</tr>
+
+
+<tr>
+<td height="1" width="70"></td>
+<td height="1" width="280"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+</tr>
+
+
+<tr>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Date</b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Description</b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Withdrawals</b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Deposits </b></td>
+<td class="ar" align="center"  bgcolor="#B9DBFD"><b>Balance </b></td>
+
+</tr>
+
+<tr>
+<td class="ar" bgcolor="#CCCCCC"> </td>
+<td class="ar" bgcolor="#CCCCCC" align="left"> <b>Opening Balance</b></td>
+<td class="ar" bgcolor="#CCCCCC"> </td>
+<td class="ar" bgcolor="#CCCCCC"> </td>
+<td class="ar" bgcolor="#CCCCCC" align="right"> 600.75</td>
+<input type=hidden name=openingbal value="600.75">
+</td>
+</tr>
+
+</tr>
+<tr></tr>
+<input name="hidTrnamt" type="hidden">
+
+<tr>
+
+<input type=hidden name=dateval value="02/11/2012">
+
+<td class="ar" align="center"  width="10">
+02/11/2012</td>
+
+<input type=hidden name=descval value='SALARY CREDIT : UTR 1156527590003047 TRF FROM  MPHASIS LIMITED SALARY FOR OCTOBER 12 '>
+
+<td class="ar" height="55">
+SALARY CREDIT : UTR 1156527590003047 TRF FROM  MPHASIS LIMITED SALARY FOR OCTOBER 12 </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+75,850.00
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=75850.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/11/2012">
+
+<td class="ar" align="center"  width="10">
+02/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 02NOV0612                                   Card no.: 5497XXX4XXXX1611 02NOV BILLDESK                       Ref: 230702415646 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 02NOV0612                                   Card no.: 5497XXX4XXXX1611 02NOV BILLDESK                       Ref: 230702415646 </td>
+
+
+
+<td class="ar" align="right">
+20,590.80
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=20590.80>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/11/2012">
+
+<td class="ar" align="center"  width="10">
+02/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 02NOV0934                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230702423761 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 02NOV0934                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230702423761 </td>
+
+
+
+<td class="ar" align="right">
+318.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=318.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/11/2012">
+
+<td class="ar" align="center"  width="10">
+02/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 02NOV0939                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230702423925 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 02NOV0939                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230702423925 </td>
+
+
+
+<td class="ar" align="right">
+296.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=296.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/11/2012">
+
+<td class="ar" align="center"  width="10">
+02/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 02NOV0944                                   Card no.: 5497XXX4XXXX1611 02NOV BHARTI AIRTEL LIMI             Ref: 230702424090 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 02NOV0944                                   Card no.: 5497XXX4XXXX1611 02NOV BHARTI AIRTEL LIMI             Ref: 230702424090 </td>
+
+
+
+<td class="ar" align="right">
+200.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=200.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/11/2012">
+
+<td class="ar" align="center"  width="10">
+02/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 02NOV0950                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230702424305 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 02NOV0950                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230702424305 </td>
+
+
+
+<td class="ar" align="right">
+626.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=626.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="02/11/2012">
+
+<td class="ar" align="center"  width="10">
+02/11/2012</td>
+
+<input type=hidden name=descval value='Credited To PRASANTH T K '>
+
+<td class="ar" height="55">
+Credited To PRASANTH T K </td>
+
+
+
+<td class="ar" align="right">
+2,300.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+52,119.95
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=2300.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/11/2012">
+
+<td class="ar" align="center"  width="10">
+03/11/2012</td>
+
+<input type=hidden name=descval value='EFT TO                                                      UTR#CITINXXXXXXXX642 -JOSE K V -SA -543502010001757 -UNION BANK OF INDIA -KERALA -MALLAPALLY IF '>
+
+<td class="ar" height="55">
+EFT TO                                                      UTR#CITINXXXXXXXX642 -JOSE K V -SA -543502010001757 -UNION BANK OF INDIA -KERALA -MALLAPALLY IF </td>
+
+
+
+<td class="ar" align="right">
+24,750.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=24750.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/11/2012">
+
+<td class="ar" align="center"  width="10">
+03/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 03NOV0454                                   Card no.: 5497XXX4XXXX1611 03NOV SRM FILLING HPCL       CHENNAI Ref: 110300009601 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 03NOV0454                                   Card no.: 5497XXX4XXXX1611 03NOV SRM FILLING HPCL       CHENNAI Ref: 110300009601 </td>
+
+
+
+<td class="ar" align="right">
+900.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=900.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="03/11/2012">
+
+<td class="ar" align="center"  width="10">
+03/11/2012</td>
+
+<input type=hidden name=descval value='ATM WITHDRAWAL                                              SUBJECT: NFSATM 03NOV1044                                   Card no.: 5497XXX4XXXX1611  Ref: 2620         SBT  TARAMANI         CHENNAI      TAMIN '>
+
+<td class="ar" height="55">
+ATM WITHDRAWAL                                              SUBJECT: NFSATM 03NOV1044                                   Card no.: 5497XXX4XXXX1611  Ref: 2620         SBT  TARAMANI         CHENNAI      TAMIN </td>
+
+
+
+<td class="ar" align="right">
+600.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+25,869.95
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=600.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/11/2012">
+
+<td class="ar" align="center"  width="10">
+05/11/2012</td>
+
+<input type=hidden name=descval value='EFT TO                                                      UTR#CITINXXXXXXXX809 -KAMATCHI SUBBIAH -SA -00041140052255 -HDFC BANK -CHENNAI -ITC CENTRE,CHENN - '>
+
+<td class="ar" height="55">
+EFT TO                                                      UTR#CITINXXXXXXXX809 -KAMATCHI SUBBIAH -SA -00041140052255 -HDFC BANK -CHENNAI -ITC CENTRE,CHENN - </td>
+
+
+
+<td class="ar" align="right">
+9,000.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=9000.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/11/2012">
+
+<td class="ar" align="center"  width="10">
+05/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 05NOV0328                                   Card no.: 5497XXX4XXXX1611 05NOV RELIANCE INFOCOM               Ref: 231002537271 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 05NOV0328                                   Card no.: 5497XXX4XXXX1611 05NOV RELIANCE INFOCOM               Ref: 231002537271 </td>
+
+
+
+<td class="ar" align="right">
+843.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=843.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/11/2012">
+
+<td class="ar" align="center"  width="10">
+05/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 05NOV0338                                   Card no.: 5497XXX4XXXX1611 05NOV BHARTI                         Ref: 231002537497 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 05NOV0338                                   Card no.: 5497XXX4XXXX1611 05NOV BHARTI                         Ref: 231002537497 </td>
+
+
+
+<td class="ar" align="right">
+464.06
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=464.06>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/11/2012">
+
+<td class="ar" align="center"  width="10">
+05/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 05NOV0341                                   Card no.: 5497XXX4XXXX1611 05NOV Bharti Telemedia Limit Gurgaon Ref: 110501034273 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 05NOV0341                                   Card no.: 5497XXX4XXXX1611 05NOV Bharti Telemedia Limit Gurgaon Ref: 110501034273 </td>
+
+
+
+<td class="ar" align="right">
+310.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=310.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/11/2012">
+
+<td class="ar" align="center"  width="10">
+05/11/2012</td>
+
+<input type=hidden name=descval value='ECS DEBIT PAID                                              Paid to HDFC BANK LTD:4009033:HDFC BANK LIMITED Refno:0000020646413 '>
+
+<td class="ar" height="55">
+ECS DEBIT PAID                                              Paid to HDFC BANK LTD:4009033:HDFC BANK LIMITED Refno:0000020646413 </td>
+
+
+
+<td class="ar" align="right">
+9,674.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=9674.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/11/2012">
+
+<td class="ar" align="center"  width="10">
+05/11/2012</td>
+
+<input type=hidden name=descval value='EFT TO                                                      UTR#CITINXXXXXXXX845 -SIJO ICICI -SA -004801521755 -ICICI BANK LTD -HYDERABAD -SECUNDERABAD - SD '>
+
+<td class="ar" height="55">
+EFT TO                                                      UTR#CITINXXXXXXXX845 -SIJO ICICI -SA -004801521755 -ICICI BANK LTD -HYDERABAD -SECUNDERABAD - SD </td>
+
+
+
+<td class="ar" align="right">
+3,500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=3500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="05/11/2012">
+
+<td class="ar" align="center"  width="10">
+05/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 05NOV0950                                   Card no.: 5497XXX4XXXX1611 05NOV IRCTC.CO.IN                    Ref: 231002549791 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 05NOV0950                                   Card no.: 5497XXX4XXXX1611 05NOV IRCTC.CO.IN                    Ref: 231002549791 </td>
+
+
+
+<td class="ar" align="right">
+582.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+1,496.89
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=582.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/11/2012">
+
+<td class="ar" align="center"  width="10">
+06/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE REVERSAL                                           SUBJECT: MCUPOS 02NOV0950                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230701424305 '>
+
+<td class="ar" height="55">
+PURCHASE REVERSAL                                           SUBJECT: MCUPOS 02NOV0950                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230701424305 </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+576.00
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=576.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="06/11/2012">
+
+<td class="ar" align="center"  width="10">
+06/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE REVERSAL                                           SUBJECT: MCUPOS 02NOV0939                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230701423925 '>
+
+<td class="ar" height="55">
+PURCHASE REVERSAL                                           SUBJECT: MCUPOS 02NOV0939                                   Card no.: 5497XXX4XXXX1611 02NOV IRCTC.CO.IN                    Ref: 230701423925 </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+266.00
+</td>
+
+<td class="ar" align="right">
+
+2,338.89
+
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=266.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="08/11/2012">
+
+<td class="ar" align="center"  width="10">
+08/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 08NOV0935                                   Card no.: 5497XXX4XXXX1611 08NOV IRCTC.CO.IN                    Ref: 231302638160 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 08NOV0935                                   Card no.: 5497XXX4XXXX1611 08NOV IRCTC.CO.IN                    Ref: 231302638160 </td>
+
+
+
+<td class="ar" align="right">
+582.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=582.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="08/11/2012">
+
+<td class="ar" align="center"  width="10">
+08/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 08NOV0938                                   Card no.: 5497XXX4XXXX1611 08NOV IRCTC.CO.IN                    Ref: 231302638243 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 08NOV0938                                   Card no.: 5497XXX4XXXX1611 08NOV IRCTC.CO.IN                    Ref: 231302638243 </td>
+
+
+
+<td class="ar" align="right">
+318.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+1,438.89
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=318.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/11/2012">
+
+<td class="ar" align="center"  width="10">
+09/11/2012</td>
+
+<input type=hidden name=descval value='ATM WITHDRAWAL                                              SUBJECT: EURONT 09NOV0841                                   Card no.: 5497XXX4XXXX1611  Ref: 6666         HDFC BANK LTD.        CHENNAI      CHEIN '>
+
+<td class="ar" height="55">
+ATM WITHDRAWAL                                              SUBJECT: EURONT 09NOV0841                                   Card no.: 5497XXX4XXXX1611  Ref: 6666         HDFC BANK LTD.        CHENNAI      CHEIN </td>
+
+
+
+<td class="ar" align="right">
+500.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/11/2012">
+
+<td class="ar" align="center"  width="10">
+09/11/2012</td>
+
+<input type=hidden name=descval value='ATM WDL REVERSAL '>
+
+<td class="ar" height="55">
+ATM WDL REVERSAL </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+500.00
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=500.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/11/2012">
+
+<td class="ar" align="center"  width="10">
+09/11/2012</td>
+
+<input type=hidden name=descval value='ATM WITHDRAWAL                                              SUBJECT: EURONT 09NOV0842                                   Card no.: 5497XXX4XXXX1611  Ref: 6667         HDFC BANK LTD.        CHENNAI      CHEIN '>
+
+<td class="ar" height="55">
+ATM WITHDRAWAL                                              SUBJECT: EURONT 09NOV0842                                   Card no.: 5497XXX4XXXX1611  Ref: 6667         HDFC BANK LTD.        CHENNAI      CHEIN </td>
+
+
+
+<td class="ar" align="right">
+400.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=400.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/11/2012">
+
+<td class="ar" align="center"  width="10">
+09/11/2012</td>
+
+<input type=hidden name=descval value='Credited To VIJAYANAND SANKAR '>
+
+<td class="ar" height="55">
+Credited To VIJAYANAND SANKAR </td>
+
+
+
+<td class="ar" align="right">
+200.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=200.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="09/11/2012">
+
+<td class="ar" align="center"  width="10">
+09/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE                                                    SUBJECT: MCUPOS 09NOV1540                                   Card no.: 5497XXX4XXXX1611 09NOV MAYAJAAL ENTERTAINMENT Chennai Ref: 110901821365 '>
+
+<td class="ar" height="55">
+PURCHASE                                                    SUBJECT: MCUPOS 09NOV1540                                   Card no.: 5497XXX4XXXX1611 09NOV MAYAJAAL ENTERTAINMENT Chennai Ref: 110901821365 </td>
+
+
+
+<td class="ar" align="right">
+600.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+
+238.89
+
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=600.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="12/11/2012">
+
+<td class="ar" align="center"  width="10">
+12/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE REVERSAL                                           SUBJECT: MCUPOS 10NOV2047                                   Card no.: 5497XXX4XXXX1611 10NOV IRCTC.CO.IN                    Ref: 231001549791 '>
+
+<td class="ar" height="55">
+PURCHASE REVERSAL                                           SUBJECT: MCUPOS 10NOV2047                                   Card no.: 5497XXX4XXXX1611 10NOV IRCTC.CO.IN                    Ref: 231001549791 </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+532.00
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=532.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="12/11/2012">
+
+<td class="ar" align="center"  width="10">
+12/11/2012</td>
+
+<input type=hidden name=descval value='ATM WITHDRAWAL                                              SUBJECT: EURONT 11NOV1000                                   Card no.: 5497XXX4XXXX1611  Ref: 7284         HDFC BANK LTD.        CHENNAI      CHEIN '>
+
+<td class="ar" height="55">
+ATM WITHDRAWAL                                              SUBJECT: EURONT 11NOV1000                                   Card no.: 5497XXX4XXXX1611  Ref: 7284         HDFC BANK LTD.        CHENNAI      CHEIN </td>
+
+
+
+<td class="ar" align="right">
+200.00
+</td>
+
+<td class="ar" align="right">
+</td>
+
+<td class="ar" align="right">
+ &nbsp; 
+</td>
+
+
+
+
+<input name="color" type="hidden" value=D>
+<input name="hidTrnamt" type="hidden" value=200.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="12/11/2012">
+
+<td class="ar" align="center"  width="10">
+12/11/2012</td>
+
+<input type=hidden name=descval value='Debited From PRASANTH T K '>
+
+<td class="ar" height="55">
+Debited From PRASANTH T K </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+230.00
+</td>
+
+<td class="ar" align="right">
+
+800.89
+
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=230.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+
+<input type=hidden name=dateval value="13/11/2012">
+
+<td class="ar" align="center"  width="10">
+13/11/2012</td>
+
+<input type=hidden name=descval value='PURCHASE REVERSAL                                           SUBJECT: MCUPOS 12NOV1909                                   Card no.: 5497XXX4XXXX1611 12NOV IRCTC.CO.IN                    Ref: 230701423761 '>
+
+<td class="ar" height="55">
+PURCHASE REVERSAL                                           SUBJECT: MCUPOS 12NOV1909                                   Card no.: 5497XXX4XXXX1611 12NOV IRCTC.CO.IN                    Ref: 230701423761 </td>
+
+
+
+<td class="ar" align="right">
+</td> 
+
+<td class="ar" align="right">
+288.00
+</td>
+
+<td class="ar" align="right">
+
+1,088.89
+
+</td>
+
+
+
+<input name="color" type="hidden" value=C>
+<input name="hidTrnamt" type="hidden" value=288.00>
+</td>
+
+</tr>
+<tr>
+</tr>
+<tr align="right">
+<td colspan="3"></td>
+</tr>
+
+
+
+</td>
+</tr>
+
+
+<tr>
+<td height="1" width="70"></td>
+<td height="1" width="280"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+<td height="1" width="85"></td>
+</tr>
+
+
+
+<tr>
+<td class="ar" align="center" bgcolor="#CCCCCC"><b>&nbsp;</b></td>
+
+<td class="ar" align="center" bgcolor="#CCCCCC"><b>Total</b></td>
+
+<td class="ar" align="Right"  bgcolor="#CCCCCC">
+<b>77,753.86</b></td>
+
+<td class="ar" align="Right"  bgcolor="#CCCCCC">
+<b>78,242.00</b></td>
+
+<td class="ar" align="Right"  bgcolor="#CCCCCC">
+<b>1,088.89</b></td>
+
+</tr>
+</table>
+
+
+
+
+</table>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<tr>
+		<td height="1" width="18%"></td>
+		<td height="1" width="68%"></td>
+		<td height="1" width="14%"></td>
+	</tr>
+
+
+
+
+
+
+
+
+<input type=hidden name=hidaccinfo value="">
+<input type=hidden name=fromdate value="">
+<input type=hidden name=todate value="">
+<input type=hidden name=codeType value="">
+</form>
+
+</body>
+</html>
+
+
+

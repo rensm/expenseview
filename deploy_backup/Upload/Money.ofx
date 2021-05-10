@@ -1,0 +1,228 @@
+
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+	<SIGNONMSGSRSV1>
+		<SONRS>
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+			<DTSERVER>20140307031413[-5:EST]
+			<LANGUAGE>ENG
+			
+			
+		</SONRS>
+	</SIGNONMSGSRSV1>
+	<BANKMSGSRSV1>
+		<STMTTRNRS>
+			<TRNUID>0
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+	
+			<STMTRS>
+				<CURDEF>USD
+	
+					<BANKACCTFROM>
+						
+							<BANKID>211391825
+						
+						
+							<ACCTID>5069306S5
+						
+						
+							<ACCTTYPE>CHECKING
+						
+					</BANKACCTFROM>
+	
+				<BANKTRANLIST>
+					<DTSTART>20140201000000[-5:EST]
+					<DTEND>20140228000000[-5:EST]
+	
+					
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20140228000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1352
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16763324. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20140227000000[-5:EST]
+							<TRNAMT>5909.80
+							<FITID>1351
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP140228
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20140225000000[-5:EST]
+							<TRNAMT>-700.00
+							<FITID>1350
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>02/25/2014 07:57 #248761.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20140219000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1349
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>02/19/2014 07:31 #155885.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20140219000000[-5:EST]
+							<TRNAMT>-250.00
+							<FITID>1348
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>FLORIDA SAVINGS 529 CNTRB 140216
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20140218000000[-5:EST]
+							<TRNAMT>-50.00
+							<FITID>1347
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>FLORIDA PREPAID FLA529 FEE140217
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20140218000000[-5:EST]
+							<TRNAMT>-149.70
+							<FITID>1346
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.021614
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20140210000000[-5:EST]
+							<TRNAMT>-200.00
+							<FITID>1345
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0209 2306 881237 11255 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20140205000000[-5:EST]
+							<TRNAMT>-2000.00
+							<FITID>1344
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>02/05/2014 07:40 #918070.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20140205000000[-5:EST]
+							<TRNAMT>-2000.00
+							<FITID>1343
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20140205000000[-5:EST]
+							<TRNAMT>-103.41
+							<FITID>1342
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 020514
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20140203000000[-5:EST]
+							<TRNAMT>-72.00
+							<FITID>13411126
+							<CHECKNUM>1126
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+	
+				</BANKTRANLIST>
+	
+				<LEDGERBAL>
+					<BALAMT>444.31
+					<DTASOF>20140307031413[-5:EST]
+				</LEDGERBAL>
+	
+				<AVAILBAL>
+					<BALAMT>444.31
+					<DTASOF>20140307031413[-5:EST]
+				</AVAILBAL>
+	
+			</STMTRS>
+		</STMTTRNRS>
+	</BANKMSGSRSV1>
+		
+	
+</OFX>
+

@@ -1,0 +1,140 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20190131195144[0:UTC]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Bank of America
+                <FID>5959
+            </FI>
+            <INTU.BID>6526
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS>
+            <TRNUID>20190131195144[0:UTC]
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <CCSTMTRS>
+                <CURDEF>USD
+                <CCACCTFROM>
+                    <ACCTID>4400667891578803
+                </CCACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20190117170000[0:UTC]
+                    <DTEND>20190128170000[0:UTC]
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190117170000[0:UTC]
+                        <TRNAMT>-20.69
+                        <FITID>201901171
+                        <CORRECTFITID>201901171
+                        <CORRECTACTION>REPLACE
+                        <NAME>WM SUPERCENTER #4161 MIAMI FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190121170000[0:UTC]
+                        <TRNAMT>-11.17
+                        <FITID>201901212
+                        <CORRECTFITID>201901212
+                        <CORRECTACTION>REPLACE
+                        <NAME>FRESCO Y MAS #353 MIAMI FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190121170000[0:UTC]
+                        <TRNAMT>-70.03
+                        <FITID>201901213
+                        <CORRECTFITID>201901213
+                        <CORRECTACTION>REPLACE
+                        <NAME>WAL-MART #4161 MIAMI FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190121170000[0:UTC]
+                        <TRNAMT>-83.63
+                        <FITID>201901214
+                        <CORRECTFITID>201901214
+                        <CORRECTACTION>REPLACE
+                        <NAME>FOODTOWN OF DAVIE M DAVIE FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190121170000[0:UTC]
+                        <TRNAMT>-18.70
+                        <FITID>201901215
+                        <CORRECTFITID>201901215
+                        <CORRECTACTION>REPLACE
+                        <NAME>FOODTOWN OF DAVIE M DAVIE FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190121170000[0:UTC]
+                        <TRNAMT>-4.29
+                        <FITID>201901216
+                        <CORRECTFITID>201901216
+                        <CORRECTACTION>REPLACE
+                        <NAME>FOODTOWN OF DAVIE M DAVIE FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190126170000[0:UTC]
+                        <TRNAMT>-17.70
+                        <FITID>201901267
+                        <CORRECTFITID>201901267
+                        <CORRECTACTION>REPLACE
+                        <NAME>PUBLIX #010 MIAMI FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190128170000[0:UTC]
+                        <TRNAMT>-2.31
+                        <FITID>201901288
+                        <CORRECTFITID>201901288
+                        <CORRECTACTION>REPLACE
+                        <NAME>STARBUCKS STORE 08306 MIAMI FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190128170000[0:UTC]
+                        <TRNAMT>-2.31
+                        <FITID>201901289
+                        <CORRECTFITID>201901289
+                        <CORRECTACTION>REPLACE
+                        <NAME>STARBUCKS STORE 08380 WESTON FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20190128170000[0:UTC]
+                        <TRNAMT>-50.22
+                        <FITID>2019012810
+                        <CORRECTFITID>2019012810
+                        <CORRECTACTION>REPLACE
+                        <NAME>ROSS STORES #443 MIAMI FL
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>-281.05
+                    <DTASOF>20190128000000[0:UTC]
+                </LEDGERBAL>
+            </CCSTMTRS>
+        </CCSTMTTRNRS>
+    </CREDITCARDMSGSRSV1>
+</OFX>

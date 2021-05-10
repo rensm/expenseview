@@ -1,0 +1,3212 @@
+
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+                  <DTSERVER>20131011</DTSERVER>
+                  <LANGUAGE></LANGUAGE>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1</TRNUID>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+            <STMTRS>
+            <CURDEF>USD</CURDEF>
+            <BANKACCTFROM>
+                <BANKID>233960513</BANKID>
+                <ACCTID>704327745</ACCTID>
+                <ACCTTYPE>CHECKING</ACCTTYPE>
+            </BANKACCTFROM>
+            
+            <BANKTRANLIST>
+            <DTSTART></DTSTART>
+            <DTEND></DTEND> 
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT></TRNAMT>
+                    <FITID>3756648656</FITID>
+                    <NAME></NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>Amount</TRNAMT>
+                    <FITID>3715991950</FITID>
+                    <NAME>Detail</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>33.00</TRNAMT>
+                    <FITID>505718335</FITID>
+                    <NAME>CHECK ORDER003DES:FEE ID:U034008</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>2610433505</FITID>
+                    <NAME>COLUMBUS DATA /  WITHDRWL CLEMEN</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>9.00</TRNAMT>
+                    <FITID>1243196234</FITID>
+                    <NAME>Fee For Checks And/Or Withdrawal</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>9.00</TRNAMT>
+                    <FITID>1025416156</FITID>
+                    <NAME>Fee For Checks And/Or Withdrawal</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT></TRNAMT>
+                    <FITID>915033573</FITID>
+                    <NAME></NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT></TRNAMT>
+                    <FITID>1099791731</FITID>
+                    <NAME></NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.00</TRNAMT>
+                    <FITID>3576753431</FITID>
+                    <NAME>US AIRWAYS CKD ANNUAL FEE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>768936461</FITID>
+                    <NAME>American Epress</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>78.00</TRNAMT>
+                    <FITID>816062455</FITID>
+                    <NAME>AMERICAN EXPRESS DES:ACH Pmt ID:</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>79.00</TRNAMT>
+                    <FITID>3020103351</FITID>
+                    <NAME>AMERICAN EXPRESS DES:ACH Pmt ID:</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>200.00</TRNAMT>
+                    <FITID>510850503</FITID>
+                    <NAME>BEST BUY Bill Payment</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>100.00</TRNAMT>
+                    <FITID>342572814</FITID>
+                    <NAME>Capital One</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>200.00</TRNAMT>
+                    <FITID>4145107186</FITID>
+                    <NAME>Chase</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>171.03</TRNAMT>
+                    <FITID>1855889909</FITID>
+                    <NAME>Check</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>150.00</TRNAMT>
+                    <FITID>1336735760</FITID>
+                    <NAME>Check</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>100.00</TRNAMT>
+                    <FITID>319224599</FITID>
+                    <NAME>Check</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>150.00</TRNAMT>
+                    <FITID>2819937559</FITID>
+                    <NAME>Check 102</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>187.50</TRNAMT>
+                    <FITID>655764126</FITID>
+                    <NAME>Check 103</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>150.00</TRNAMT>
+                    <FITID>2380402406</FITID>
+                    <NAME>Check 92</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>246.10</TRNAMT>
+                    <FITID>647318226</FITID>
+                    <NAME>Comcast</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>100.00</TRNAMT>
+                    <FITID>1212243035</FITID>
+                    <NAME>GE MONEY BANK / AMAZON Bill Paym</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>100.00</TRNAMT>
+                    <FITID>1061579981</FITID>
+                    <NAME>GECRB PHONE PAYME 080054190OH 55</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>110.00</TRNAMT>
+                    <FITID>523132628</FITID>
+                    <NAME>GEICO</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1000.00</TRNAMT>
+                    <FITID>4034641893</FITID>
+                    <NAME>ORCHARD BANK Bill Payment</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>38.00</TRNAMT>
+                    <FITID>2492772352</FITID>
+                    <NAME>PayPal</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>36.00</TRNAMT>
+                    <FITID>1459992853</FITID>
+                    <NAME>PayPal</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>18.00</TRNAMT>
+                    <FITID>2913677991</FITID>
+                    <NAME>PayPal</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>9.75</TRNAMT>
+                    <FITID>22393836</FITID>
+                    <NAME>PayPal</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.49</TRNAMT>
+                    <FITID>849652428</FITID>
+                    <NAME>PayPal</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>135.14</TRNAMT>
+                    <FITID>3892077022</FITID>
+                    <NAME>PGE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>108.94</TRNAMT>
+                    <FITID>903556505</FITID>
+                    <NAME>PGE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>77.07</TRNAMT>
+                    <FITID>1378841313</FITID>
+                    <NAME>PGE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>35.55</TRNAMT>
+                    <FITID>3958836508</FITID>
+                    <NAME>PGE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.48</TRNAMT>
+                    <FITID>2987008423</FITID>
+                    <NAME>PGE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>47.67</TRNAMT>
+                    <FITID>2020652906</FITID>
+                    <NAME>REDKINGSIZE TEL IN</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>1211250249</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>3633130456</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>2945063758</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>2568434989</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>3994027451</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>1998148609</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>1991831</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>2658857268</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>3917332898</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>1886687256</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>125018254</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>2546777375</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.73</TRNAMT>
+                    <FITID>3771436425</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>181.39</TRNAMT>
+                    <FITID>1195491872</FITID>
+                    <NAME>south central kentucky rural tel</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>2313155187</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>725.00</TRNAMT>
+                    <FITID>1128035501</FITID>
+                    <NAME>UNITED MILEAGE PLUS VISA Bill Pa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>500.00</TRNAMT>
+                    <FITID>3694043870</FITID>
+                    <NAME>UNITED MILEAGE PLUS VISA Bill Pa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>564133251</FITID>
+                    <NAME>UNITED MILEAGE PLUS VISA Bill Pa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>1452854549</FITID>
+                    <NAME>UNITED MILEAGE PLUS VISA Bill Pa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>3482426543</FITID>
+                    <NAME>UNITED MILEAGE PLUS VISA Bill Pa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>464.01</TRNAMT>
+                    <FITID>3556908332</FITID>
+                    <NAME>AMERICAN EXPRESS DES:WEB REMIT I</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>370.75</TRNAMT>
+                    <FITID>1007871349</FITID>
+                    <NAME>AMERICAN EXPRESS DES:WEB REMIT I</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>410.24</TRNAMT>
+                    <FITID>2502653625</FITID>
+                    <NAME>AMERICAN EXPRESS DES:WEB REMIT I</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>849.11</TRNAMT>
+                    <FITID>3274635525</FITID>
+                    <NAME>AMERICAN EXPRESS DES:WEB REMIT I</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>127.00</TRNAMT>
+                    <FITID>72013454</FITID>
+                    <NAME>callan bill pay</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.00</TRNAMT>
+                    <FITID>1377137413</FITID>
+                    <NAME>SAN FRANCISCO CHOCOLATE SAN FRAN</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>72.85</TRNAMT>
+                    <FITID>4182924581</FITID>
+                    <NAME>see's candies</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>21.00</TRNAMT>
+                    <FITID>1926260122</FITID>
+                    <NAME>4498 17th Street San Francisco C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>16.23</TRNAMT>
+                    <FITID>3367457651</FITID>
+                    <NAME>SWEET THINGS SAN FRANCISCOCA 244</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>149.00</TRNAMT>
+                    <FITID>2230005903</FITID>
+                    <NAME>ZALES Bill Payment</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>147.51</TRNAMT>
+                    <FITID>3793777258</FITID>
+                    <NAME>Zales Bill Payment</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>46.90</TRNAMT>
+                    <FITID>3874896278</FITID>
+                    <NAME>RICHIE'S OFFICIAL SMOG SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.70</TRNAMT>
+                    <FITID>949486099</FITID>
+                    <NAME>Flora Grub</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>158.32</TRNAMT>
+                    <FITID>3471075230</FITID>
+                    <NAME>Big Sporting Goods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.17</TRNAMT>
+                    <FITID>3136173019</FITID>
+                    <NAME>CASTRO SMOKE /  PURCHASE CASTRO </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>16.26</TRNAMT>
+                    <FITID>581999254</FITID>
+                    <NAME>CLIFF'S VARIET /  PURCHASE CASTR</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>211.63</TRNAMT>
+                    <FITID>3097001341</FITID>
+                    <NAME>DOLLY PYTHON /  PURCHASE N HASKE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>62.50</TRNAMT>
+                    <FITID>1546499119</FITID>
+                    <NAME>Epress</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>927704137</FITID>
+                    <NAME>Epress</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.01</TRNAMT>
+                    <FITID>83738621</FITID>
+                    <NAME>FAMILY DOLLAR 12/0007902PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>69.51</TRNAMT>
+                    <FITID>2341288868</FITID>
+                    <NAME>JAPAN TOWN COLLEC SAN FRAN CA 55</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>31.46</TRNAMT>
+                    <FITID>1088424637</FITID>
+                    <NAME>KINOKUNIYA BOO 10/0003880PURCHAS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>106.49</TRNAMT>
+                    <FITID>3265547358</FITID>
+                    <NAME>Marshalls</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.36</TRNAMT>
+                    <FITID>2486089013</FITID>
+                    <NAME>MISSION THRIFT /  PURCHASE MISSI</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>129.97</TRNAMT>
+                    <FITID>4145917367</FITID>
+                    <NAME>Nike</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>35.18</TRNAMT>
+                    <FITID>129201103</FITID>
+                    <NAME>NNT GENKI /  PURCHASE CLEMENT ST</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>59.75</TRNAMT>
+                    <FITID>4285082775</FITID>
+                    <NAME>NNT NEW UPPPER /  PURCHASE TH ST</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>70.31</TRNAMT>
+                    <FITID>315313687</FITID>
+                    <NAME>NWS SPORTS AUT 10/0007299PURCHAS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>83.29</TRNAMT>
+                    <FITID>2763602733</FITID>
+                    <NAME>NWS SPORTS AUT 10/0007571PURCHAS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>68.62</TRNAMT>
+                    <FITID>1867359315</FITID>
+                    <NAME>PAYPAL KINGSIZE 40293577CA 55429</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>77.88</TRNAMT>
+                    <FITID>3205284555</FITID>
+                    <NAME>PAYPAL SPANXINCS 40293577CA 5542</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.45</TRNAMT>
+                    <FITID>3382498998</FITID>
+                    <NAME>S N FASHIONS 04/20 000467841 PUR</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>33.00</TRNAMT>
+                    <FITID>3247474324</FITID>
+                    <NAME>SIEGEL'S CLOTHING SUPER SAN FRAN</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>74.63</TRNAMT>
+                    <FITID>153921063</FITID>
+                    <NAME>SPANX INC88880673PA 555418622710</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>80.26</TRNAMT>
+                    <FITID>3268816199</FITID>
+                    <NAME>Sports Authori 06/26 000701928 P</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>51.42</TRNAMT>
+                    <FITID>2596948021</FITID>
+                    <NAME>SPORTS AUTHORI 02/25 000474917 P</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>104.63</TRNAMT>
+                    <FITID>4234153644</FITID>
+                    <NAME>sports authority</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>88.00</TRNAMT>
+                    <FITID>3830891157</FITID>
+                    <NAME>sports authority</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>570915174</FITID>
+                    <NAME>sports authority</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>93.31</TRNAMT>
+                    <FITID>1581911778</FITID>
+                    <NAME>SY SANFRANCIS /  PURCHASE WILLIE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>241.39</TRNAMT>
+                    <FITID>1830639852</FITID>
+                    <NAME>Target</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>103.27</TRNAMT>
+                    <FITID>1737143798</FITID>
+                    <NAME>Target</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>1792316886</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>1154520740</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>869770802</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>2866739080</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>3722037022</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>1136480957</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>884630059</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>2914202513</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>3669230343</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>1242242710</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>1024208384</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>1573627877</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>718051187</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>3016083145</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>3301111391</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>1520854012</FITID>
+                    <NAME>Automatic Deduction Best Buy Col</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT></TRNAMT>
+                    <FITID>4280077285</FITID>
+                    <NAME></NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>689.00</TRNAMT>
+                    <FITID>2139360736</FITID>
+                    <NAME>BKOFAMERICA ATM 02/08 000002213 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>43.01</TRNAMT>
+                    <FITID>1365877955</FITID>
+                    <NAME>Deposit</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1000.00</TRNAMT>
+                    <FITID>1287274758</FITID>
+                    <NAME>F Geruy Blvd San Frnn sco oi CA </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.61</TRNAMT>
+                    <FITID>3227064923</FITID>
+                    <NAME>UNDER ONE ROOF 10/0003739PURCHAS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>14.00</TRNAMT>
+                    <FITID>4008705928</FITID>
+                    <NAME>Chevron</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.25</TRNAMT>
+                    <FITID>1796036973</FITID>
+                    <NAME>CHEVRON 00906SAN FRANCISCOCA 054</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>10.02</TRNAMT>
+                    <FITID>1070530697</FITID>
+                    <NAME>CHEVRON 00916SAN FRANCISCOCA 054</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.30</TRNAMT>
+                    <FITID>1674604176</FITID>
+                    <NAME>EXXONMOBIL 12/0003993PURCHASE 20</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>38.45</TRNAMT>
+                    <FITID>1845715283</FITID>
+                    <NAME>EXXONMOBIL 12/0007393PURCHASE 20</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.83</TRNAMT>
+                    <FITID>3504535208</FITID>
+                    <NAME>EXXONMOBIL 12/0008358PURCHASE 2L</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>65.13</TRNAMT>
+                    <FITID>597838926</FITID>
+                    <NAME>gas</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.87</TRNAMT>
+                    <FITID>3423782953</FITID>
+                    <NAME>gas</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.93</TRNAMT>
+                    <FITID>2202632529</FITID>
+                    <NAME>Shell</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>77.43</TRNAMT>
+                    <FITID>2539948326</FITID>
+                    <NAME>SHELL OIL 20467866727 SAN FRANCI</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.69</TRNAMT>
+                    <FITID>3168725286</FITID>
+                    <NAME>SHELL OIL 20467866727 SAN FRANCI</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.73</TRNAMT>
+                    <FITID>3565901643</FITID>
+                    <NAME>SHELL Service 12/0001390PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.09</TRNAMT>
+                    <FITID>3182049991</FITID>
+                    <NAME>SHELL Service 12/0009004PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.64</TRNAMT>
+                    <FITID>99372963</FITID>
+                    <NAME>STANDARD C SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.04</TRNAMT>
+                    <FITID>3130367802</FITID>
+                    <NAME>STANDARD C SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>48.74</TRNAMT>
+                    <FITID>547576495</FITID>
+                    <NAME>STANDARD 510 04/03 000089681 PUR</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>102.25</TRNAMT>
+                    <FITID>122495127</FITID>
+                    <NAME>Star NE 04/05 00008 WITHDRWL 159</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>928981798</FITID>
+                    <NAME>Star NE 04/05 00008 WITHDRWL 159</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>61.99</TRNAMT>
+                    <FITID>2518230084</FITID>
+                    <NAME>Star NE 04/30 000003470 WITHDRWL</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>3504803361</FITID>
+                    <NAME>Star NE 04/30 000003470 WITHDRWL</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>22.98</TRNAMT>
+                    <FITID>1032744856</FITID>
+                    <NAME>JAPAN TOWN COLLECTIBLE SAN FRAN </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>73.77</TRNAMT>
+                    <FITID>821810173</FITID>
+                    <NAME>LYDIA'S FLOWERS SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.32</TRNAMT>
+                    <FITID>3726377599</FITID>
+                    <NAME>PAXTON GATE SAN FRANCISCOCA 5554</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>80.34</TRNAMT>
+                    <FITID>3067899974</FITID>
+                    <NAME>PAXTON GATE SAN FRANCISCOCA 5554</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>22.45</TRNAMT>
+                    <FITID>2896054900</FITID>
+                    <NAME>STREETLIGHT RECORDS SAN FRANCISC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.00</TRNAMT>
+                    <FITID>4262805700</FITID>
+                    <NAME>TOYS R US 03/13 000016356 PURCHA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>21.83</TRNAMT>
+                    <FITID>3080950404</FITID>
+                    <NAME>UNITED GIFT SHOP NASHVILLE TN 05</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>14.17</TRNAMT>
+                    <FITID>4173887837</FITID>
+                    <NAME>UNITED GIFT SHOP NASHVILLE TN 05</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.94</TRNAMT>
+                    <FITID>2269087138</FITID>
+                    <NAME>WINK SF INCSAN FRANCISCOCA 25536</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>27.00</TRNAMT>
+                    <FITID>538520990</FITID>
+                    <NAME>7 Eleven</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>36.04</TRNAMT>
+                    <FITID>461401328</FITID>
+                    <NAME>7ELEVEN 10/0009343PURCHASE 2N DE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.22</TRNAMT>
+                    <FITID>3527111937</FITID>
+                    <NAME>7ELEVEN 11/0009603PURCHASE 7MARK</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>69.52</TRNAMT>
+                    <FITID>2292641357</FITID>
+                    <NAME>BEVERAGES MO /  PURCHASE GEARY B</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.39</TRNAMT>
+                    <FITID>265288000</FITID>
+                    <NAME>BUFFALO WHOLE FOO SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>18.49</TRNAMT>
+                    <FITID>4225320826</FITID>
+                    <NAME>Cheak Card Eureka Market 1 Frnnc</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>310.43</TRNAMT>
+                    <FITID>2136202464</FITID>
+                    <NAME>COSTCO WHSE 0 12/0008291PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>45.08</TRNAMT>
+                    <FITID>1751244439</FITID>
+                    <NAME>ERUEKA MARKET SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.83</TRNAMT>
+                    <FITID>837996726</FITID>
+                    <NAME>ERUEKA MARKET SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.49</TRNAMT>
+                    <FITID>3911817250</FITID>
+                    <NAME>ERUEKA MARKET SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.49</TRNAMT>
+                    <FITID>2653857972</FITID>
+                    <NAME>ERUEKA MARKET SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>16.49</TRNAMT>
+                    <FITID>2744947715</FITID>
+                    <NAME>ERUEKA MARKET SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>14.50</TRNAMT>
+                    <FITID>2177297472</FITID>
+                    <NAME>ERUEKA MARKET SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.40</TRNAMT>
+                    <FITID>2686670477</FITID>
+                    <NAME>market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>11.40</TRNAMT>
+                    <FITID>2142608815</FITID>
+                    <NAME>mexican grill</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>154.04</TRNAMT>
+                    <FITID>1084252707</FITID>
+                    <NAME>Mollie Stone's</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>107.63</TRNAMT>
+                    <FITID>825093905</FITID>
+                    <NAME>Mollie Stone's</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>62.24</TRNAMT>
+                    <FITID>2095849711</FITID>
+                    <NAME>Mollie Stone's</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>16.81</TRNAMT>
+                    <FITID>751604617</FITID>
+                    <NAME>Mollie Stone's</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>16.59</TRNAMT>
+                    <FITID>3020390947</FITID>
+                    <NAME>NATURAL MARKET IN SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.16</TRNAMT>
+                    <FITID>3018589962</FITID>
+                    <NAME>NNT NEW UPPPER 11/0000000PURCHAS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.80</TRNAMT>
+                    <FITID>2745869594</FITID>
+                    <NAME>NOE VALLEY BAKERY SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>113.68</TRNAMT>
+                    <FITID>4095346610</FITID>
+                    <NAME>RAINBOW GROCER /  PURCHASE FOLSO</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>62.50</TRNAMT>
+                    <FITID>2667086225</FITID>
+                    <NAME>safeway</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>43.75</TRNAMT>
+                    <FITID>4231828346</FITID>
+                    <NAME>safeway</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>35.05</TRNAMT>
+                    <FITID>3015168397</FITID>
+                    <NAME>safeway</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>22.50</TRNAMT>
+                    <FITID>2013092605</FITID>
+                    <NAME>safeway</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>21.91</TRNAMT>
+                    <FITID>3701381241</FITID>
+                    <NAME>safeway</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>21.09</TRNAMT>
+                    <FITID>3337608348</FITID>
+                    <NAME>safeway</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>3280796595</FITID>
+                    <NAME>safeway</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>77.54</TRNAMT>
+                    <FITID>873122195</FITID>
+                    <NAME>SAFEWAY STORE 10/0001664PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.52</TRNAMT>
+                    <FITID>2161528324</FITID>
+                    <NAME>SAFEWAY STORE 12/0000020PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>74.59</TRNAMT>
+                    <FITID>750178849</FITID>
+                    <NAME>SAFEWAY STORE 12/0008930PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>68.00</TRNAMT>
+                    <FITID>2002347686</FITID>
+                    <NAME>San Franciscoca 2405523218320686</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.16</TRNAMT>
+                    <FITID>3486444696</FITID>
+                    <NAME>San Franciscoca 2443106217720745</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>43.05</TRNAMT>
+                    <FITID>2869149800</FITID>
+                    <NAME>San Franciscoca 2449279217811800</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>61.86</TRNAMT>
+                    <FITID>1802972979</FITID>
+                    <NAME>San Franciscoca 2462573217628136</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>42.00</TRNAMT>
+                    <FITID>3024591706</FITID>
+                    <NAME>SUNNY COUNTRY FOO SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>202.95</TRNAMT>
+                    <FITID>3088213885</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>192.19</TRNAMT>
+                    <FITID>1396341822</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>122.95</TRNAMT>
+                    <FITID>4061639823</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>119.99</TRNAMT>
+                    <FITID>1263138137</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>102.95</TRNAMT>
+                    <FITID>3015942550</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>102.95</TRNAMT>
+                    <FITID>717942828</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>62.95</TRNAMT>
+                    <FITID>1182005663</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>62.50</TRNAMT>
+                    <FITID>3910666538</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>57.62</TRNAMT>
+                    <FITID>3037161267</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>57.04</TRNAMT>
+                    <FITID>2424060817</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>56.58</TRNAMT>
+                    <FITID>4176064036</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>55.39</TRNAMT>
+                    <FITID>2730093631</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>42.39</TRNAMT>
+                    <FITID>2226679003</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>41.42</TRNAMT>
+                    <FITID>439209258</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>39.34</TRNAMT>
+                    <FITID>590423871</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>38.40</TRNAMT>
+                    <FITID>689567091</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.01</TRNAMT>
+                    <FITID>217206088</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>36.91</TRNAMT>
+                    <FITID>781279673</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>36.87</TRNAMT>
+                    <FITID>2871494217</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>35.39</TRNAMT>
+                    <FITID>938258080</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>33.83</TRNAMT>
+                    <FITID>4273334252</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>33.73</TRNAMT>
+                    <FITID>3939356819</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>33.50</TRNAMT>
+                    <FITID>3669194907</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>31.00</TRNAMT>
+                    <FITID>414300292</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.95</TRNAMT>
+                    <FITID>1303960718</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.90</TRNAMT>
+                    <FITID>1253597434</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.62</TRNAMT>
+                    <FITID>3760766382</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.45</TRNAMT>
+                    <FITID>2341748427</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.52</TRNAMT>
+                    <FITID>126439036</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.43</TRNAMT>
+                    <FITID>2875777602</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.25</TRNAMT>
+                    <FITID>1612570572</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.22</TRNAMT>
+                    <FITID>939255999</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.12</TRNAMT>
+                    <FITID>1799191071</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.12</TRNAMT>
+                    <FITID>969707896</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.12</TRNAMT>
+                    <FITID>1321968110</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.58</TRNAMT>
+                    <FITID>1323615922</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.12</TRNAMT>
+                    <FITID>1694825489</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>22.47</TRNAMT>
+                    <FITID>2714932359</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>22.09</TRNAMT>
+                    <FITID>3860107228</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>22.09</TRNAMT>
+                    <FITID>2132663910</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>21.37</TRNAMT>
+                    <FITID>3353110323</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.68</TRNAMT>
+                    <FITID>1024031547</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.62</TRNAMT>
+                    <FITID>2909574768</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.35</TRNAMT>
+                    <FITID>1991299885</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.01</TRNAMT>
+                    <FITID>2564280277</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.00</TRNAMT>
+                    <FITID>762772985</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.71</TRNAMT>
+                    <FITID>3406930961</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.66</TRNAMT>
+                    <FITID>4285120993</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.88</TRNAMT>
+                    <FITID>2662185390</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.83</TRNAMT>
+                    <FITID>3429783135</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.45</TRNAMT>
+                    <FITID>4288587621</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.45</TRNAMT>
+                    <FITID>1864481524</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.45</TRNAMT>
+                    <FITID>405178978</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.33</TRNAMT>
+                    <FITID>2341025547</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>2470162061</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>171114295</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>2100678561</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>3813759490</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>2488691348</FITID>
+                    <NAME>upper terrace market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.75</TRNAMT>
+                    <FITID>3115423</FITID>
+                    <NAME>Upper Terrace Market</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>31.71</TRNAMT>
+                    <FITID>2580111498</FITID>
+                    <NAME>VONS Store 11/0009952PURCHASE 45</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT></TRNAMT>
+                    <FITID>4271701316</FITID>
+                    <NAME></NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT></TRNAMT>
+                    <FITID>2308689362</FITID>
+                    <NAME></NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>123.23</TRNAMT>
+                    <FITID>1958899415</FITID>
+                    <NAME>Whole Foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>114.97</TRNAMT>
+                    <FITID>424964926</FITID>
+                    <NAME>whole foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>104.04</TRNAMT>
+                    <FITID>126559341</FITID>
+                    <NAME>Whole Foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>88.35</TRNAMT>
+                    <FITID>1305816778</FITID>
+                    <NAME>Whole Foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>75.42</TRNAMT>
+                    <FITID>1459425587</FITID>
+                    <NAME>Whole Foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>72.41</TRNAMT>
+                    <FITID>2209916014</FITID>
+                    <NAME>Whole Foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>48.00</TRNAMT>
+                    <FITID>299124460</FITID>
+                    <NAME>Whole Foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.33</TRNAMT>
+                    <FITID>1434429564</FITID>
+                    <NAME>whole foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>12.60</TRNAMT>
+                    <FITID>1112141289</FITID>
+                    <NAME>Whole Foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>394.00</TRNAMT>
+                    <FITID>2920206719</FITID>
+                    <NAME>wine club</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>13.00</TRNAMT>
+                    <FITID>1602200996</FITID>
+                    <NAME>COLE VALLEY FITNE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>39.00</TRNAMT>
+                    <FITID>3960188119</FITID>
+                    <NAME>PLA FIT DALY CTY DES:MEMBER PAY </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.99</TRNAMT>
+                    <FITID>3805597391</FITID>
+                    <NAME>PLA FIT DALY CTY DES:MEMBER PAY </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.00</TRNAMT>
+                    <FITID>3161711905</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.00</TRNAMT>
+                    <FITID>571961474</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.00</TRNAMT>
+                    <FITID>1427128340</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.00</TRNAMT>
+                    <FITID>3424194990</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.00</TRNAMT>
+                    <FITID>3139313976</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.00</TRNAMT>
+                    <FITID>731987113</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.00</TRNAMT>
+                    <FITID>2712504629</FITID>
+                    <NAME>GOLDS GYM CORPORATE 4159274653 C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.00</TRNAMT>
+                    <FITID>3244949712</FITID>
+                    <NAME>GOLDS GYM CORPORATE 4159274653 C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.00</TRNAMT>
+                    <FITID>3060609094</FITID>
+                    <NAME>GOLDS GYM CORPORATE 4159274653 C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.80</TRNAMT>
+                    <FITID>1340242543</FITID>
+                    <NAME>GOLDS GYMSF SOMA SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.80</TRNAMT>
+                    <FITID>954551033</FITID>
+                    <NAME>GOLDS GYMSF SOMA SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.80</TRNAMT>
+                    <FITID>2793529178</FITID>
+                    <NAME>GOLDS GYMSF SOMA SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.80</TRNAMT>
+                    <FITID>3515281356</FITID>
+                    <NAME>GOLDS GYMSF SOMA SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>2267559011</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>4029613301</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>1620056420</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>395782642</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>3922955673</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>2664742159</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>131984565</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>16.50</TRNAMT>
+                    <FITID>764064027</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.00</TRNAMT>
+                    <FITID>2120792722</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>2579069206</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>11544748</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>2008487994</FITID>
+                    <NAME>UCSF CLS PS FITRE SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.02</TRNAMT>
+                    <FITID>637647474</FITID>
+                    <NAME>COLE HARDWARE SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>27.17</TRNAMT>
+                    <FITID>1358129211</FITID>
+                    <NAME>COLE HARDWARE SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.45</TRNAMT>
+                    <FITID>241193947</FITID>
+                    <NAME>DISCOUNT BUILDERS SUPP SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>83.72</TRNAMT>
+                    <FITID>3490551858</FITID>
+                    <NAME>DISCOUNT BUILDERS SUPP SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>52.58</TRNAMT>
+                    <FITID>3971726835</FITID>
+                    <NAME>DISCOUNT BUILDERS SUPP SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>343.01</TRNAMT>
+                    <FITID>1685610666</FITID>
+                    <NAME>IKEA EAST BAY 03/06 000880869 PU</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>4154816705</FITID>
+                    <NAME>IKEA EAST BAY EMERYVILLE CA 2443</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>41.23</TRNAMT>
+                    <FITID>3232670998</FITID>
+                    <NAME>JONATHAN ADLER EN SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>27.05</TRNAMT>
+                    <FITID>2571574741</FITID>
+                    <NAME>Lowe's</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>339.72</TRNAMT>
+                    <FITID>2626946680</FITID>
+                    <NAME>lowes</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.10</TRNAMT>
+                    <FITID>2835543626</FITID>
+                    <NAME>NIPPON YA SAN FRANCISCOCA 252478</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.36</TRNAMT>
+                    <FITID>125154188</FITID>
+                    <NAME>PARK LIFE SAN FRANCISCOCA 555465</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>175.43</TRNAMT>
+                    <FITID>225137537</FITID>
+                    <NAME>Pier Imports</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.75</TRNAMT>
+                    <FITID>4226134799</FITID>
+                    <NAME>San Franciscoca 2405523218520686</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>91.57</TRNAMT>
+                    <FITID>1840773055</FITID>
+                    <NAME>Sloat Garden Centers Inc</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>12.95</TRNAMT>
+                    <FITID>3017829683</FITID>
+                    <NAME>THE HOME DEPOT 02/20 000292973 P</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>157.00</TRNAMT>
+                    <FITID>928362216</FITID>
+                    <NAME>TRAVELERS INSURANCE Bill Payment</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>342.50</TRNAMT>
+                    <FITID>3908152486</FITID>
+                    <NAME>TRAVELERS PERSONA CT</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>69.00</TRNAMT>
+                    <FITID>3559533321</FITID>
+                    <NAME>TRAVELERS PERSONA CT</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>171.63</TRNAMT>
+                    <FITID>1761837632</FITID>
+                    <NAME>COMCAST CALIFORNI 800COMCAST CA </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>77.30</TRNAMT>
+                    <FITID>3941233048</FITID>
+                    <NAME>COMCAST CALIFORNI 800COMCAST CA </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>56.37</TRNAMT>
+                    <FITID>3825178747</FITID>
+                    <NAME>Healing Center</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.50</TRNAMT>
+                    <FITID>970153191</FITID>
+                    <NAME>Healing Center</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>65.00</TRNAMT>
+                    <FITID>4191642856</FITID>
+                    <NAME>natural world spa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>45.00</TRNAMT>
+                    <FITID>3067482389</FITID>
+                    <NAME>natural world spa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>65.00</TRNAMT>
+                    <FITID>400098756</FITID>
+                    <NAME>NATURAL WORLD SPA SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT></TRNAMT>
+                    <FITID>2342465309</FITID>
+                    <NAME></NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>125.00</TRNAMT>
+                    <FITID>789988481</FITID>
+                    <NAME>SUCHADA THAI MASS SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>68.00</TRNAMT>
+                    <FITID>2725432728</FITID>
+                    <NAME>UCSF FITNESS RE CA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>3.69</TRNAMT>
+                    <FITID>2549102911</FITID>
+                    <NAME>ICEBEE SAN FRANCISCOCA 243230002</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>36.00</TRNAMT>
+                    <FITID>3222436848</FITID>
+                    <NAME>KARAS CUPCAKES SCOTT S SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>33.41</TRNAMT>
+                    <FITID>4152548969</FITID>
+                    <NAME>Candy for callan</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>150.64</TRNAMT>
+                    <FITID>91378592</FITID>
+                    <NAME>ACQUERELLO</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>27.25</TRNAMT>
+                    <FITID>3616802734</FITID>
+                    <NAME>AMC VAN NESS 0San FranciscoCA 15</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>8.50</TRNAMT>
+                    <FITID>1713394778</FITID>
+                    <NAME>ARBYS 020NASHVILLE TN 1541019235</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>68.86</TRNAMT>
+                    <FITID>3636515632</FITID>
+                    <NAME>ASSAB RESTAURANT SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>40.32</TRNAMT>
+                    <FITID>255069224</FITID>
+                    <NAME>BASEBALL SAVINGS KS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.75</TRNAMT>
+                    <FITID>3287872061</FITID>
+                    <NAME>Burgermeister</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>83.00</TRNAMT>
+                    <FITID>3150750527</FITID>
+                    <NAME>Cafe V 10/0004317WITHDRWL 15Fols</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>767608329</FITID>
+                    <NAME>Cafe V 10/0004317WITHDRWL 15Fols</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>53.12</TRNAMT>
+                    <FITID>58430804</FITID>
+                    <NAME>CAP N CORK JR 11/0000003PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.57</TRNAMT>
+                    <FITID>4135051675</FITID>
+                    <NAME>Carmelina's</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>57.64</TRNAMT>
+                    <FITID>3623347756</FITID>
+                    <NAME>CASTRO VILLAGE WI SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>34.30</TRNAMT>
+                    <FITID>2126425152</FITID>
+                    <NAME>CAT HEAD BBQ SAN FRANCISCOCA 853</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.50</TRNAMT>
+                    <FITID>1506541381</FITID>
+                    <NAME>CHINA FIRST SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.99</TRNAMT>
+                    <FITID>2012078814</FITID>
+                    <NAME>Dunkin' Donuts</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.30</TRNAMT>
+                    <FITID>1302983967</FITID>
+                    <NAME>ENCANTADA SAN FRANCISCOCA 554213</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.05</TRNAMT>
+                    <FITID>2485131522</FITID>
+                    <NAME>EVERGREEN GARDEN SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>67.78</TRNAMT>
+                    <FITID>2079587558</FITID>
+                    <NAME>GB TPR SONOMA CA 555475022862542</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>102.00</TRNAMT>
+                    <FITID>704614881</FITID>
+                    <NAME>GO GO MARKET 10/0007396WITHDRWL </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>2758077145</FITID>
+                    <NAME>GO GO MARKET 10/0007396WITHDRWL </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>32.20</TRNAMT>
+                    <FITID>3520875713</FITID>
+                    <NAME>GOOD NOODLE SAN FRANCISCOCA 5542</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.99</TRNAMT>
+                    <FITID>3609786238</FITID>
+                    <NAME>GOOGLE Music GOOGLE.COM/CHCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.63</TRNAMT>
+                    <FITID>2306932759</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.63</TRNAMT>
+                    <FITID>277369261</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>35.45</TRNAMT>
+                    <FITID>1618525131</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>35.45</TRNAMT>
+                    <FITID>4263259752</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>32.84</TRNAMT>
+                    <FITID>3708802241</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>32.84</TRNAMT>
+                    <FITID>1141278075</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.09</TRNAMT>
+                    <FITID>582674739</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.09</TRNAMT>
+                    <FITID>2986734754</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>23.43</TRNAMT>
+                    <FITID>1427733507</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>23.43</TRNAMT>
+                    <FITID>903804390</FITID>
+                    <NAME>GrubHub.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>6.55</TRNAMT>
+                    <FITID>2259418458</FITID>
+                    <NAME>JAMBA JUICE 68 SAN FRANCISCOCA 2</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>6.79</TRNAMT>
+                    <FITID>593188412</FITID>
+                    <NAME>JAMBA JUICE 6DALY CITY CA 054368</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>5.09</TRNAMT>
+                    <FITID>2205182458</FITID>
+                    <NAME>JAMBA JUICE 120SAN FRANCISCOCA 1</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.99</TRNAMT>
+                    <FITID>3218329851</FITID>
+                    <NAME>JAMBA JUICE 120SAN FRANCISCOCA 1</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>23.96</TRNAMT>
+                    <FITID>1845230189</FITID>
+                    <NAME>KFC/TB 2SAN FRANCISCOCA 55310202</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.93</TRNAMT>
+                    <FITID>2021678011</FITID>
+                    <NAME>LIQUOR EXPRESS /  PURCHASE GEARY</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>70.99</TRNAMT>
+                    <FITID>3129412846</FITID>
+                    <NAME>MARIAHS BOWLING GREENKY 25247802</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>105.80</TRNAMT>
+                    <FITID>102307383</FITID>
+                    <NAME>MARRAKECH MOROCCA SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>72.80</TRNAMT>
+                    <FITID>140667196</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>68.30</TRNAMT>
+                    <FITID>798055516</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>66.63</TRNAMT>
+                    <FITID>623471241</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>65.31</TRNAMT>
+                    <FITID>687235637</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>49.40</TRNAMT>
+                    <FITID>1091576847</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>40.24</TRNAMT>
+                    <FITID>2582191690</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.88</TRNAMT>
+                    <FITID>3935808571</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.74</TRNAMT>
+                    <FITID>4224336838</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.70</TRNAMT>
+                    <FITID>1047330056</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>36.62</TRNAMT>
+                    <FITID>2172677751</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>34.18</TRNAMT>
+                    <FITID>2174875362</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.71</TRNAMT>
+                    <FITID>1107368717</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.74</TRNAMT>
+                    <FITID>3780109652</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.74</TRNAMT>
+                    <FITID>2017899758</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.70</TRNAMT>
+                    <FITID>3185576480</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>28.02</TRNAMT>
+                    <FITID>873956049</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>27.94</TRNAMT>
+                    <FITID>1625491138</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.58</TRNAMT>
+                    <FITID>893164761</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>18.26</TRNAMT>
+                    <FITID>2106250323</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>18.03</TRNAMT>
+                    <FITID>1102911528</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>16.04</TRNAMT>
+                    <FITID>2246461183</FITID>
+                    <NAME>NEW UPPPER TERRAC SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>118.83</TRNAMT>
+                    <FITID>1586353990</FITID>
+                    <NAME>NICHOLSON RANCH SONOMA CA 852477</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>92.23</TRNAMT>
+                    <FITID>1908473947</FITID>
+                    <NAME>NICHOLSON RANCH SONOMA CA 852477</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>185.14</TRNAMT>
+                    <FITID>1420184384</FITID>
+                    <NAME>NOMBE RESTAURANT SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>6.00</TRNAMT>
+                    <FITID>3498103177</FITID>
+                    <NAME>NORTH BEACH PIZZA SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>100.00</TRNAMT>
+                    <FITID>4100608165</FITID>
+                    <NAME>PEACHES CHRIST PR LAS VEGAS NV</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>5.20</TRNAMT>
+                    <FITID>957937087</FITID>
+                    <NAME>Peet's Coffee Tea</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>117.89</TRNAMT>
+                    <FITID>2686463310</FITID>
+                    <NAME>RADNOR WINE SPI NASHVILLE TN 252</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>144.79</TRNAMT>
+                    <FITID>1178509580</FITID>
+                    <NAME>RAVENSWOOD WINERY 086656839CA 55</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>146.88</TRNAMT>
+                    <FITID>1885633913</FITID>
+                    <NAME>RAVENSWOOD WINERY SONOMA CA 8541</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.50</TRNAMT>
+                    <FITID>1118709974</FITID>
+                    <NAME>REGAL BOWLING GRE BOWLING GREENK</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.00</TRNAMT>
+                    <FITID>3175821275</FITID>
+                    <NAME>REGAL BOWLING GRE BOWLING GREENK</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>40.11</TRNAMT>
+                    <FITID>3688086002</FITID>
+                    <NAME>ROUND TABLE PIZZA SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>75.02</TRNAMT>
+                    <FITID>2011949429</FITID>
+                    <NAME>RUMOURS EAST INCNASHVILLE TN 554</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>68.00</TRNAMT>
+                    <FITID>448901919</FITID>
+                    <NAME>San Franciscoca 2439121218228609</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>94.49</TRNAMT>
+                    <FITID>279489157</FITID>
+                    <NAME>SHABU CLUB LLC SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.50</TRNAMT>
+                    <FITID>2936590518</FITID>
+                    <NAME>SISSY'S FRIED CHI DALLAS TX</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>53.00</TRNAMT>
+                    <FITID>1193752742</FITID>
+                    <NAME>Sprinkles Cupcakes</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>10.28</TRNAMT>
+                    <FITID>2050365530</FITID>
+                    <NAME>Starbucks</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>3.45</TRNAMT>
+                    <FITID>4084159610</FITID>
+                    <NAME>Starbucks</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>12.21</TRNAMT>
+                    <FITID>3516130202</FITID>
+                    <NAME>SUBWAY</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.26</TRNAMT>
+                    <FITID>1283118997</FITID>
+                    <NAME>SUBWAY 0SAN FRANCISCOCA 15410192</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.00</TRNAMT>
+                    <FITID>1749835868</FITID>
+                    <NAME>SUBWAY 0SAN FRANCISCOCA 15410192</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>8.69</TRNAMT>
+                    <FITID>2361872015</FITID>
+                    <NAME>SUBWAY 0SAN FRANCISCOCA 15410192</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>1.19</TRNAMT>
+                    <FITID>3232864710</FITID>
+                    <NAME>SUBWAY 0SAN FRANCISCOCA 15410192</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.26</TRNAMT>
+                    <FITID>1800157560</FITID>
+                    <NAME>SUBWAY 0SAN FRANCISCOCA 15410192</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>10.85</TRNAMT>
+                    <FITID>2550918961</FITID>
+                    <NAME>SUBWAY 0SAN FRANCISCOCA 15410192</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>8.69</TRNAMT>
+                    <FITID>2343209622</FITID>
+                    <NAME>SUBWAY 0SAN FRANCISCOCA 15410192</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>65.00</TRNAMT>
+                    <FITID>216065561</FITID>
+                    <NAME>SUCHADA THAI MASS SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>3946755399</FITID>
+                    <NAME>SUCHADA THAI MASS SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>24.65</TRNAMT>
+                    <FITID>988871587</FITID>
+                    <NAME>TAIWAN RESTAURANT SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>89.08</TRNAMT>
+                    <FITID>3498329119</FITID>
+                    <NAME>TAKARA SUSHI SF SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>67.34</TRNAMT>
+                    <FITID>3145724323</FITID>
+                    <NAME>TAKARA SUSHI SF SAN FRANCISCOCA </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>202.00</TRNAMT>
+                    <FITID>2504344566</FITID>
+                    <NAME>Taquera</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2.00</TRNAMT>
+                    <FITID>80693078</FITID>
+                    <NAME>Taquera</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>17.71</TRNAMT>
+                    <FITID>399207201</FITID>
+                    <NAME>THAI BOX ADDISO ADDISON TX</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>73.98</TRNAMT>
+                    <FITID>2831590821</FITID>
+                    <NAME>THE FAIRMONT HTL SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>11.42</TRNAMT>
+                    <FITID>520485408</FITID>
+                    <NAME>THE ICE CREAM BAR SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>38.00</TRNAMT>
+                    <FITID>568800327</FITID>
+                    <NAME>THE PLANT CAFE PI SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>12.95</TRNAMT>
+                    <FITID>946246527</FITID>
+                    <NAME>THE POSH BAGEL SAN FRANCISCOCA 2</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>90.01</TRNAMT>
+                    <FITID>515993869</FITID>
+                    <NAME>THE WINE CLUB SF SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>48.15</TRNAMT>
+                    <FITID>875723376</FITID>
+                    <NAME>TON KIANG SAN FRANCISCOCA 554807</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>30.81</TRNAMT>
+                    <FITID>3388597173</FITID>
+                    <NAME>UNITED PACKAGE LI BOWLING GREENK</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>2707</TRNAMT>
+                    <FITID>4180439969</FITID>
+                    <NAME>whole foods</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>84.09</TRNAMT>
+                    <FITID>2345212195</FITID>
+                    <NAME>Wine Bar</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>37.00</TRNAMT>
+                    <FITID>2290459981</FITID>
+                    <NAME>WOODHOUSE FISH CO SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>23.89</TRNAMT>
+                    <FITID>1205785646</FITID>
+                    <NAME>ZAPATA MEXICAN GR SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.63</TRNAMT>
+                    <FITID>368481477</FITID>
+                    <NAME>ZAPATA MEXICAN GR SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.07</TRNAMT>
+                    <FITID>2398019766</FITID>
+                    <NAME>ZAPATA MEXICAN GR SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>12.59</TRNAMT>
+                    <FITID>2967395533</FITID>
+                    <NAME>ZAPATA MEXICAN GR SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>9.20</TRNAMT>
+                    <FITID>3460827822</FITID>
+                    <NAME>ZAPATA MEXICAN GRILL SAN FRANCIS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>10.02</TRNAMT>
+                    <FITID>3457257999</FITID>
+                    <NAME>ZAPATA MEXICAN GRILL SAN FRANCIS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>86.50</TRNAMT>
+                    <FITID>1283684819</FITID>
+                    <NAME>ADVANTAGE CHIROPR SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>45.00</TRNAMT>
+                    <FITID>2175755538</FITID>
+                    <NAME>ALICE K CHARAP CH SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>67.00</TRNAMT>
+                    <FITID>4264025699</FITID>
+                    <NAME>ALICE K CHARAP CH SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>169.80</TRNAMT>
+                    <FITID>3272910237</FITID>
+                    <NAME>Apothecarium SF</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>42.32</TRNAMT>
+                    <FITID>3135288538</FITID>
+                    <NAME>Apothecarium SF</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>120.04</TRNAMT>
+                    <FITID>2441347841</FITID>
+                    <NAME>California Pacific Medical Cente</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>120.04</TRNAMT>
+                    <FITID>3867358103</FITID>
+                    <NAME>California Pacific Medical Cente</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>120.04</TRNAMT>
+                    <FITID>1983655430</FITID>
+                    <NAME>California Pacific Medical Cente</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>115.00</TRNAMT>
+                    <FITID>1825015538</FITID>
+                    <NAME>JEFFERY SCHWARTZ CA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>115.00</TRNAMT>
+                    <FITID>1515890833</FITID>
+                    <NAME>JEFFERY SCHWARTZ CA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>45.90</TRNAMT>
+                    <FITID>2225327341</FITID>
+                    <NAME>Kaiser</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>10.94</TRNAMT>
+                    <FITID>1475035666</FITID>
+                    <NAME>Questcare Medical Services PA Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>95.40</TRNAMT>
+                    <FITID>3287611737</FITID>
+                    <NAME>Radiology Consultants of NDall B</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>13.04</TRNAMT>
+                    <FITID>3691573717</FITID>
+                    <NAME>Radiology Consultants of NDall B</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>147.56</TRNAMT>
+                    <FITID>698755366</FITID>
+                    <NAME>RHMT LLC SAN FRANCISCOCA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>182.28</TRNAMT>
+                    <FITID>2397496781</FITID>
+                    <NAME>RHMT LLC SAN FRANCISCOCA 8510165</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>205.51</TRNAMT>
+                    <FITID>528164453</FITID>
+                    <NAME>RHMT LLC SAN FRANCISCOCA 8510165</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>87.00</TRNAMT>
+                    <FITID>1763665466</FITID>
+                    <NAME>VAPOR ROOM COOPERATIVE SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>48.00</TRNAMT>
+                    <FITID>2633832078</FITID>
+                    <NAME>VAPOR ROOM COOPERATIVE SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>70.00</TRNAMT>
+                    <FITID>1618122797</FITID>
+                    <NAME>VAPOR ROOM COOPERATIVE SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>12.00</TRNAMT>
+                    <FITID>1755016595</FITID>
+                    <NAME>VAPOR ROOM COOPERATIVE SAN FRANC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>9.99</TRNAMT>
+                    <FITID>3387777546</FITID>
+                    <NAME>YOUSENDIT INC 8665587363 CA 2440</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>260.00</TRNAMT>
+                    <FITID>3682274287</FITID>
+                    <NAME>YOUTH RENEWAL CEN SAN RAFAEL CA</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>939615251</FITID>
+                    <NAME>YOUTH RENEWAL CEN SAN RAFAEL CA </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>699.36</TRNAMT>
+                    <FITID>1007374263</FITID>
+                    <NAME>YOUTH RENEWAL CEN SAN RAFAEL CA </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>40.80</TRNAMT>
+                    <FITID>329349324</FITID>
+                    <NAME>ZENNI OPTICAL 080021121CA 554807</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.95</TRNAMT>
+                    <FITID>1763327686</FITID>
+                    <NAME>ZENNI OPTICAL 080021121CA 554807</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>10.49</TRNAMT>
+                    <FITID>945322936</FITID>
+                    <NAME>NATALIES CANDY JA SAN FRANCISCOC</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.05</TRNAMT>
+                    <FITID>3073471255</FITID>
+                    <NAME>STARBUCKS CORP0SAN FRANCISCOCA 1</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>26.08</TRNAMT>
+                    <FITID>3158964338</FITID>
+                    <NAME>DOLLARGENERAL 12/0003418PURCHASE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>3300436581</FITID>
+                    <NAME>walgreens</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>270.91</TRNAMT>
+                    <FITID>488687237</FITID>
+                    <NAME>walmart</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>6.00</TRNAMT>
+                    <FITID>1263331970</FITID>
+                    <NAME>ACTIVE NUTRITI 02/03 000393806 P</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>3.00</TRNAMT>
+                    <FITID>1321076806</FITID>
+                    <NAME>ACTIVE NUTRITI 02/05 000252390 P</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>52.22</TRNAMT>
+                    <FITID>1483427726</FITID>
+                    <NAME>ACTIVE NUTRITI 02/25 000266548 P</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>69.29</TRNAMT>
+                    <FITID>656727881</FITID>
+                    <NAME>Agent Assisted transfer from Chk</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>20.00</TRNAMT>
+                    <FITID>619086209</FITID>
+                    <NAME>TRANSLINK SERVICE CENTR 87787888</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.99</TRNAMT>
+                    <FITID>4002024267</FITID>
+                    <NAME>TRANSLINK SERVICE CENTR 87787888</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.00</TRNAMT>
+                    <FITID>2597820179</FITID>
+                    <NAME>TRANSLINK SERVICE CENTR CONCORD </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>500.00</TRNAMT>
+                    <FITID>4039287139</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>355.18</TRNAMT>
+                    <FITID>2878916518</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>289.48</TRNAMT>
+                    <FITID>11505867</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>240.96</TRNAMT>
+                    <FITID>639176732</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>142.05</TRNAMT>
+                    <FITID>1214303945</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>3670957885</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>1137118855</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>885014033</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.00</TRNAMT>
+                    <FITID>2759795584</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>23.63</TRNAMT>
+                    <FITID>1241122145</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>15.00</TRNAMT>
+                    <FITID>2106065465</FITID>
+                    <NAME>Best Buy</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>91.61</TRNAMT>
+                    <FITID>4179153354</FITID>
+                    <NAME>Crucial</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>29.00</TRNAMT>
+                    <FITID>1773157714</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV2243D</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>14.95</TRNAMT>
+                    <FITID>3331262239</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV2243V</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>25.36</TRNAMT>
+                    <FITID>3932264486</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV22463</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>60.00</TRNAMT>
+                    <FITID>587891692</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV22464</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>10.94</TRNAMT>
+                    <FITID>4231252231</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV22464</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.99</TRNAMT>
+                    <FITID>3770039124</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226B9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>23.70</TRNAMT>
+                    <FITID>3588035472</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226BS</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>39.99</TRNAMT>
+                    <FITID>956326460</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226D6</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>9.59</TRNAMT>
+                    <FITID>1695720111</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226E5</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>6.00</TRNAMT>
+                    <FITID>584750945</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226E8</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>7.99</TRNAMT>
+                    <FITID>2311585434</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226EE</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>39.52</TRNAMT>
+                    <FITID>2751630576</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226EV</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>40.89</TRNAMT>
+                    <FITID>3279957899</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226F9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>87.95</TRNAMT>
+                    <FITID>4014860166</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226FL</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>4.10</TRNAMT>
+                    <FITID>1784460676</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226HZ</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>36.00</TRNAMT>
+                    <FITID>2637953772</FITID>
+                    <NAME>PAYPAL DES:INST XFER ID:4QV226L2</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>95.40</TRNAMT>
+                    <FITID>3783810716</FITID>
+                    <NAME>radio shack</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>39.41</TRNAMT>
+                    <FITID>678387526</FITID>
+                    <NAME>radio shack</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>27.36</TRNAMT>
+                    <FITID>4203746208</FITID>
+                    <NAME>radio shack</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>106.26</TRNAMT>
+                    <FITID>869836477</FITID>
+                    <NAME>RadioShack</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>65.24</TRNAMT>
+                    <FITID>4251503325</FITID>
+                    <NAME>RadioShack</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>214</TRNAMT>
+                    <FITID>4207642279</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>432.58</TRNAMT>
+                    <FITID>1181322331</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>334.08</TRNAMT>
+                    <FITID>2083112783</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>301.09</TRNAMT>
+                    <FITID>3175123792</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>294.72</TRNAMT>
+                    <FITID>271147972</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>169.38</TRNAMT>
+                    <FITID>1188466482</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>150.00</TRNAMT>
+                    <FITID>3249329219</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>150.00</TRNAMT>
+                    <FITID>2708168102</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>130.35</TRNAMT>
+                    <FITID>2886641412</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>129.53</TRNAMT>
+                    <FITID>3324878983</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>127.55</TRNAMT>
+                    <FITID>1429838434</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>103.41</TRNAMT>
+                    <FITID>3922267432</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>99.66</TRNAMT>
+                    <FITID>634412109</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>88.03</TRNAMT>
+                    <FITID>2628575878</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>78.95</TRNAMT>
+                    <FITID>436835315</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>18.35</TRNAMT>
+                    <FITID>3545901150</FITID>
+                    <NAME>Verizon</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.95</TRNAMT>
+                    <FITID>865797036</FITID>
+                    <NAME>XO WEB SITE HOSTING 8885756398 C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.95</TRNAMT>
+                    <FITID>1634396363</FITID>
+                    <NAME>XO WEB SITE HOSTING 8885756398 C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.95</TRNAMT>
+                    <FITID>376297565</FITID>
+                    <NAME>XO WEB SITE HOSTING 8885756398 C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>19.95</TRNAMT>
+                    <FITID>2405730791</FITID>
+                    <NAME>XO WEB SITE HOSTING 8885756398 C</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>14.95</TRNAMT>
+                    <FITID>1034061218</FITID>
+                    <NAME>DOMAIN/HOSTING SRVCS 482500 AZ 2</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>6.95</TRNAMT>
+                    <FITID>1397296421</FITID>
+                    <NAME>DOMAINS/HOSTING SRVCS482500 AZ 2</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>642.04</TRNAMT>
+                    <FITID>934992204</FITID>
+                    <NAME>Amazon.com</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <TRNAMT>250.00</TRNAMT>
+                    <FITID>2559375823</FITID>
+                    <NAME>Amazon.com</NAME>
+                </STMTTRN>
+            </BANKTRANLIST>
+            
+            <LEDGERBAL>
+                <BALAMT>0</BALAMT>
+                <DTASOF>20131011</DTASOF>
+            </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX> 

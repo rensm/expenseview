@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Only the settings with values not equal to defaults are in this file. If you want to see the
+full list of available settings, check the amstock_settings.xml file in the amstock folder. -->
+<settings>
+  <margins>5</margins>
+  <max_series>100</max_series>
+  <equal_spacing>false</equal_spacing>
+  <text_size>10</text_size>
+
+  <header>
+    <enabled>false</enabled>
+  </header>
+
+  <number_format>
+    <letters>
+      <letter number="1000">K</letter>
+      <letter number="1000000">M</letter>
+      <letter number="1000000000">B</letter>
+    </letters>
+    <decimal_separator>.</decimal_separator>
+    <digits_after_decimal>
+      <data>###!Digits_After_Decimal###!</data>
+    </digits_after_decimal>
+  </number_format>
+
+  <date_formats>
+    <first_week_day>###!First_Week_Day###!</first_week_day>
+  </date_formats>
+
+  <data_sets>
+    <data_set did="0">
+      <title>Income</title>
+      <short>Income</short>
+      <description>All income that has been recoreded in the system.</description>
+      <color>#99FF00</color>
+      <csv>
+        <reverse>true</reverse>
+        <separator>,</separator>
+        <date_format>YYYY-MM-DD</date_format>
+        <decimal_separator>.</decimal_separator>
+        <columns>
+          <column>date</column>
+          <column>close</column>
+        </columns>
+        <data>###!CSV_Data###!</data>
+      </csv>
+    </data_set>
+  </data_sets>
+
+  <charts>
+    <chart cid="0">
+      <bg_color>f5f5f5,ffffff</bg_color>
+      <border_color>#CCCCCC</border_color>
+      <border_alpha>100</border_alpha>
+
+      <grid>
+        <x>
+          <dashed>true</dashed>
+        </x>
+
+        <y_left>
+          <color>cccccc</color>
+          <alpha>100</alpha>
+          <dashed>true</dashed>
+        </y_left>
+      </grid>
+
+      <values>
+        <y_left>
+          <enabled>true</enabled>
+        </y_left>
+      </values>
+
+      <legend>
+        <graph_on_off>true</graph_on_off>
+        <fade_others_to>10</fade_others_to>
+        <show_date>true</show_date>
+      </legend>
+
+      <graphs>
+        <graph gid="0">
+          <axis>left</axis>
+          <type>column</type>
+          <data_sources>
+            <close>close</close>
+          </data_sources>
+          <fill_alpha>65</fill_alpha>
+          <width>10</width>
+          <legend>
+            <date key="true" title="true"><![CDATA[{close}]]></date>
+            <period key="true" title="true"><![CDATA[{close}]]></period>
+          </legend>
+        </graph>
+
+      </graphs>
+    </chart>
+  </charts>
+
+
+
+  <period_selector>
+    <button>
+      <bg_color_hover>b81d1b</bg_color_hover>
+      <bg_color_selected>b81d1b</bg_color_selected>
+      <text_color_hover>ffffff</text_color_hover>
+      <text_color_selected>ffffff</text_color_selected>
+    </button>
+
+    <periods>
+      <period type="MM" count="6">6M</period>
+      <period selected="true" type="YYYY" count="1">1Y</period>
+      <period type="MAX">MAX</period>
+    </periods>
+
+    <periods_title>Zoom:</periods_title>
+    <custom_period_title>Custom date range:</custom_period_title>
+  </period_selector>
+
+  <header>
+    <enabled></enabled>
+    <text><![CDATA[<b>{title}</b> ({short}) {description}]]></text>
+    <text_size>12</text_size>
+  </header>
+
+  <plot_area>
+    <border_color>cccccc</border_color>
+  </plot_area>
+
+  <scroller>
+    <enabled>true</enabled>
+    <height>50</height>
+    <graph_data_source>close</graph_data_source>
+    <bg_color>f5f5f5,ffffff</bg_color>
+    <resize_button_style>dragger</resize_button_style>
+  </scroller>
+
+</settings>

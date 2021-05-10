@@ -1,0 +1,2776 @@
+
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+	<SIGNONMSGSRSV1>
+		<SONRS>
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+			<DTSERVER>20140101175029[-5:EST]
+			<LANGUAGE>ENG
+			
+			
+		</SONRS>
+	</SIGNONMSGSRSV1>
+	<BANKMSGSRSV1>
+		<STMTTRNRS>
+			<TRNUID>0
+			<STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+			</STATUS>
+	
+			<STMTRS>
+				<CURDEF>USD
+	
+					<BANKACCTFROM>
+						
+							<BANKID>211391825
+						
+						
+							<ACCTID>5069306S5
+						
+						
+							<ACCTTYPE>CHECKING
+						
+					</BANKACCTFROM>
+	
+				<BANKTRANLIST>
+					<DTSTART>20130101000000[-5:EST]
+					<DTEND>20131231000000[-5:EST]
+	
+					
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131231000000[-5:EST]
+							<TRNAMT>-6500.00
+							<FITID>1329
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131231000000[-5:EST]
+							<TRNAMT>500.00
+							<FITID>1328
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131230000000[-5:EST]
+							<TRNAMT>-184.93
+							<FITID>1327
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>12/30/2013 07:29 #293221.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131230000000[-5:EST]
+							<TRNAMT>6970.00
+							<FITID>1326
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP131231
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131230000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1325
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16629145. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20131228000000[-5:EST]
+							<TRNAMT>200.00
+							<FITID>1324
+							
+							<NAME>TRANSFER FROM MBR 5189129 ACCT	
+
+
+                                                        <MEMO>12/28/2013 08:00 #273613.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131227000000[-5:EST]
+							<TRNAMT>-20.00
+							<FITID>13231024
+							<CHECKNUM>1024
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131224000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>1322
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1224 1101 571245 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131224000000[-5:EST]
+							<TRNAMT>-105.77
+							<FITID>1321
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>KOHL'S DEPT STRSCHG PYMT 131221
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131223000000[-5:EST]
+							<TRNAMT>-70.00
+							<FITID>13207022
+							<CHECKNUM>7022
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131217000000[-5:EST]
+							<TRNAMT>-39.00
+							<FITID>13191023
+							<CHECKNUM>1023
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131216000000[-5:EST]
+							<TRNAMT>-169.18
+							<FITID>1318
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.121613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131213000000[-5:EST]
+							<TRNAMT>-51.00
+							<FITID>13171022
+							<CHECKNUM>1022
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131212000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>1316
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1212 1939 484602 11201 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131210000000[-5:EST]
+							<TRNAMT>-102.50
+							<FITID>1315
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1210 1523 930759 700 W. BRANDON BLVD. BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131206000000[-5:EST]
+							<TRNAMT>-997.00
+							<FITID>13141021
+							<CHECKNUM>1021
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131205000000[-5:EST]
+							<TRNAMT>-26.00
+							<FITID>13131020
+							<CHECKNUM>1020
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131205000000[-5:EST]
+							<TRNAMT>-62.18
+							<FITID>1312
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 120513
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131205000000[-5:EST]
+							<TRNAMT>1500.00
+							<FITID>1311
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>Apex Clearing ACH Dec 05
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131204000000[-5:EST]
+							<TRNAMT>-116.72
+							<FITID>1310
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>#DI3305DIWEST16577175. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131202000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1309
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635215706268721766
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131129000000[-5:EST]
+							<TRNAMT>-5000.00
+							<FITID>1308
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131127000000[-5:EST]
+							<TRNAMT>5689.47
+							<FITID>1307
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP131129
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20131125000000[-5:EST]
+							<TRNAMT>-50.00
+							<FITID>13061019
+							<CHECKNUM>1019
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131118000000[-5:EST]
+							<TRNAMT>-200.00
+							<FITID>1305
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1118 1952 681476 1009 PROVIDENCE RD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20131118000000[-5:EST]
+							<TRNAMT>0.06
+							<FITID>1304
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>11/18/2013 19:36 #655023.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20131118000000[-5:EST]
+							<TRNAMT>3.00
+							<FITID>1303
+							
+							<NAME>TRANSFER FROM ACCT 1	
+
+
+                                                        <MEMO>11/18/2013 19:35 #655011.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20131118000000[-5:EST]
+							<TRNAMT>228.00
+							<FITID>1302
+							
+							<NAME>TRANSFER FROM MBR 5189129 ACCT	
+
+
+                                                        <MEMO>11/18/2013 19:33 #654976.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131112000000[-5:EST]
+							<TRNAMT>-19.00
+							<FITID>1301
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>KOHL'S DEPT STRSCHG PYMT 131107
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131105000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1300
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 131104
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131105000000[-5:EST]
+							<TRNAMT>-60.99
+							<FITID>1299
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 110513
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131101000000[-5:EST]
+							<TRNAMT>-4500.00
+							<FITID>1298
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131030000000[-5:EST]
+							<TRNAMT>5689.46
+							<FITID>1297
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP131031
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131030000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1296
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16494118. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131028000000[-5:EST]
+							<TRNAMT>-701.00
+							<FITID>1295
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 131025
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131026000000[-5:EST]
+							<TRNAMT>-203.00
+							<FITID>1294
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 1026 1604 295525 *BRANDON BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20131025000000[-5:EST]
+							<TRNAMT>-208.67
+							<FITID>1293
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>10/25/2013 11:15 #260167.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20131025000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1292
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>Apex Clearing ACH Oct 25
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131016000000[-5:EST]
+							<TRNAMT>-777.12
+							<FITID>1291
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 131015
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20131015000000[-5:EST]
+							<TRNAMT>500.17
+							<FITID>1290
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>10/15/2013 07:36 #101166.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131009000000[-5:EST]
+							<TRNAMT>-54.77
+							<FITID>1289
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>KOHL'S DEPT STRSCHG PYMT 131008
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131004000000[-5:EST]
+							<TRNAMT>-3500.00
+							<FITID>1288
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131004000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1287
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 131003
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20131004000000[-5:EST]
+							<TRNAMT>-67.42
+							<FITID>1286
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 100413
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20131003000000[-5:EST]
+							<TRNAMT>5000.00
+							<FITID>1285
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>10/03/2013 07:50 #913268.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130930000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1284
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16430390. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130928000000[-5:EST]
+							<TRNAMT>-200.00
+							<FITID>1283
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0928 1121 761732 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130928000000[-5:EST]
+							<TRNAMT>-5500.00
+							<FITID>1282
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635159188970085399
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130927000000[-5:EST]
+							<TRNAMT>5689.47
+							<FITID>1281
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130930
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130925000000[-5:EST]
+							<TRNAMT>-1144.24
+							<FITID>1280
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130924
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130924000000[-5:EST]
+							<TRNAMT>1500.00
+							<FITID>1279
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130916000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1278
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.091613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130913000000[-5:EST]
+							<TRNAMT>-293.81
+							<FITID>1277
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130912
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130910000000[-5:EST]
+							<TRNAMT>-101.00
+							<FITID>12761017
+							<CHECKNUM>1017
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130905000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>12751018
+							<CHECKNUM>1018
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130905000000[-5:EST]
+							<TRNAMT>-3600.00
+							<FITID>1274
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130905000000[-5:EST]
+							<TRNAMT>-37.76
+							<FITID>1273
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 090513
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130904000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1272
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130903
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130904000000[-5:EST]
+							<TRNAMT>5000.58
+							<FITID>1271
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>09/03/2013 22:54 #444664.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130831000000[-5:EST]
+							<TRNAMT>-5000.00
+							<FITID>1270
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635135025804237658
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130830000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1269
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16364157. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130829000000[-5:EST]
+							<TRNAMT>-563.12
+							<FITID>1268
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130828
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130829000000[-5:EST]
+							<TRNAMT>5689.47
+							<FITID>1267
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130830
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130828000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>1266
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0828 1839 719452 11201 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130828000000[-5:EST]
+							<TRNAMT>-1000.00
+							<FITID>1265
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITIBANK NA CITIBANK
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130827000000[-5:EST]
+							<TRNAMT>1395.70
+							<FITID>1264
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>08/27/2013 07:51 #316412.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130816000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1263
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.081613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130813000000[-5:EST]
+							<TRNAMT>-5000.00
+							<FITID>1262
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130812000000[-5:EST]
+							<TRNAMT>-174.31
+							<FITID>1261
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130811
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130812000000[-5:EST]
+							<TRNAMT>5500.00
+							<FITID>1260
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635117902149998409
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130808000000[-5:EST]
+							<TRNAMT>-125.00
+							<FITID>12591079
+							<CHECKNUM>1079
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130806000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1258
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130805
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130806000000[-5:EST]
+							<TRNAMT>-49.15
+							<FITID>1257
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 080613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130805000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1256
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635111968028332307
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130730000000[-5:EST]
+							<TRNAMT>-4884.72
+							<FITID>1255
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635107701850240293
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130730000000[-5:EST]
+							<TRNAMT>-176.28
+							<FITID>1254
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635107700151870812
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130730000000[-5:EST]
+							<TRNAMT>-500.00
+							<FITID>1253
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0730 0742 853481 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130730000000[-5:EST]
+							<TRNAMT>5689.47
+							<FITID>1252
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130731
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130730000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1251
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16297361. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130727000000[-5:EST]
+							<TRNAMT>-300.00
+							<FITID>1250
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0727 1104 216040 1009 PROVIDENCE RD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130724000000[-5:EST]
+							<TRNAMT>-534.05
+							<FITID>1249
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130723
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130723000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1248
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>07/23/2013 12:47 #783362.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130717000000[-5:EST]
+							<TRNAMT>-390.54
+							<FITID>1247
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130716
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130716000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1246
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.071613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130709000000[-5:EST]
+							<TRNAMT>-300.00
+							<FITID>1245
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0709 1832 158564 11201 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130708000000[-5:EST]
+							<TRNAMT>-79.25
+							<FITID>1244
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 070813
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130705000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1243
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130703
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130701000000[-5:EST]
+							<TRNAMT>-4000.00
+							<FITID>1242
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>MOBILE BANKING TRANSFER:635082326918750370
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130630000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1241
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16235111. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130630000000[-5:EST]
+							<TRNAMT>-500.00
+							<FITID>1240
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0629 1915 899194 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130627000000[-5:EST]
+							<TRNAMT>-596.73
+							<FITID>1239
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130626
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130627000000[-5:EST]
+							<TRNAMT>5689.46
+							<FITID>1238
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130628
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130621000000[-5:EST]
+							<TRNAMT>2000.00
+							<FITID>1237
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>AMERICANEXPRESS TRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130621000000[-5:EST]
+							<TRNAMT>-500.00
+							<FITID>1236
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0620 2112 796972 1009 PROVIDENCE RD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130619000000[-5:EST]
+							<TRNAMT>500.00
+							<FITID>1235
+							
+							<NAME>TRANSFER FROM MBR 5189129 ACCT	
+
+
+                                                        <MEMO>06/19/2013 19:46 #271285.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130618000000[-5:EST]
+							<TRNAMT>-402.95
+							<FITID>1234
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0618 1215 224317 11110 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130618000000[-5:EST]
+							<TRNAMT>-105.56
+							<FITID>1233
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>POS 0618 1213 223874 WAL Wal-Mart Super 42282BRANDON (WESTFL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130617000000[-5:EST]
+							<TRNAMT>-1000.00
+							<FITID>1232
+							
+							<NAME>TRANSFER TO MBR 5189129 ACCT 5	
+
+
+                                                        <MEMO>06/17/2013 19:20 #240902.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130617000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1231
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.061613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130614000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>12301016
+							<CHECKNUM>1016
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130612000000[-5:EST]
+							<TRNAMT>-555.43
+							<FITID>1229
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130611
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130611000000[-5:EST]
+							<TRNAMT>2049.28
+							<FITID>1228
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>HESARAGHATTA HARTRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130605000000[-5:EST]
+							<TRNAMT>-60.16
+							<FITID>1227
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 060513
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130604000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1226
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130603
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130604000000[-5:EST]
+							<TRNAMT>-5000.00
+							<FITID>1225
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ICICI BANK LIMIEDI PAYMTS
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130603000000[-5:EST]
+							<TRNAMT>-51.00
+							<FITID>12241067
+							<CHECKNUM>1067
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130530000000[-5:EST]
+							<TRNAMT>5689.48
+							<FITID>1223
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130531
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130530000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1222
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16167461. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130528000000[-5:EST]
+							<TRNAMT>-6449.59
+							<FITID>1221
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130527
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130524000000[-5:EST]
+							<TRNAMT>7000.00
+							<FITID>1220
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>HESARAGHATTA HARTRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130517000000[-5:EST]
+							<TRNAMT>-425.40
+							<FITID>1219
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130516
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130516000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1218
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.051613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130513000000[-5:EST]
+							<TRNAMT>-203.00
+							<FITID>1217
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0513 1333 133268 *SABAL PARK TAMPA FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130513000000[-5:EST]
+							<TRNAMT>-500.00
+							<FITID>1216
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0512 1518 948660 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130513000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1215
+							
+							<NAME>TRANSFER FROM MBR 5189129 ACCT	
+
+
+                                                        <MEMO>05/12/2013 10:36 #672109.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130511000000[-5:EST]
+							<TRNAMT>-500.00
+							<FITID>1214
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0511 1431 695064 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130511000000[-5:EST]
+							<TRNAMT>-500.00
+							<FITID>1213
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0511 1429 694699 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130511000000[-5:EST]
+							<TRNAMT>-900.00
+							<FITID>1212
+							
+							<NAME>TRANSFER TO MBR 5189129 ACCT 5	
+
+
+                                                        <MEMO>05/11/2013 13:59 #665459.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130511000000[-5:EST]
+							<TRNAMT>1506.43
+							<FITID>1211
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>05/11/2013 08:05 #660866.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130510000000[-5:EST]
+							<TRNAMT>-50.00
+							<FITID>12101015
+							<CHECKNUM>1015
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130510000000[-5:EST]
+							<TRNAMT>-5000.00
+							<FITID>1209
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>HESARAGHATTA HARTRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130509000000[-5:EST]
+							<TRNAMT>5000.00
+							<FITID>1208
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>05/09/2013 07:45 #626606.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130509000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1207
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>05/09/2013 07:44 #626593.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130507000000[-5:EST]
+							<TRNAMT>-78.52
+							<FITID>1206
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 050713
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130506000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1205
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130503
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130506000000[-5:EST]
+							<TRNAMT>-202.95
+							<FITID>1204
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0505 1030 284434 11110 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130503000000[-5:EST]
+							<TRNAMT>-200.00
+							<FITID>1203
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0503 2015 955951 11255 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130503000000[-5:EST]
+							<TRNAMT>-112.36
+							<FITID>1202
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>05/03/2013 16:30 549946.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130430000000[-5:EST]
+							<TRNAMT>-20.00
+							<FITID>12011014
+							<CHECKNUM>1014
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130430000000[-5:EST]
+							<TRNAMT>-50.00
+							<FITID>12017021
+							<CHECKNUM>7021
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130430000000[-5:EST]
+							<TRNAMT>-5000.00
+							<FITID>1200
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Apex Clearing ACH Apr 30
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130430000000[-5:EST]
+							<TRNAMT>-8.00
+							<FITID>11991112
+							<CHECKNUM>1112
+							<NAME>W/D DRFT	
+
+
+                                                        <MEMO>IntrStatStudio BOCChkCon 043013 130430 20671
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130430000000[-5:EST]
+							<TRNAMT>-1017.90
+							<FITID>1198
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130429
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130430000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1197
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16104448. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130429000000[-5:EST]
+							<TRNAMT>1374.00
+							<FITID>1196
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>US TREASURY 312 TAX REF 043013
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130429000000[-5:EST]
+							<TRNAMT>5689.47
+							<FITID>1195
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130430
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130426000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1194
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>04/26/2013 16:12 #426008.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130426000000[-5:EST]
+							<TRNAMT>-70.00
+							<FITID>11931013
+							<CHECKNUM>1013
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130425000000[-5:EST]
+							<TRNAMT>-202.00
+							<FITID>1192
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0425 2011 115415 10967 CAUSEWAY BLV BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130418000000[-5:EST]
+							<TRNAMT>-25.00
+							<FITID>11911012
+							<CHECKNUM>1012
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130416000000[-5:EST]
+							<TRNAMT>-443.04
+							<FITID>1190
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130415
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130416000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1189
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.041613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130413000000[-5:EST]
+							<TRNAMT>-120.00
+							<FITID>1188
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0413 0944 385784 1009 PROVIDENCE RD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130413000000[-5:EST]
+							<TRNAMT>30.00
+							<FITID>1187
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>ATM 0413 0943 385653 1009 PROVIDENCE RD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130408000000[-5:EST]
+							<TRNAMT>-25.00
+							<FITID>11861111
+							<CHECKNUM>1111
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130405000000[-5:EST]
+							<TRNAMT>-5000.00
+							<FITID>1185
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Apex Clearing ACH Apr 05
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130405000000[-5:EST]
+							<TRNAMT>-90.37
+							<FITID>1184
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 040513
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130405000000[-5:EST]
+							<TRNAMT>6000.00
+							<FITID>1183
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>04/04/2013 22:25 #96409.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130404000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1182
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130403
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130402000000[-5:EST]
+							<TRNAMT>-4500.00
+							<FITID>1181
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>MOBILE PC BRANCH TRANSFER:635004524729751250
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130330000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1180
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST16041472. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130329000000[-5:EST]
+							<TRNAMT>-10.00
+							<FITID>11791011
+							<CHECKNUM>1011
+							<NAME>W/D DRFT	
+
+
+                                                        <MEMO>LIFETOUCH SCHOOL 9528265500 032913 130329 PICTURE PAYMENT
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130329000000[-5:EST]
+							<TRNAMT>-112.36
+							<FITID>1178
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>03/29/2013 07:02 #976444.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130328000000[-5:EST]
+							<TRNAMT>-1154.46
+							<FITID>1177
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130327
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130328000000[-5:EST]
+							<TRNAMT>5689.47
+							<FITID>1176
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130329
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130327000000[-5:EST]
+							<TRNAMT>500.00
+							<FITID>1175
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>03/27/2013 08:30 #939162.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130318000000[-5:EST]
+							<TRNAMT>-30.00
+							<FITID>11747020
+							<CHECKNUM>7020
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130318000000[-5:EST]
+							<TRNAMT>-405.22
+							<FITID>1173
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130316
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130318000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1172
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.031613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130316000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1171
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>03/15/2013 23:06 #789991.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130312000000[-5:EST]
+							<TRNAMT>-15.00
+							<FITID>11707019
+							<CHECKNUM>7019
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130306000000[-5:EST]
+							<TRNAMT>-93.67
+							<FITID>1169
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 030613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130305000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1168
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130304
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130304000000[-5:EST]
+							<TRNAMT>-140.00
+							<FITID>1167
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0303 0932 678138 11255 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130304000000[-5:EST]
+							<TRNAMT>1500.00
+							<FITID>1166
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>03/03/2013 08:21 #564488.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130301000000[-5:EST]
+							<TRNAMT>-112.36
+							<FITID>1165
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>03/01/2013 10:11 534124.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130228000000[-5:EST]
+							<TRNAMT>60.00
+							<FITID>1164
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>PC DEPOSIT: REF # 5266945
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130228000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1163
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>#DI3305DIWEST15975015. Scheduled Transfer
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130228000000[-5:EST]
+							<TRNAMT>-5500.00
+							<FITID>1162
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>02/27/2013 21:29 #501020.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130227000000[-5:EST]
+							<TRNAMT>-1383.19
+							<FITID>1161
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130226
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130227000000[-5:EST]
+							<TRNAMT>5689.46
+							<FITID>1160
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130228
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130227000000[-5:EST]
+							<TRNAMT>1500.00
+							<FITID>1159
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>MOBILE PC BRANCH TRANSFER:634975286266112500
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130220000000[-5:EST]
+							<TRNAMT>405.56
+							<FITID>1158
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>02/20/2013 07:25 #380245.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130219000000[-5:EST]
+							<TRNAMT>-40.00
+							<FITID>11577018
+							<CHECKNUM>7018
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130219000000[-5:EST]
+							<TRNAMT>-60.00
+							<FITID>11577017
+							<CHECKNUM>7017
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130219000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1156
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.021613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130215000000[-5:EST]
+							<TRNAMT>-916.91
+							<FITID>1155
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130214
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130205000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1154
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130204
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130205000000[-5:EST]
+							<TRNAMT>-92.39
+							<FITID>1153
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 020513
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130204000000[-5:EST]
+							<TRNAMT>-100.00
+							<FITID>1152
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0204 1849 325834 11201 CAUSEWAY BLVD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130204000000[-5:EST]
+							<TRNAMT>-3000.00
+							<FITID>1151
+							
+							<NAME>TRANSFER TO ACCT 2	
+
+
+                                                        <MEMO>02/03/2013 15:15 #126249.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130131000000[-5:EST]
+							<TRNAMT>-250.33
+							<FITID>1150
+							
+							<NAME>TRANSFER TO LOAN 142	
+
+
+                                                        <MEMO>01/31/2013 19:35 81950.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130130000000[-5:EST]
+							<TRNAMT>-120.00
+							<FITID>1149
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0130 1301 197912 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130130000000[-5:EST]
+							<TRNAMT>2.17
+							<FITID>1148
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>ATM 0130 1300 197738 1009 PROVIDENCE ROAD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>XFER
+							<DTPOSTED>20130130000000[-5:EST]
+							<TRNAMT>-112.36
+							<FITID>1147
+							
+							<NAME>TRANSFER TO LOAN 141	
+
+
+                                                        <MEMO>MOBILE PC BRANCH TRANSFER:634951301491345000
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130130000000[-5:EST]
+							<TRNAMT>5689.47
+							<FITID>1146
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>POLAIRS SOFTWAREDIRECT DEP130131
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130129000000[-5:EST]
+							<TRNAMT>-51.00
+							<FITID>11451009
+							<CHECKNUM>1009
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130129000000[-5:EST]
+							<TRNAMT>-1155.94
+							<FITID>1144
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>CITI CARD ONLINEPAYMENT 130128
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130128000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1143
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>MOBILE PC BRANCH TRANSFER:634949540430095000
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130117000000[-5:EST]
+							<TRNAMT>-51.00
+							<FITID>11421008
+							<CHECKNUM>1008
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130116000000[-5:EST]
+							<TRNAMT>-142.10
+							<FITID>1141
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMICA MUTUAL INS. PREM.011613
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130115000000[-5:EST]
+							<TRNAMT>-60.00
+							<FITID>11407015
+							<CHECKNUM>7015
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130115000000[-5:EST]
+							<TRNAMT>-13000.00
+							<FITID>1139
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>HESARAGHATTA HARTRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130115000000[-5:EST]
+							<TRNAMT>-466.10
+							<FITID>1138
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMEX EPayment ACH PMT 130114
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CHECK
+							<DTPOSTED>20130114000000[-5:EST]
+							<TRNAMT>-40.00
+							<FITID>11377016
+							<CHECKNUM>7016
+							<NAME>SH DRAFT	
+
+
+                                                        
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130114000000[-5:EST]
+							<TRNAMT>3.00
+							<FITID>1136
+							
+							<NAME>TRANSFER FROM ACCT 1	
+
+
+                                                        <MEMO>01/12/2013 20:13 #806804.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130111000000[-5:EST]
+							<TRNAMT>-1000.00
+							<FITID>1135
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>HESARAGHATTA HARTRANSFER
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130110000000[-5:EST]
+							<TRNAMT>13173.83
+							<FITID>1134
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>CAPITAL1 TRANSFER 130110
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130108000000[-5:EST]
+							<TRNAMT>-0.90
+							<FITID>1133
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICAN EXPRESSAXP TEST
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130108000000[-5:EST]
+							<TRNAMT>-0.43
+							<FITID>1132
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>AMERICAN EXPRESSAXP TEST
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130108000000[-5:EST]
+							<TRNAMT>-74.79
+							<FITID>1131
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>TAMPA ELECTRIC E PAY 010813
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130108000000[-5:EST]
+							<TRNAMT>0.90
+							<FITID>1130
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>AMERICAN EXPRESSAXP TEST
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEP
+							<DTPOSTED>20130108000000[-5:EST]
+							<TRNAMT>0.43
+							<FITID>1129
+							
+							<NAME>DEPOSIT	
+
+
+                                                        <MEMO>AMERICAN EXPRESSAXP TEST
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130107000000[-5:EST]
+							<TRNAMT>1000.00
+							<FITID>1128
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>01/06/2013 21:29 #715943.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130107000000[-5:EST]
+							<TRNAMT>500.00
+							<FITID>1127
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>01/06/2013 20:56 #715656.
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130104000000[-5:EST]
+							<TRNAMT>-200.00
+							<FITID>1126
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>ATM 0104 0924 214742 1009 PROVIDENCE RD BRANDON FL
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>DEBIT
+							<DTPOSTED>20130104000000[-5:EST]
+							<TRNAMT>-1036.00
+							<FITID>1125
+							
+							<NAME>WITHDRAW	
+
+
+                                                        <MEMO>Park at DorchestRent 130103
+
+						</STMTTRN>
+						
+						<STMTTRN>
+							<TRNTYPE>CREDIT
+							<DTPOSTED>20130103000000[-5:EST]
+							<TRNAMT>1500.00
+							<FITID>1124
+							
+							<NAME>TRANSFER FROM ACCT 2	
+
+
+                                                        <MEMO>01/03/2013 19:24 #673572.
+
+						</STMTTRN>
+						
+	
+				</BANKTRANLIST>
+	
+				<LEDGERBAL>
+					<BALAMT>900.89
+					<DTASOF>20140101175029[-5:EST]
+				</LEDGERBAL>
+	
+				<AVAILBAL>
+					<BALAMT>900.89
+					<DTASOF>20140101175029[-5:EST]
+				</AVAILBAL>
+	
+			</STMTRS>
+		</STMTTRNRS>
+	</BANKMSGSRSV1>
+		
+	
+</OFX>
+

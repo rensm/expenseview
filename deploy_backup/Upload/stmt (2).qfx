@@ -1,0 +1,2069 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20140829211739
+            <LANGUAGE>ENG
+            <DTACCTUP>20140829211739.000[0:GMT]
+            <FI>
+                <ORG>Bank of America
+                <FID>5959
+            </FI>
+            <INTU.BID>6526
+            <INTU.USERID>oxu4379
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <CCSTMTRS>
+                <CURDEF>USD
+                <CCACCTFROM>
+                    <ACCTID>5474151759552232
+                </CCACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20140103120000
+                    <DTEND>20140826120000
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140826120000
+                        <DTUSER>20140824120000
+                        <TRNAMT>-65.76
+                        <FITID>05460424237440002110366-65.7601408260140824CHEVRON 0208066
+                        <NAME>CHEVRON 0208066
+			<MEMO>ROSEVILLE CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140825120000
+                        <DTUSER>20140825120000
+                        <TRNAMT>-130.00
+                        <FITID>55432864237000495630176-130.0001408250140825METROPCS
+                        <NAME>METROPCS
+			<MEMO>888-863-8768 TX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140825120000
+                        <DTUSER>20140823120000
+                        <TRNAMT>-9.70
+                        <FITID>55432864235000807635774-9.7001408250140823STARBUCKS #11167 UNION
+                        <NAME>STARBUCKS #11167 UNION
+			<MEMO>Union City CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140825120000
+                        <DTUSER>20140822120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864234004064083651-7.9901408250140822IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140825120000
+                        <DTUSER>20140822120000
+                        <TRNAMT>-19.60
+                        <FITID>55310204235207088503649-19.6001408250140822CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140822120000
+                        <DTUSER>20140821120000
+                        <TRNAMT>-63.88
+                        <FITID>25483674233001605284597-63.880140822014082176
+                        <NAME>76
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140822120000
+                        <DTUSER>20140820120000
+                        <TRNAMT>-5.25
+                        <FITID>05410194233255195015709-5.2501408220140820SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140820120000
+                        <DTUSER>20140819120000
+                        <TRNAMT>-9.57
+                        <FITID>05436844232600082232100-9.5701408200140819WALGREENS #3671
+                        <NAME>WALGREENS #3671
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140820120000
+                        <DTUSER>20140818120000
+                        <TRNAMT>-1150.00
+                        <FITID>15423994232001814693635-1150.0001408200140818LUFTHANSA 22074736948150
+                        <NAME>LUFTHANSA 22074736948150
+			<MEMO>ALEXANDRIA VA NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140820120000
+                        <DTUSER>20140818120000
+                        <TRNAMT>-99.35
+                        <FITID>15423994232001814693627-99.3501408200140818LUFTHANSA 22074736948140
+                        <NAME>LUFTHANSA 22074736948140
+			<MEMO>ALEXANDRIA VA NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140820120000
+                        <DTUSER>20140818120000
+                        <TRNAMT>-1050.28
+                        <FITID>15423994232001814693619-1050.2801408200140818LUFTHANSA 22074736948130
+                        <NAME>LUFTHANSA 22074736948130
+			<MEMO>ALEXANDRIA VA NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140820120000
+                        <DTUSER>20140818120000
+                        <TRNAMT>-1150.00
+                        <FITID>15423994232001814693601-1150.0001408200140818LUFTHANSA 22074736948120
+                        <NAME>LUFTHANSA 22074736948120
+			<MEMO>ALEXANDRIA VA NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140820120000
+                        <DTUSER>20140818120000
+                        <TRNAMT>-34.90
+                        <FITID>55417344231872312996370-34.9001408200140818AGNT FEE  89006240588650
+                        <NAME>AGNT FEE  89006240588650
+			<MEMO>TRAVEL FOR LE CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140817120000
+                        <TRNAMT>-38.66
+                        <FITID>55432864229000143632905-38.6601408180140817BUBBA GUMP - MONTEREY
+                        <NAME>BUBBA GUMP - MONTEREY
+			<MEMO>MONTEREY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140816120000
+                        <TRNAMT>-9.90
+                        <FITID>55432864228000841781674-9.9001408180140816STARBUCKS #11167 UNION
+                        <NAME>STARBUCKS #11167 UNION
+			<MEMO>Union City CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140816120000
+                        <TRNAMT>-15.24
+                        <FITID>55263524229207888701654-15.2401408180140816RUBIO'S #186
+                        <NAME>RUBIO'S #186
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140816120000
+                        <TRNAMT>-104.85
+                        <FITID>55460294229838000195911-104.8501408180140816MONTEREY BAY AQUARIUM
+                        <NAME>MONTEREY BAY AQUARIUM
+			<MEMO>MONTEREY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140816120000
+                        <TRNAMT>-14.55
+                        <FITID>55480774229206399001263-14.5501408180140816GHIRARDELLI#104-CNNQ27
+                        <NAME>GHIRARDELLI#104-CNNQ27
+			<MEMO>MONTEREY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140815120000
+                        <TRNAMT>-9.06
+                        <FITID>05410194228255205567761-9.0601408180140815SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140815120000
+                        <TRNAMT>-29.00
+                        <FITID>55421354229158165251619-29.0001408180140815FAVORITE INDIAN RESTAU
+                        <NAME>FAVORITE INDIAN RESTAU
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140818120000
+                        <DTUSER>20140815120000
+                        <TRNAMT>-304.15
+                        <FITID>55432864227000241082906-304.1501408180140815FARMERS INS BILLING
+                        <NAME>FARMERS INS BILLING
+			<MEMO>866-813-7551 CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140815120000
+                        <DTUSER>20140815120000
+                        <TRNAMT>-72.08
+                        <FITID>55432864227000019412392-72.0801408150140815COMCAST CALIFORNIA
+                        <NAME>COMCAST CALIFORNIA
+			<MEMO>800-COMCAST CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140812120000
+                        <DTUSER>20140811120000
+                        <TRNAMT>-251.84
+                        <FITID>55432864223000489623613-251.8401408120140811COSTCO.COM  *ONLINE
+                        <NAME>COSTCO.COM  *ONLINE
+			<MEMO>800-955-2292 WA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140811120000
+                        <DTUSER>20140810120000
+                        <TRNAMT>-11.98
+                        <FITID>55310204222207692401326-11.9801408110140810BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140811120000
+                        <DTUSER>20140810120000
+                        <TRNAMT>-19.62
+                        <FITID>55310204223207692500167-19.6201408110140810BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140811120000
+                        <DTUSER>20140809120000
+                        <TRNAMT>-51.87
+                        <FITID>25247804222000703299625-51.8701408110140809RAJA SWEETS AND INDIAN
+                        <NAME>RAJA SWEETS AND INDIAN
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140811120000
+                        <DTUSER>20140809120000
+                        <TRNAMT>-12.97
+                        <FITID>55310204222838000068819-12.9701408110140809PANDA EXPRESS #1113
+                        <NAME>PANDA EXPRESS #1113
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140811120000
+                        <DTUSER>20140808120000
+                        <TRNAMT>-39.22
+                        <FITID>25483674220000561319962-39.220140811014080876
+                        <NAME>76
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140808120000
+                        <DTUSER>20140806120000
+                        <TRNAMT>-6.39
+                        <FITID>55431804219207599700800-6.3901408080140806BURGER KING #00975 Q07
+                        <NAME>BURGER KING #00975 Q07
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140807120000
+                        <DTUSER>20140806120000
+                        <TRNAMT>-25.07
+                        <FITID>55310204219207692100279-25.0701408070140806BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140806120000
+                        <DTUSER>20140804120000
+                        <TRNAMT>-5.25
+                        <FITID>05410194217255201734517-5.2501408060140804SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140804120000
+                        <DTUSER>20140803120000
+                        <TRNAMT>-11.27
+                        <FITID>05410194215255028700693-11.2701408040140803SUBWAY        00291419
+                        <NAME>SUBWAY        00291419
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140804120000
+                        <DTUSER>20140803120000
+                        <TRNAMT>200.00
+                        <FITID>21683204320080400050657200.0001408040140803PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140804120000
+                        <DTUSER>20140803120000
+                        <TRNAMT>-9.80
+                        <FITID>55310204215838000000944-9.8001408040140803CHUCK E CHEESE  321
+                        <NAME>CHUCK E CHEESE  321
+			<MEMO>NEWARK CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140804120000
+                        <DTUSER>20140802120000
+                        <TRNAMT>-4.95
+                        <FITID>55432864215000844908501-4.9501408040140802STARBUCKS #11167 UNION
+                        <NAME>STARBUCKS #11167 UNION
+			<MEMO>Union City CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140804120000
+                        <DTUSER>20140802120000
+                        <TRNAMT>-10.00
+                        <FITID>05410194216602240392347-10.0001408040140802CHUCK E CHEESE00003210
+                        <NAME>CHUCK E CHEESE00003210
+			<MEMO>NEWARK CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140804120000
+                        <DTUSER>20140802120000
+                        <TRNAMT>-5.00
+                        <FITID>05410194216602240392370-5.0001408040140802CHUCK E CHEESE00003210
+                        <NAME>CHUCK E CHEESE00003210
+			<MEMO>NEWARK CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140804120000
+                        <DTUSER>20140801120000
+                        <TRNAMT>32.00
+                        <FITID>8545093421598003682270832.0001408040140801EXTRON, INC
+                        <NAME>EXTRON, INC
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140801120000
+                        <DTUSER>20140731120000
+                        <TRNAMT>-47.15
+                        <FITID>25483674212001648787312-47.150140801014073176
+                        <NAME>76
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140729120000
+                        <DTUSER>20140727120000
+                        <TRNAMT>-60.16
+                        <FITID>05460424209440002162213-60.1601407290140727CHEVRON 0096726
+                        <NAME>CHEVRON 0096726
+			<MEMO>WEST SACRAMEN CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>FEE
+                        <DTPOSTED>20140728120000
+                        <DTUSER>20140728120000
+                        <TRNAMT>-1.04
+                        <FITID>85215224207429352898449-1.0401407280140728INTERNATIONAL TRANSACTION
+                        <NAME>INTERNATIONAL TRANSACTION
+			<MEMO>FEE
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140728120000
+                        <DTUSER>20140727120000
+                        <TRNAMT>-19.62
+                        <FITID>55310204209207692100834-19.6201407280140727BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140728120000
+                        <DTUSER>20140726120000
+                        <TRNAMT>-34.51
+                        <FITID>85215224207429352898449-34.5101407280140726SHAANT INFOSYSTEMS INR
+                        <NAME>SHAANT INFOSYSTEMS INR
+			<MEMO>WWW.GIFTSTOIN IND
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140728120000
+                        <DTUSER>20140726120000
+                        <TRNAMT>-85.00
+                        <FITID>55432864207000645411390-85.0001407280140726METROPCS
+                        <NAME>METROPCS
+			<MEMO>888-863-8768 TX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140728120000
+                        <DTUSER>20140725120000
+                        <TRNAMT>-19.60
+                        <FITID>55310204207207088503148-19.6001407280140725CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140728120000
+                        <DTUSER>20140724120000
+                        <TRNAMT>-5.25
+                        <FITID>05410194206255204263376-5.2501407280140724SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140724120000
+                        <DTUSER>20140723120000
+                        <TRNAMT>-1.13
+                        <FITID>25483674204001047683047-1.130140724014072376 10097046
+                        <NAME>76 10097046
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140724120000
+                        <DTUSER>20140723120000
+                        <TRNAMT>-42.74
+                        <FITID>25483674204001047683062-42.740140724014072376 10097046
+                        <NAME>76 10097046
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140723120000
+                        <DTUSER>20140722120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864203004075024170-7.9901407230140722IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140722120000
+                        <DTUSER>20140722120000
+                        <TRNAMT>0.46
+                        <FITID>055874542030000003670800.4601407220140722Restaurant Network Rbt
+                        <NAME>Restaurant Network Rbt
+			<MEMO>EasySavings NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140722120000
+                        <DTUSER>20140722120000
+                        <TRNAMT>500.00
+                        <FITID>20383204320072200050636500.0001407220140722PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140721120000
+                        <DTUSER>20140719120000
+                        <TRNAMT>-11.38
+                        <FITID>05436844201500086279734-11.3801407210140719JAMBA JUICE #617
+                        <NAME>JAMBA JUICE #617
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140721120000
+                        <DTUSER>20140719120000
+                        <TRNAMT>-9.00
+                        <FITID>05460424201640002008922-9.0001407210140719CHEVRON 0371246    Q61
+                        <NAME>CHEVRON 0371246    Q61
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140721120000
+                        <DTUSER>20140718120000
+                        <TRNAMT>-50.00
+                        <FITID>55310204199672008958906-50.0001407210140718FASTRAK CSC
+                        <NAME>FASTRAK CSC
+			<MEMO>04154868655 CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140721120000
+                        <DTUSER>20140718120000
+                        <TRNAMT>-19.60
+                        <FITID>55310204200207088503459-19.6001407210140718CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140717120000
+                        <DTUSER>20140716120000
+                        <TRNAMT>-12.49
+                        <FITID>55434254198200000000050-12.4901407170140716COLDSTONE #1952    Q24
+                        <NAME>COLDSTONE #1952    Q24
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140709120000
+                        <DTUSER>20140707120000
+                        <TRNAMT>-20.06
+                        <FITID>05140484189120002815798-20.0601407090140707UNION CITY VALERO
+                        <NAME>UNION CITY VALERO
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140707120000
+                        <DTUSER>20140706120000
+                        <TRNAMT>-14.67
+                        <FITID>55310204188207088502275-14.6701407070140706CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140707120000
+                        <DTUSER>20140704120000
+                        <TRNAMT>-19.20
+                        <FITID>25536064186105014073083-19.2001407070140704SMASHBURGER #1107
+                        <NAME>SMASHBURGER #1107
+			<MEMO>ROSEVILLE CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140707120000
+                        <DTUSER>20140704120000
+                        <TRNAMT>-7.51
+                        <FITID>25536064186105014073091-7.5101407070140704SMASHBURGER #1107
+                        <NAME>SMASHBURGER #1107
+			<MEMO>ROSEVILLE CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140707120000
+                        <DTUSER>20140704120000
+                        <TRNAMT>-153.18
+                        <FITID>55446414186746351636413-153.1801407070140704IKEA WEST SACRAMENTO
+                        <NAME>IKEA WEST SACRAMENTO
+			<MEMO>WEST SACRAMEN CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140707120000
+                        <DTUSER>20140704120000
+                        <TRNAMT>-40.33
+                        <FITID>55446414186207187500232-40.3301407070140704IKEA WEST SACRAMENTO
+                        <NAME>IKEA WEST SACRAMENTO
+			<MEMO>WEST SACRAMEN CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140703120000
+                        <DTUSER>20140702120000
+                        <TRNAMT>-57.88
+                        <FITID>55432864184000395361628-57.8801407030140702LOWES #01132*
+                        <NAME>LOWES #01132*
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140702120000
+                        <DTUSER>20140702120000
+                        <TRNAMT>200.00
+                        <FITID>18383204320070200050600200.0001407020140702PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140702120000
+                        <DTUSER>20140701120000
+                        <TRNAMT>-13.05
+                        <FITID>55434254183200000000354-13.0501407020140701COLDSTONE #1952    Q24
+                        <NAME>COLDSTONE #1952    Q24
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140701120000
+                        <DTUSER>20140630120000
+                        <TRNAMT>-19.60
+                        <FITID>55310204182207088503121-19.6001407010140630CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140628120000
+                        <TRNAMT>-85.00
+                        <FITID>55432864179000342559685-85.0001406300140628METROPCS
+                        <NAME>METROPCS
+			<MEMO>888-863-8768 TX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140628120000
+                        <TRNAMT>-18.86
+                        <FITID>55434254179200000000772-18.8601406300140628COLDSTONE #1952    Q24
+                        <NAME>COLDSTONE #1952    Q24
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140627120000
+                        <TRNAMT>-5.25
+                        <FITID>05410194179255200353729-5.2501406300140627SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140627120000
+                        <TRNAMT>32.00
+                        <FITID>8545093418098003682277432.0001406300140627EXTRON, INC
+                        <NAME>EXTRON, INC
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140627120000
+                        <TRNAMT>32.00
+                        <FITID>8545093418098003682277432.0001406300140627EXTRON, INC
+                        <NAME>EXTRON, INC
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140626120000
+                        <TRNAMT>-32.00
+                        <FITID>85450934178980036822752-32.0001406300140626EXTRON, INC
+                        <NAME>EXTRON, INC
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140626120000
+                        <TRNAMT>-32.00
+                        <FITID>85450934178980036822745-32.0001406300140626EXTRON, INC
+                        <NAME>EXTRON, INC
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140630120000
+                        <DTUSER>20140626120000
+                        <TRNAMT>-32.00
+                        <FITID>85450934178980036822745-32.0001406300140626EXTRON, INC
+                        <NAME>EXTRON, INC
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140626120000
+                        <DTUSER>20140625120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864176004058084145-7.9901406260140625IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140624120000
+                        <DTUSER>20140623120000
+                        <TRNAMT>-20.00
+                        <FITID>25483674174001032369103-20.000140624014062376
+                        <NAME>76
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140623120000
+                        <DTUSER>20140620120000
+                        <TRNAMT>-19.60
+                        <FITID>55310204172207088503156-19.6001406230140620CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140616120000
+                        <DTUSER>20140614120000
+                        <TRNAMT>43.59
+                        <FITID>5543425416670800000450843.5901406160140614SEARS ROEBUCK   1248
+                        <NAME>SEARS ROEBUCK   1248
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140602120000
+                        <DTUSER>20140601120000
+                        <TRNAMT>-4.00
+                        <FITID>55436874153131538961446-4.0001406020140601UC SPORTS CENTER
+                        <NAME>UC SPORTS CENTER
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140602120000
+                        <DTUSER>20140531120000
+                        <TRNAMT>-39.63
+                        <FITID>75265864152351500249408-39.6301406020140531OLD NAVY 3900
+                        <NAME>OLD NAVY 3900
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140602120000
+                        <DTUSER>20140531120000
+                        <TRNAMT>-5.00
+                        <FITID>55421354152987194814638-5.0001406020140531CITY BEACH
+                        <NAME>CITY BEACH
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140529120000
+                        <DTUSER>20140527120000
+                        <TRNAMT>65.37
+                        <FITID>0541601414814100286773065.3701405290140527WAL-MART #2031
+                        <NAME>WAL-MART #2031
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140528120000
+                        <DTUSER>20140527120000
+                        <TRNAMT>-85.00
+                        <FITID>55432864147000258956270-85.0001405280140527METROPCS
+                        <NAME>METROPCS
+			<MEMO>888-863-8768 TX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140528120000
+                        <DTUSER>20140526120000
+                        <TRNAMT>-22.80
+                        <FITID>55315544147286000000026-22.8001405280140526ZANTES PIZZA &amp;amp; INDIAN
+                        <NAME>ZANTES PIZZA &amp; INDIAN
+			<MEMO>SAN FRANCISCO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140528120000
+                        <DTUSER>20140526120000
+                        <TRNAMT>-12.75
+                        <FITID>55421354147987107204099-12.7501405280140526WAFFLE CONE SHOP
+                        <NAME>WAFFLE CONE SHOP
+			<MEMO>SAN FRANCISCO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140528120000
+                        <DTUSER>20140526120000
+                        <TRNAMT>-5.00
+                        <FITID>25247804147000925286550-5.0001405280140526INDOOR ENTERTAINMENT O
+                        <NAME>INDOOR ENTERTAINMENT O
+			<MEMO>SAN FRANCISCO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140528120000
+                        <DTUSER>20140526120000
+                        <TRNAMT>-27.00
+                        <FITID>75265864147300500101042-27.0001405280140526AMPCO PARKING PIER 39
+                        <NAME>AMPCO PARKING PIER 39
+			<MEMO>SAN FRANCISCO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140527120000
+                        <DTUSER>20140527120000
+                        <TRNAMT>0.23
+                        <FITID>055874541470000001792030.2301405270140527Restaurant Network Rbt
+                        <NAME>Restaurant Network Rbt
+			<MEMO>EasySavings NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140527120000
+                        <DTUSER>20140527120000
+                        <TRNAMT>0.24
+                        <FITID>055874541470000001792110.2401405270140527Restaurant Network Rbt
+                        <NAME>Restaurant Network Rbt
+			<MEMO>EasySavings NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140527120000
+                        <DTUSER>20140527120000
+                        <TRNAMT>800.00
+                        <FITID>14783204320052700050574800.0001405270140527PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140527120000
+                        <DTUSER>20140526120000
+                        <TRNAMT>-10.00
+                        <FITID>55480774147200087700137-10.0001405270140526AMAZE PARTNERS LLC
+                        <NAME>AMAZE PARTNERS LLC
+			<MEMO>HALF MOON BAY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140527120000
+                        <DTUSER>20140525120000
+                        <TRNAMT>-98.07
+                        <FITID>55434254146708000039129-98.0701405270140525SEARS ROEBUCK   1698
+                        <NAME>SEARS ROEBUCK   1698
+			<MEMO>NEWARK CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140526120000
+                        <DTUSER>20140526120000
+                        <TRNAMT>-47.99
+                        <FITID>55432864146000675474221-47.9901405260140526ADTSECURITY MYADT.COM
+                        <NAME>ADTSECURITY MYADT.COM
+			<MEMO>800-238-2455 FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140526120000
+                        <DTUSER>20140525120000
+                        <TRNAMT>-6.09
+                        <FITID>05436844146500062503493-6.0901405260140525JAMBA JUICE #722
+                        <NAME>JAMBA JUICE #722
+			<MEMO>NEWARK CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140526120000
+                        <DTUSER>20140524120000
+                        <TRNAMT>-31.77
+                        <FITID>05410194145255192701373-31.7701405260140524SUBWAY        00028621
+                        <NAME>SUBWAY        00028621
+			<MEMO>SAN LEANDRO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140526120000
+                        <DTUSER>20140524120000
+                        <TRNAMT>-5.69
+                        <FITID>05436844145500088036248-5.6901405260140524JAMBA JUICE #420
+                        <NAME>JAMBA JUICE #420
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140526120000
+                        <DTUSER>20140524120000
+                        <TRNAMT>-25.06
+                        <FITID>55310204145207692600764-25.0601405260140524BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140523120000
+                        <DTUSER>20140522120000
+                        <TRNAMT>-4.60
+                        <FITID>55500804143286000000031-4.6001405230140522PIONEER DRUG I
+                        <NAME>PIONEER DRUG I
+			<MEMO>NEWMAN CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140523120000
+                        <DTUSER>20140522120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864142004076074400-7.9901405230140522IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140523120000
+                        <DTUSER>20140521120000
+                        <TRNAMT>-5.70
+                        <FITID>05410194142255215145304-5.7001405230140521SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140520120000
+                        <DTUSER>20140518120000
+                        <TRNAMT>-25.00
+                        <FITID>55310204139672070868739-25.0001405200140518FASTRAK CSC
+                        <NAME>FASTRAK CSC
+			<MEMO>04154868655 CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140519120000
+                        <DTUSER>20140518120000
+                        <TRNAMT>-94.99
+                        <FITID>55432864138000242326938-94.9901405190140518COMCAST CALIFORNIA
+                        <NAME>COMCAST CALIFORNIA
+			<MEMO>800-COMCAST CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140519120000
+                        <DTUSER>20140517120000
+                        <TRNAMT>-27.62
+                        <FITID>55541864138010175281966-27.6201405190140517THE HOME DEPOT 635
+                        <NAME>THE HOME DEPOT 635
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140519120000
+                        <DTUSER>20140517120000
+                        <TRNAMT>-9.10
+                        <FITID>05410194138255198893595-9.1001405190140517SUBWAY        03189685
+                        <NAME>SUBWAY        03189685
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140519120000
+                        <DTUSER>20140517120000
+                        <TRNAMT>-87.39
+                        <FITID>85353534138980011555307-87.3901405190140517SPICY BITE
+                        <NAME>SPICY BITE
+			<MEMO>SAN FRANCISCO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140519120000
+                        <DTUSER>20140516120000
+                        <TRNAMT>-18.34
+                        <FITID>55310204138207088503803-18.3401405190140516CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140516120000
+                        <DTUSER>20140514120000
+                        <TRNAMT>-7.17
+                        <FITID>55431804135207599701023-7.1701405160140514BURGER KING #00975 Q07
+                        <NAME>BURGER KING #00975 Q07
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140513120000
+                        <DTUSER>20140513120000
+                        <TRNAMT>0.46
+                        <FITID>055874541330000001372230.4601405130140513Restaurant Network Rbt
+                        <NAME>Restaurant Network Rbt
+			<MEMO>EasySavings NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140513120000
+                        <DTUSER>20140511120000
+                        <TRNAMT>-36.99
+                        <FITID>55500804133556015011021-36.9901405130140511NEW INDIA BAZAR
+                        <NAME>NEW INDIA BAZAR
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140512120000
+                        <DTUSER>20140510120000
+                        <TRNAMT>-11.38
+                        <FITID>05436844131500102566622-11.3801405120140510JAMBA JUICE #420
+                        <NAME>JAMBA JUICE #420
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140512120000
+                        <DTUSER>20140509120000
+                        <TRNAMT>-46.00
+                        <FITID>55432864129000450425910-46.0001405120140509JUSTANSWER  *EXPERTS
+                        <NAME>JUSTANSWER  *EXPERTS
+			<MEMO>877-604-3160 CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140512120000
+                        <DTUSER>20140509120000
+                        <TRNAMT>-25.07
+                        <FITID>55310204130207692000269-25.0701405120140509BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140506120000
+                        <DTUSER>20140506120000
+                        <TRNAMT>0.46
+                        <FITID>055874541260000001350850.4601405060140506Restaurant Network Rbt
+                        <NAME>Restaurant Network Rbt
+			<MEMO>EasySavings NY
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140506120000
+                        <DTUSER>20140505120000
+                        <TRNAMT>-5.00
+                        <FITID>55432864125000637919920-5.0001405060140505JUSTANSWER  *EXPERTS
+                        <NAME>JUSTANSWER  *EXPERTS
+			<MEMO>877-604-3160 CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140505120000
+                        <DTUSER>20140504120000
+                        <TRNAMT>-18.83
+                        <FITID>55310204125207088502206-18.8301405050140504CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140505120000
+                        <DTUSER>20140503120000
+                        <TRNAMT>-11.38
+                        <FITID>05436844124500107967907-11.3801405050140503JAMBA JUICE #420
+                        <NAME>JAMBA JUICE #420
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140502120000
+                        <DTUSER>20140502120000
+                        <TRNAMT>-39.22
+                        <FITID>55310204122207692200539-39.2201405020140502BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140429120000
+                        <DTUSER>20140429120000
+                        <TRNAMT>1000.00
+                        <FITID>119832043200429000505441000.0001404290140429PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140428120000
+                        <DTUSER>20140426120000
+                        <TRNAMT>38.10
+                        <FITID>5542950411776906641874838.1001404280140426FRY'S ELECTRONICS #21
+                        <NAME>FRY'S ELECTRONICS #21
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140428120000
+                        <DTUSER>20140426120000
+                        <TRNAMT>-308.88
+                        <FITID>55432864117000100216317-308.8801404280140426AN HONDA FREMONT
+                        <NAME>AN HONDA FREMONT
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140428120000
+                        <DTUSER>20140426120000
+                        <TRNAMT>-47.99
+                        <FITID>55432864116000654964693-47.9901404280140426ADTSECURITY MYADT.COM
+                        <NAME>ADTSECURITY MYADT.COM
+			<MEMO>800-238-2455 FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140428120000
+                        <DTUSER>20140425120000
+                        <TRNAMT>-6.88
+                        <FITID>55310204116200088301662-6.8801404280140425TACO BELL 2194
+                        <NAME>TACO BELL 2194
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140428120000
+                        <DTUSER>20140425120000
+                        <TRNAMT>-6.89
+                        <FITID>05410194116255229105346-6.8901404280140425SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140428120000
+                        <DTUSER>20140425120000
+                        <TRNAMT>-9.97
+                        <FITID>85180894117980166899791-9.9701404280140425SHALIMAR
+                        <NAME>SHALIMAR
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140425120000
+                        <DTUSER>20140423120000
+                        <TRNAMT>-6.11
+                        <FITID>05140484114710050098972-6.1101404250140423MCDONALD'S F13311
+                        <NAME>MCDONALD'S F13311
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140424120000
+                        <DTUSER>20140422120000
+                        <TRNAMT>174.95
+                        <FITID>55546554113461048870421174.9501404240140422COMODO GROUP, INC.
+                        <NAME>COMODO GROUP, INC.
+			<MEMO>JERSEY CITY NJ
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140423120000
+                        <DTUSER>20140422120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864112004077019053-7.9901404230140422IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140422120000
+                        <DTUSER>20140421120000
+                        <TRNAMT>-39.59
+                        <FITID>55429504112769066360374-39.5901404220140421FRY'S ELECTRONICS #21
+                        <NAME>FRY'S ELECTRONICS #21
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140421120000
+                        <DTUSER>20140420120000
+                        <TRNAMT>-65.37
+                        <FITID>05416014110142000515903-65.3701404210140420WAL-MART #2989
+                        <NAME>WAL-MART #2989
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140421120000
+                        <DTUSER>20140420120000
+                        <TRNAMT>185.27
+                        <FITID>55483824110310422001209185.2701404210140420WAL-MART #2989
+                        <NAME>WAL-MART #2989
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140421120000
+                        <DTUSER>20140419120000
+                        <TRNAMT>-17.36
+                        <FITID>55310204110200088300967-17.3601404210140419TACO BELL 2194
+                        <NAME>TACO BELL 2194
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140421120000
+                        <DTUSER>20140419120000
+                        <TRNAMT>-0.44
+                        <FITID>55310204110200088301007-0.4401404210140419TACO BELL 2194
+                        <NAME>TACO BELL 2194
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140421120000
+                        <DTUSER>20140419120000
+                        <TRNAMT>-174.95
+                        <FITID>55546554110461048870309-174.9501404210140419COMODO GROUP, INC.
+                        <NAME>COMODO GROUP, INC.
+			<MEMO>JERSEY CITY NJ
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140417120000
+                        <DTUSER>20140417120000
+                        <TRNAMT>-94.98
+                        <FITID>55432864107000070842532-94.9801404170140417COMCAST CALIFORNIA
+                        <NAME>COMCAST CALIFORNIA
+			<MEMO>800-COMCAST CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140417120000
+                        <DTUSER>20140415120000
+                        <TRNAMT>-5.70
+                        <FITID>05410194106255194126840-5.7001404170140415SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140416120000
+                        <DTUSER>20140415120000
+                        <TRNAMT>-5.69
+                        <FITID>05436844106500071959072-5.6901404160140415JAMBA JUICE #860
+                        <NAME>JAMBA JUICE #860
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140414120000
+                        <DTUSER>20140412120000
+                        <TRNAMT>-147.83
+                        <FITID>05416014102142000350772-147.8301404140140412WAL-MART #2031
+                        <NAME>WAL-MART #2031
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140414120000
+                        <DTUSER>20140412120000
+                        <TRNAMT>-233.82
+                        <FITID>55483824103400005511200-233.8201404140140412WAL-MART #2031
+                        <NAME>WAL-MART #2031
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140414120000
+                        <DTUSER>20140412120000
+                        <TRNAMT>-25.50
+                        <FITID>55460294103400320000064-25.5001404140140412CINEMARK.COM 423
+                        <NAME>CINEMARK.COM 423
+			<MEMO>05104879347 CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140414120000
+                        <DTUSER>20140411120000
+                        <TRNAMT>-25.07
+                        <FITID>55310204102207692100329-25.0701404140140411BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140411120000
+                        <DTUSER>20140410120000
+                        <TRNAMT>-18.34
+                        <FITID>55310204101207088503814-18.3401404110140410CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140407120000
+                        <DTUSER>20140405120000
+                        <TRNAMT>-65.38
+                        <FITID>55541864096004028487086-65.3801404070140405ROSS STORE #391
+                        <NAME>ROSS STORE #391
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140407120000
+                        <DTUSER>20140405120000
+                        <TRNAMT>-4.99
+                        <FITID>55541864096004028487094-4.9901404070140405ROSS STORE #391
+                        <NAME>ROSS STORE #391
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140407120000
+                        <DTUSER>20140405120000
+                        <TRNAMT>-18.34
+                        <FITID>55310204096207088501005-18.3401404070140405CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140407120000
+                        <DTUSER>20140404120000
+                        <TRNAMT>-21.43
+                        <FITID>05140484095710030768614-21.4301404070140404LUCKY #782 UNION CIT
+                        <NAME>LUCKY #782 UNION CIT
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140401120000
+                        <DTUSER>20140331120000
+                        <TRNAMT>-10.00
+                        <FITID>55480774091207137600031-10.0001404010140331LONDON NGO INC
+                        <NAME>LONDON NGO INC
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140331120000
+                        <DTUSER>20140329120000
+                        <TRNAMT>850.00
+                        <FITID>08983204320033100050513850.0001403310140329PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140331120000
+                        <DTUSER>20140329120000
+                        <TRNAMT>-5.00
+                        <FITID>05410194089602240627332-5.0001403310140329CHUCK E CHEESE00003210
+                        <NAME>CHUCK E CHEESE00003210
+			<MEMO>NEWARK CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140331120000
+                        <DTUSER>20140329120000
+                        <TRNAMT>-19.62
+                        <FITID>55310204089207692800065-19.6201403310140329BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140331120000
+                        <DTUSER>20140328120000
+                        <TRNAMT>-85.00
+                        <FITID>55432864087000056668780-85.0001403310140328METROPCS
+                        <NAME>METROPCS
+			<MEMO>888-863-8768 TX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140331120000
+                        <DTUSER>20140327120000
+                        <TRNAMT>-3.26
+                        <FITID>05410194087255186355327-3.2601403310140327SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140331120000
+                        <DTUSER>20140327120000
+                        <TRNAMT>-4.62
+                        <FITID>55546554087463745130028-4.6201403310140327HUONG LAM SANDWICHES
+                        <NAME>HUONG LAM SANDWICHES
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140328120000
+                        <DTUSER>20140327120000
+                        <TRNAMT>-6.84
+                        <FITID>55310204087207088502830-6.8401403280140327CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140328120000
+                        <DTUSER>20140326120000
+                        <TRNAMT>-5.25
+                        <FITID>05410194086255206314172-5.2501403280140326SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140327120000
+                        <DTUSER>20140326120000
+                        <TRNAMT>-6.81
+                        <FITID>55310204086206288003194-6.8101403270140326CHIPOTLE 0976
+                        <NAME>CHIPOTLE 0976
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140327120000
+                        <DTUSER>20140325120000
+                        <TRNAMT>-8.93
+                        <FITID>05410194085255215311475-8.9301403270140325SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140326120000
+                        <DTUSER>20140326120000
+                        <TRNAMT>-47.99
+                        <FITID>55432864085000998368293-47.9901403260140326ADTSECURITY MYADT.COM
+                        <NAME>ADTSECURITY MYADT.COM
+			<MEMO>800-238-2455 FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140326120000
+                        <DTUSER>20140324120000
+                        <TRNAMT>-5.25
+                        <FITID>05410194084255218250184-5.2501403260140324SUBWAY        00329441
+                        <NAME>SUBWAY        00329441
+			<MEMO>MIL PITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140325120000
+                        <DTUSER>20140324120000
+                        <TRNAMT>-12.54
+                        <FITID>55480774084207256000079-12.5401403250140324SHALIMAR
+                        <NAME>SHALIMAR
+			<MEMO>OAKLAND CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140325120000
+                        <DTUSER>20140324120000
+                        <TRNAMT>-25.02
+                        <FITID>25483674083000830889338-25.020140325014032476 10097046
+                        <NAME>76 10097046
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140324120000
+                        <DTUSER>20140322120000
+                        <TRNAMT>-50.01
+                        <FITID>25483674081000762330618-50.010140324014032276
+                        <NAME>76
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140324120000
+                        <DTUSER>20140321120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864080004065024618-7.9901403240140321IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140321120000
+                        <DTUSER>20140320120000
+                        <TRNAMT>-25.07
+                        <FITID>55310204080207692900369-25.0701403210140320BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140320120000
+                        <DTUSER>20140320120000
+                        <TRNAMT>-94.98
+                        <FITID>55432864079000555420204-94.9801403200140320COMCAST CALIFORNIA
+                        <NAME>COMCAST CALIFORNIA
+			<MEMO>800-COMCAST CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140320120000
+                        <DTUSER>20140318120000
+                        <TRNAMT>-5.54
+                        <FITID>55431804078207599700685-5.5401403200140318BURGER KING #00975 Q07
+                        <NAME>BURGER KING #00975 Q07
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140319120000
+                        <DTUSER>20140317120000
+                        <TRNAMT>-2.00
+                        <FITID>55546554077462961871309-2.0001403190140317GOVTELLERCONVENFEE
+                        <NAME>GOVTELLERCONVENFEE
+			<MEMO>OAKLAND CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140319120000
+                        <DTUSER>20140317120000
+                        <TRNAMT>-30.00
+                        <FITID>55546554077462960700418-30.0001403190140317ALAMEDA CNTY CLERK REC
+                        <NAME>ALAMEDA CNTY CLERK REC
+			<MEMO>OAKLAND CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140317120000
+                        <DTUSER>20140316120000
+                        <TRNAMT>-9.40
+                        <FITID>55432864076000241992205-9.4001403170140316STARBUCKS #05856 VALLE
+                        <NAME>STARBUCKS #05856 VALLE
+			<MEMO>Vallejo CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140317120000
+                        <DTUSER>20140315120000
+                        <TRNAMT>-50.01
+                        <FITID>05460424075440001987363-50.0101403170140315CHEVRON 0371246
+                        <NAME>CHEVRON 0371246
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140317120000
+                        <DTUSER>20140314120000
+                        <TRNAMT>-11.50
+                        <FITID>55310204074207088500151-11.5001403170140314CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140312120000
+                        <DTUSER>20140311120000
+                        <TRNAMT>-251.84
+                        <FITID>55432864070000083849683-251.8401403120140311COSTCO.COM  *ONLINE
+                        <NAME>COSTCO.COM  *ONLINE
+			<MEMO>800-955-2292 WA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140310120000
+                        <DTUSER>20140309120000
+                        <TRNAMT>-17.79
+                        <FITID>55310204069207088501081-17.7901403100140309CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140310120000
+                        <DTUSER>20140307120000
+                        <TRNAMT>-19.62
+                        <FITID>55310204067207692500828-19.6201403100140307BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140307120000
+                        <DTUSER>20140305120000
+                        <TRNAMT>-6.95
+                        <FITID>05140484065710034337784-6.9501403070140305MCDONALD'S M7533 OF
+                        <NAME>MCDONALD'S M7533 OF
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140305120000
+                        <DTUSER>20140303120000
+                        <TRNAMT>-44.74
+                        <FITID>05410194063140000151912-44.7401403050140303THE OLIVE GARD00011437
+                        <NAME>THE OLIVE GARD00011437
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140304120000
+                        <DTUSER>20140302120000
+                        <TRNAMT>-4.89
+                        <FITID>05140484062710034587829-4.8901403040140302MCDONALD'S F25758
+                        <NAME>MCDONALD'S F25758
+			<MEMO>EAST PALO ALT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140303120000
+                        <DTUSER>20140302120000
+                        <TRNAMT>-6.70
+                        <FITID>55432864061000422227675-6.7001403030140302STARBUCKS #05977 PALO
+                        <NAME>STARBUCKS #05977 PALO
+			<MEMO>Palo Alto CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140303120000
+                        <DTUSER>20140228120000
+                        <TRNAMT>-95.00
+                        <FITID>55432864059000434748852-95.0001403030140228METROPCS
+                        <NAME>METROPCS
+			<MEMO>888-863-8768 TX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140227120000
+                        <DTUSER>20140226120000
+                        <TRNAMT>-42.97
+                        <FITID>55432864057000616160993-42.9701402270140226LOWES #01132*
+                        <NAME>LOWES #01132*
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140226120000
+                        <DTUSER>20140226120000
+                        <TRNAMT>-47.99
+                        <FITID>55432864057000448510795-47.9901402260140226ADTSECURITY MYADT.COM
+                        <NAME>ADTSECURITY MYADT.COM
+			<MEMO>800-238-2455 FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140224120000
+                        <DTUSER>20140221120000
+                        <TRNAMT>300.00
+                        <FITID>05383204320022400050481300.0001402240140221PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140224120000
+                        <DTUSER>20140221120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864052004065083006-7.9901402240140221IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140224120000
+                        <DTUSER>20140221120000
+                        <TRNAMT>-16.08
+                        <FITID>55310204053207988502617-16.0801402240140221CHIPOTLE 1031
+                        <NAME>CHIPOTLE 1031
+			<MEMO>NEWARK CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140221120000
+                        <DTUSER>20140219120000
+                        <TRNAMT>-6.51
+                        <FITID>55431804051207599701031-6.5101402210140219BURGER KING #00975 Q07
+                        <NAME>BURGER KING #00975 Q07
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140218120000
+                        <DTUSER>20140217120000
+                        <TRNAMT>-16.15
+                        <FITID>55310204049207088503157-16.1501402180140217CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140217120000
+                        <DTUSER>20140217120000
+                        <TRNAMT>-94.98
+                        <FITID>55432864048000776251923-94.9801402170140217COMCAST CALIFORNIA
+                        <NAME>COMCAST CALIFORNIA
+			<MEMO>800-COMCAST CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140217120000
+                        <DTUSER>20140215120000
+                        <TRNAMT>-6.52
+                        <FITID>55480774047200944700164-6.5201402170140215LINEN OUTLET
+                        <NAME>LINEN OUTLET
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140214120000
+                        <DTUSER>20140213120000
+                        <TRNAMT>-41.42
+                        <FITID>55499674045691500092587-41.4201402140140213RITE AID STORE 5942Q05
+                        <NAME>RITE AID STORE 5942Q05
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140210120000
+                        <DTUSER>20140208120000
+                        <TRNAMT>-18.62
+                        <FITID>55310204040207088500426-18.6201402100140208CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140210120000
+                        <DTUSER>20140208120000
+                        <TRNAMT>-105.00
+                        <FITID>55436874040150408346964-105.0001402100140208BABOW   JANKS OPT
+                        <NAME>BABOW   JANKS OPT
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140205120000
+                        <DTUSER>20140203120000
+                        <TRNAMT>-4.67
+                        <FITID>05140484035710028606282-4.6701402050140203MCDONALD'S M7533 OF
+                        <NAME>MCDONALD'S M7533 OF
+			<MEMO>MILPITAS CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140204120000
+                        <DTUSER>20140202120000
+                        <TRNAMT>-22.42
+                        <FITID>85180894034980164125090-22.4201402040140202NEW INDIA MARKET
+                        <NAME>NEW INDIA MARKET
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140201120000
+                        <TRNAMT>1500.00
+                        <FITID>032832043200203000504661500.0001402030140201PAYMENT - THANK YOU
+                        <NAME>PAYMENT - THANK YOU
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140201120000
+                        <TRNAMT>-8.00
+                        <FITID>55480774033191963375101-8.0001402030140201OAKLAND ZOO
+                        <NAME>OAKLAND ZOO
+			<MEMO>OAKLAND CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140201120000
+                        <TRNAMT>-120.00
+                        <FITID>55480774033191963703831-120.0001402030140201OAKLAND ZOO
+                        <NAME>OAKLAND ZOO
+			<MEMO>OAKLAND CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140201120000
+                        <TRNAMT>-19.98
+                        <FITID>55310204033207088500177-19.9801402030140201CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140131120000
+                        <TRNAMT>-5.56
+                        <FITID>55310204032200088300293-5.5601402030140131TACO BELL 2194
+                        <NAME>TACO BELL 2194
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140131120000
+                        <TRNAMT>-10.00
+                        <FITID>55429504032286000595509-10.0001402030140131BART SO HAYWARD ST QPS
+                        <NAME>BART SO HAYWARD ST QPS
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140131120000
+                        <TRNAMT>-11.00
+                        <FITID>55429504032286000595764-11.0001402030140131BART SO HAYWARD ST QPS
+                        <NAME>BART SO HAYWARD ST QPS
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140203120000
+                        <DTUSER>20140131120000
+                        <TRNAMT>-44.40
+                        <FITID>85309614033701444195193-44.4001402030140131AMBER
+                        <NAME>AMBER
+			<MEMO>SAN FRANCISCO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140127120000
+                        <DTUSER>20140126120000
+                        <TRNAMT>-47.99
+                        <FITID>55432864026000251617560-47.9901401270140126ADTSECURITY MYADT.COM
+                        <NAME>ADTSECURITY MYADT.COM
+			<MEMO>800-238-2455 FL
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140127120000
+                        <DTUSER>20140125120000
+                        <TRNAMT>-119.00
+                        <FITID>55432864025000839228451-119.0001401270140125METROPCS
+                        <NAME>METROPCS
+			<MEMO>877-315-6074 TX
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140127120000
+                        <DTUSER>20140124120000
+                        <TRNAMT>-19.61
+                        <FITID>55310204025207692000747-19.6101401270140124BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140127120000
+                        <DTUSER>20140124120000
+                        <TRNAMT>-11.00
+                        <FITID>55429504025286002943201-11.0001401270140124BART SO HAYWARD ST QPS
+                        <NAME>BART SO HAYWARD ST QPS
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140124120000
+                        <DTUSER>20140123120000
+                        <TRNAMT>-11.14
+                        <FITID>55309594024838000684844-11.1401401240140123TUTTI FRUTTI SOUTHLAND
+                        <NAME>TUTTI FRUTTI SOUTHLAND
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140124120000
+                        <DTUSER>20140123120000
+                        <TRNAMT>-64.24
+                        <FITID>55460294024074332010050-64.2401401240140123ECKO SOUTHLAND 504
+                        <NAME>ECKO SOUTHLAND 504
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140123120000
+                        <DTUSER>20140122120000
+                        <TRNAMT>-625.00
+                        <FITID>55436874023730232725839-625.0001401230140122UC SPORTS CENTER
+                        <NAME>UC SPORTS CENTER
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140123120000
+                        <DTUSER>20140122120000
+                        <TRNAMT>-7.99
+                        <FITID>55541864022004057042983-7.9901401230140122IDENTITY GUARD
+                        <NAME>IDENTITY GUARD
+			<MEMO>800-214-4791 VA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140120120000
+                        <DTUSER>20140119120000
+                        <TRNAMT>-19.98
+                        <FITID>55310204020207088500214-19.9801401200140119CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140120120000
+                        <DTUSER>20140118120000
+                        <TRNAMT>-7.90
+                        <FITID>05410194019255180167960-7.9001401200140118SUBWAY        03398534
+                        <NAME>SUBWAY        03398534
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140120120000
+                        <DTUSER>20140118120000
+                        <TRNAMT>-20.00
+                        <FITID>55310204019672004569184-20.0001401200140118FASTRAK CSC
+                        <NAME>FASTRAK CSC
+			<MEMO>04154868655 CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140120120000
+                        <DTUSER>20140117120000
+                        <TRNAMT>-3.75
+                        <FITID>55432864017000871330306-3.7501401200140117STARBUCKS #09219 SAN F
+                        <NAME>STARBUCKS #09219 SAN F
+			<MEMO>San Francisco CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140120120000
+                        <DTUSER>20140117120000
+                        <TRNAMT>-3.00
+                        <FITID>55429504018286000609282-3.0001401200140117BART-EMBARDERO     QPS
+                        <NAME>BART-EMBARDERO     QPS
+			<MEMO>SAN FRANCISCO CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140120120000
+                        <DTUSER>20140117120000
+                        <TRNAMT>-10.00
+                        <FITID>55429504018286000523137-10.0001401200140117BART SO HAYWARD ST QPS
+                        <NAME>BART SO HAYWARD ST QPS
+			<MEMO>HAYWARD CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140117120000
+                        <DTUSER>20140117120000
+                        <TRNAMT>-93.89
+                        <FITID>55432864017000718962865-93.8901401170140117COMCAST CALIFORNIA
+                        <NAME>COMCAST CALIFORNIA
+			<MEMO>800-COMCAST CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140113120000
+                        <DTUSER>20140112120000
+                        <TRNAMT>-25.06
+                        <FITID>55310204013207692800231-25.0601401130140112BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140113120000
+                        <DTUSER>20140111120000
+                        <TRNAMT>-240.69
+                        <FITID>55446414012686007415236-240.6901401130140111IKEA EAST PALO ALTO
+                        <NAME>IKEA EAST PALO ALTO
+			<MEMO>EAST PALO ALT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20140113120000
+                        <DTUSER>20140111120000
+                        <TRNAMT>119.88
+                        <FITID>55446414012686004313418119.8801401130140111IKEA EAST PALO ALTO
+                        <NAME>IKEA EAST PALO ALTO
+			<MEMO>EAST PALO ALT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140113120000
+                        <DTUSER>20140109120000
+                        <TRNAMT>-3.66
+                        <FITID>55310204010200088301578-3.6601401130140109TACO BELL 2194
+                        <NAME>TACO BELL 2194
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140110120000
+                        <DTUSER>20140109120000
+                        <TRNAMT>-13.69
+                        <FITID>55310204010207088502667-13.6901401100140109CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140109120000
+                        <DTUSER>20140108120000
+                        <TRNAMT>-2.96
+                        <FITID>05140484008720050778514-2.9601401090140108MCDONALD'S F30852
+                        <NAME>MCDONALD'S F30852
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140106120000
+                        <DTUSER>20140105120000
+                        <TRNAMT>-17.52
+                        <FITID>55310204006207088500063-17.5201401060140105CHIPOTLE 1529
+                        <NAME>CHIPOTLE 1529
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140106120000
+                        <DTUSER>20140103120000
+                        <TRNAMT>-19.62
+                        <FITID>55310204004207692900172-19.6201401060140103BOMBAY PIZZA HOUSE
+                        <NAME>BOMBAY PIZZA HOUSE
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140103120000
+                        <DTUSER>20140102120000
+                        <TRNAMT>-9.38
+                        <FITID>05140484002720006835075-9.3801401030140102PANERA BREAD #935
+                        <NAME>PANERA BREAD #935
+			<MEMO>FREMONT CA
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20140103120000
+                        <DTUSER>20140101120000
+                        <TRNAMT>-16.33
+                        <FITID>55541864002010174887915-16.3301401030140101THE HOME DEPOT 635
+                        <NAME>THE HOME DEPOT 635
+			<MEMO>UNION CITY CA
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>-5119.76
+                    <DTASOF>20140826120000
+                </LEDGERBAL>
+            </CCSTMTRS>
+        </CCSTMTTRNRS>
+    </CREDITCARDMSGSRSV1>
+</OFX>

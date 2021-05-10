@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Breakdown</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+     <link rel="stylesheet" type="text/css" href="../../Client/Mobile/jquery.mobile-1.0b1.css"">
+     <script type="text/javascript" charset="utf-8" src="../../Client/Mobile/phonegap.0.9.5.1.js"></script>      
+	 <script type="text/javascript" src="../../Client/Mobile/jquery-1.6.2.min.js"></script>
+	 <script type="text/javascript" src="../../Client/Mobile/jquery.mobile-1.0b1.js">
+	</script>  
+	<script language="javascript" type="text/javascript">
+	    function Login() {
+	        alert('hello start testing!');
+	        $.ajax({
+	            type: "POST",
+	            url: "http://localhost/expViewWeb/Service/ExpMobileService.svc/LoginUser",
+	            data: '{ "username": "' + $("#txtUsername").val() + '", "password" : "' + $("#txtPassword").val() + '" }',
+	            contentType: "application/json; charset=utf-8",
+	            dataType: "json",
+	            success: function (data) {
+                    window.location = "Breakdown.html#balance";
+	            },
+	            error: function (xhr, err) { 
+	                alert(err);
+	                alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+	                alert("responseText: " + xhr.responseText);
+	            }
+	        });
+
+	        alert('method done!');
+	    }
+		</script>
+
+
+  </head>
+  <body>
+
+<div data-role="page" id="login" class="type-interior"> 
+  <h2>ExpenseView Login</h2>
+		
+  <br>
+    <div data-role="content"> 
+  <b>Username:  <input type="text" id="txtUsername" /><br/>
+  Password:</b> <input type="password" id="txtPassword" /><br />
+
+        <div class="content-primary"> 
+            <div data-role="fieldcontain"> 
+                <label for="slider">Remember me:</label> 
+                <select name="slider" id="slider" data-role="slider"> 
+                    <option value="off">Off</option> 
+                    <option value="on">On</option> 
+                </select> 
+            </div> 
+        </div>
+        <input type="button" value="Login" onclick="Login();"/>  
+
+    </div>
+</div>
+
+<!-- Start of first page: #balance -->
+<div data-role="page" id="balance">
+
+	<div data-role="header">
+		<h1>Balance</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" >	
+		
+        <p>Income: 500</p>		
+		<p>Expense: 300</p>	
+		<p>Savings: 200 </p>
+
+	</div><!-- /content -->
+	
+	 <div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#balance" class="ui-btn-active ui-state-persist">Balance</a></li>
+				<li><a href="#expense">Expense</a></li>
+				<li><a href="#income">Income</a></li>
+				<li><a href="#profile">Profile</a></li>
+			</ul>
+		</div><!-- /navbar -->
+        </div>
+        
+        </div><!-- /page balance -->
+
+
+<!-- Start of second page: #expense -->
+<div data-role="page" id="expense" data-theme="a">
+
+	<div data-role="header">
+		<h1>Income</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+
+<ul data-role="listview" data-theme="c">
+			<li><a href="#expenseWeek">Week</a></li>
+			<li><a href="#expenseMonth">Month</a></li>
+			<li><a href="#expenseYear">Year</a></li>
+			</ul>			
+		
+	</div><!-- /content -->
+	
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#balance">Balance</a></li>
+				<li><a href="#expense" class="ui-btn-active ui-state-persist">Expense</a></li>
+				<li><a href="#income">Income</a></li>
+				<li><a href="#profile">Profile</a></li>
+			</ul>
+		</div><!-- /navbar -->
+        </div> <!-- footer -->
+</div><!-- /page expense -->
+
+
+<!-- Start of third page: #expenseWeek -->
+<div data-role="page" id="expenseWeek">
+
+	<div data-role="header" data-theme="c"  data-add-back-btn="true">
+		<h1>Weekly Expense details</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">	
+
+			<div class="content-primary">
+			<ul data-role="listview">
+				<li data-role="list-divider">Date Range: 11/15/2011 - 11/21/2011</li>
+				<li><a href="index.html">Buenos</a></li>
+				<li><a href="index.html">Exxon-Mobil</a></li>
+				<li><a href="index.html">Whole Foods</a></li>
+			</ul>
+			</div><!--/content-primary -->		
+
+	</div><!-- /content -->
+	
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#balance">Balance</a></li>
+				<li><a href="#expense" class="ui-btn-active ui-state-persist">Expense</a></li>
+				<li><a href="#income">Income</a></li>
+				<li><a href="#profile">Profile</a></li>
+			</ul>
+		</div><!-- /navbar -->
+        </div> <!-- footer -->
+</div><!-- /page expenseWeek -->
+
+
+<!-- Start of fourth page: #expenseMonth -->
+<div data-role="page" id="expenseMonth">
+
+	<div data-role="header" data-theme="c" data-add-back-btn="true">
+		<h1>Monthly Expense Details</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">	
+
+			<div class="content-primary">
+			<ul data-role="listview">
+				<li data-role="list-divider">Date Range: 11/1/2011 - 11/7/2011</li>
+				<li><a href="index.html">Car Repairs</a></li>
+				<li><a href="index.html">Hair Salon</a></li>
+				<li><a href="index.html">Banana Republic</a></li>
+				<li data-role="list-divider">Date Range: 11/8/2011 - 11/14/2011</li>
+				<li><a href="index.html">BJs Wholesale Club</a></li>
+				<li data-role="list-divider">Date Range: 11/15/2011 - 11/21/2011</li>
+				<li><a href="index.html">Buenos</a></li>
+				<li><a href="index.html">Exxon-Mobil</a></li>
+				<li><a href="index.html">Whole Foods</a></li>
+				<li data-role="list-divider">Date Range: 11/22/2011 - 11/28/2011</li>
+				<li><a href="index.html">Subway</a></li>
+				<li><a href="index.html">Stop and Shop</a></li>
+				<li data-role="list-divider">Date Range: 11/29/2011 - 12/04/2011</li>
+				<li><a href="index.html">Nordstrom</a></li>
+				<li><a href="index.html">Dominos</a></li>
+				<li><a href="index.html">Shell Gas</a></li>
+			</ul>
+			</div><!--/content-primary -->		
+
+	</div><!-- /content -->
+	
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#balance">Balance</a></li>
+				<li><a href="#expense" class="ui-btn-active ui-state-persist">Expense</a></li>
+				<li><a href="#income">Income</a></li>
+				<li><a href="#profile">Profile</a></li>
+			</ul>
+		</div><!-- /navbar -->
+        </div> <!-- footer -->
+</div><!-- /page expenseMonth -->
+
+<!-- Start of fifth page: #expenseYear -->
+<div data-role="page" id="expenseYear">
+
+	<div data-role="header" data-theme="c" data-add-back-btn="true">
+		<h1>Yearly Expense Details</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">	
+
+			<div class="content-primary">
+			<ul data-role="listview">
+				<li data-role="list-divider">Date Range: 11/1/2011 - 11/7/2011</li>
+				<li><a href="index.html">Car Repairs</a></li>
+				<li><a href="index.html">Hair Salon</a></li>
+				<li><a href="index.html">Banana Republic</a></li>
+				<li data-role="list-divider">Date Range: 11/8/2011 - 11/14/2011</li>
+				<li><a href="index.html">BJs Wholesale Club</a></li>
+				<li data-role="list-divider">Date Range: 11/15/2011 - 11/21/2011</li>
+				<li><a href="index.html">Buenos</a></li>
+				<li><a href="index.html">Exxon-Mobil</a></li>
+				<li><a href="index.html">Whole Foods</a></li>
+				<li data-role="list-divider">Date Range: 11/22/2011 - 11/28/2011</li>
+				<li><a href="index.html">Subway</a></li>
+				<li><a href="index.html">Stop and Shop</a></li>
+				<li data-role="list-divider">Date Range: 11/29/2011 - 12/04/2011</li>
+				<li><a href="index.html">Nordstrom</a></li>
+				<li><a href="index.html">Dominos</a></li>
+				<li><a href="index.html">Shell Gas</a></li>
+			</ul>
+			</div><!--/content-primary -->		
+
+	</div><!-- /content -->
+	
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#balance">Balance</a></li>
+				<li><a href="#expense" class="ui-btn-active ui-state-persist">Expense</a></li>
+				<li><a href="#income">Income</a></li>
+				<li><a href="#profile">Profile</a></li>
+			</ul>
+		</div><!-- /navbar -->
+        </div> <!-- footer -->
+</div><!-- /page expenseYear -->
+
+<!-- Start of sixth page: #profile -->
+<div data-role="page" id="profile">
+
+	<div data-role="header" data-theme="c" data-add-back-btn="true">
+		<h1>User Profile</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">	
+    <div data-role="fieldcontain">
+        <label for="username">Username:</label>
+        <label for="username"></label>
+    </div>
+    <div data-role="fieldcontain">
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password" value=""  />
+    </div>
+    <div data-role="fieldcontain">
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="text" name="confirmPassword" id="confirmPassword" value=""  />
+    </div>	
+    <div data-role="fieldcontain">
+        <label for="dateFormat">Preferred Date Format:</label>
+        <input type="text" name="dateFormat" id="dateFormat" value=""  />
+    </div>	
+    <div data-role="fieldcontain">
+        <label for="currencyFormat">Currency Format:</label>
+        <input type="text" name="currencyFormat" id="currencyFormat" value=""  />
+    </div>	
+
+    <a href="#profile" data-role="button" data-inline="true">Update</a>
+    <a href="#profile" data-role="button" data-inline="true">Cancel</a>
+	</div><!-- /content -->
+	
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#balance">Balance</a></li>
+				<li><a href="#expense">Expense</a></li>
+				<li><a href="#income">Income</a></li>
+				<li><a href="#profile" class="ui-btn-active ui-state-persist">Profile</a></li>
+			</ul>
+		</div><!-- /navbar -->
+        </div> <!-- footer -->
+</div><!-- /page expenseYear -->
+
+  </body>
+</html>

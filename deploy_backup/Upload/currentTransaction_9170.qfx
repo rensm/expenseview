@@ -1,0 +1,80 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20160923190936[0:UTC]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Bank of America
+                <FID>5959
+            </FI>
+            <INTU.BID>6526
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <CREDITCARDMSGSRSV1>
+        <CCSTMTTRNRS>
+            <TRNUID>20160923190936[0:UTC]
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <CCSTMTRS>
+                <CURDEF>USD
+                <CCACCTFROM>
+                    <ACCTID>4400660956999170
+                </CCACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20160921160000[0:UTC]
+                    <DTEND>20160922160000[0:UTC]
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20160921160000[0:UTC]
+                        <TRNAMT>-103.28
+                        <FITID>201609211
+                        <CORRECTFITID>201609211
+                        <CORRECTACTION>REPLACE
+                        <NAME>HICKORY GROVE PEDIATRICS CHARLOT
+                        <MEMO>HICKORY GROVE PEDIATRICS CHARLOT
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20160922160000[0:UTC]
+                        <TRNAMT>-41.13
+                        <FITID>201609222
+                        <CORRECTFITID>201609222
+                        <CORRECTACTION>REPLACE
+                        <NAME>SHELL OIL 57544408404 CHARLOTTE 
+                        <MEMO>SHELL OIL 57544408404 CHARLOTTE 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>PAYMENT
+                        <DTPOSTED>20160922160000[0:UTC]
+                        <TRNAMT>-21.50
+                        <FITID>201609223
+                        <CORRECTFITID>201609223
+                        <CORRECTACTION>REPLACE
+                        <NAME>HOLY JOES MEATS &amp; MORE CHARLOTTE
+                        <MEMO>HOLY JOES MEATS &amp; MORE CHARLOTTE
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>-2615.83
+                    <DTASOF>20160923190936[0:UTC]
+                </LEDGERBAL>
+            </CCSTMTRS>
+        </CCSTMTTRNRS>
+    </CREDITCARDMSGSRSV1>
+</OFX>

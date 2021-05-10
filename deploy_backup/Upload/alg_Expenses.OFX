@@ -1,0 +1,1625 @@
+
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+                  <DTSERVER>20150403</DTSERVER>
+                  <LANGUAGE></LANGUAGE>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1</TRNUID>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+            <STMTRS>
+            <CURDEF>UYU</CURDEF>
+            <BANKACCTFROM>
+                <BANKID>291148526</BANKID>
+                <ACCTID>297396287</ACCTID>
+                <ACCTTYPE>CHECKING</ACCTTYPE>
+            </BANKACCTFROM>
+            
+            <BANKTRANLIST>
+            <DTSTART>19700101</DTSTART>
+            <DTEND>20150403</DTEND> 
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150105</DTPOSTED>
+                    <TRNAMT>-58</TRNAMT>
+                    <FITID>1460230621</FITID>
+                    <NAME>Watershed Pub Amp; Kitchen Seatt</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150105</DTPOSTED>
+                    <TRNAMT>-24</TRNAMT>
+                    <FITID>1427800833</FITID>
+                    <NAME>Regal Thornton Place 14 Seattle </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150105</DTPOSTED>
+                    <TRNAMT>-53.12</TRNAMT>
+                    <FITID>1262646898</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150105</DTPOSTED>
+                    <TRNAMT>-2.23</TRNAMT>
+                    <FITID>4161257008</FITID>
+                    <NAME>PbpSeattle Paybyphone Pa 866-783</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150105</DTPOSTED>
+                    <TRNAMT>-39.4</TRNAMT>
+                    <FITID>2381356184</FITID>
+                    <NAME>Mr Villa Mexican Restaur Seattle</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150106</DTPOSTED>
+                    <TRNAMT>-27.29</TRNAMT>
+                    <FITID>1356829688</FITID>
+                    <NAME>Red Robin 12 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150106</DTPOSTED>
+                    <TRNAMT>-26.38</TRNAMT>
+                    <FITID>4165758409</FITID>
+                    <NAME>Gus Cooper Services Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150108</DTPOSTED>
+                    <TRNAMT>-10.77</TRNAMT>
+                    <FITID>1050903839</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150108</DTPOSTED>
+                    <TRNAMT>-33.12</TRNAMT>
+                    <FITID>4023975822</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150108</DTPOSTED>
+                    <TRNAMT>-1.35</TRNAMT>
+                    <FITID>262607596</FITID>
+                    <NAME>PbpSeattle Paybyphone Pa 866-783</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150108</DTPOSTED>
+                    <TRNAMT>-0.85</TRNAMT>
+                    <FITID>3463062076</FITID>
+                    <NAME>PbpSeattle Paybyphone Pa 866-783</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150108</DTPOSTED>
+                    <TRNAMT>-39.5</TRNAMT>
+                    <FITID>3960713159</FITID>
+                    <NAME>New Roots Organics 206-261-2500 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150108</DTPOSTED>
+                    <TRNAMT>-189.24</TRNAMT>
+                    <FITID>1591955039</FITID>
+                    <NAME>Fred-Meyer 0608 Seattle Wa 98107</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150109</DTPOSTED>
+                    <TRNAMT>-44.07</TRNAMT>
+                    <FITID>724758307</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150109</DTPOSTED>
+                    <TRNAMT>-15</TRNAMT>
+                    <FITID>1841017497</FITID>
+                    <NAME>Sq The French Stylist Bellevue W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150112</DTPOSTED>
+                    <TRNAMT>-35.97</TRNAMT>
+                    <FITID>1330292132</FITID>
+                    <NAME>Snappy Dragon Seattle Wa 98115 U</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150112</DTPOSTED>
+                    <TRNAMT>-26.53</TRNAMT>
+                    <FITID>1228310131</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150112</DTPOSTED>
+                    <TRNAMT>-16.23</TRNAMT>
+                    <FITID>1156642094</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150112</DTPOSTED>
+                    <TRNAMT>-8.75</TRNAMT>
+                    <FITID>451618563</FITID>
+                    <NAME>Netflix.Com Netflix.Com Ca 95032</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150112</DTPOSTED>
+                    <TRNAMT>-14.21</TRNAMT>
+                    <FITID>2217932640</FITID>
+                    <NAME>Goodwill Ballard - Dir Seattle W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150113</DTPOSTED>
+                    <TRNAMT>-21.71</TRNAMT>
+                    <FITID>2892745708</FITID>
+                    <NAME>Target 00013318 Lake Stevens Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150113</DTPOSTED>
+                    <TRNAMT>-24.4</TRNAMT>
+                    <FITID>56700474</FITID>
+                    <NAME>76 10061059 Lake Stevens Wa 9825</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150114</DTPOSTED>
+                    <TRNAMT>-6.48</TRNAMT>
+                    <FITID>2099690293</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150114</DTPOSTED>
+                    <TRNAMT>-21.42</TRNAMT>
+                    <FITID>1489790872</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150115</DTPOSTED>
+                    <TRNAMT>-22.07</TRNAMT>
+                    <FITID>1079001508</FITID>
+                    <NAME>Watershed Pub Amp; Kitchen Seatt</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150115</DTPOSTED>
+                    <TRNAMT>-51.19</TRNAMT>
+                    <FITID>391220544</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150116</DTPOSTED>
+                    <TRNAMT>-12.03</TRNAMT>
+                    <FITID>2390776812</FITID>
+                    <NAME>Walgreens 4157 Seattle Wa 98125 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150116</DTPOSTED>
+                    <TRNAMT>-272.66</TRNAMT>
+                    <FITID>1329487254</FITID>
+                    <NAME>Homedepot.Com 800-430-3376 Ga 30</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150116</DTPOSTED>
+                    <TRNAMT>-21.3</TRNAMT>
+                    <FITID>3912335909</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150117</DTPOSTED>
+                    <TRNAMT>-5.74</TRNAMT>
+                    <FITID>1775758406</FITID>
+                    <NAME>Sq Cloud City Coffee Seattle Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150117</DTPOSTED>
+                    <TRNAMT>-7.14</TRNAMT>
+                    <FITID>2017075880</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150117</DTPOSTED>
+                    <TRNAMT>-21.83</TRNAMT>
+                    <FITID>686588474</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150119</DTPOSTED>
+                    <TRNAMT>-51.07</TRNAMT>
+                    <FITID>326006552</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150119</DTPOSTED>
+                    <TRNAMT>-9.75</TRNAMT>
+                    <FITID>3851056598</FITID>
+                    <NAME>Sq Cloud City Coffee Seattle Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150119</DTPOSTED>
+                    <TRNAMT>-19.69</TRNAMT>
+                    <FITID>1335127401</FITID>
+                    <NAME>Maple Leaf Ace Seattle Wa 98115 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150119</DTPOSTED>
+                    <TRNAMT>-100.48</TRNAMT>
+                    <FITID>2252038562</FITID>
+                    <NAME>Ikea Seattle Renton Wa 98057 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150119</DTPOSTED>
+                    <TRNAMT>-1</TRNAMT>
+                    <FITID>1777362918</FITID>
+                    <NAME>Ikea Seattle Renton Wa 98057 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150119</DTPOSTED>
+                    <TRNAMT>-33.29</TRNAMT>
+                    <FITID>3480951047</FITID>
+                    <NAME>Chaiyo Thai Cuisine Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150119</DTPOSTED>
+                    <TRNAMT>-28.42</TRNAMT>
+                    <FITID>2226737256</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150120</DTPOSTED>
+                    <TRNAMT>-21.58</TRNAMT>
+                    <FITID>1935985793</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150120</DTPOSTED>
+                    <TRNAMT>-158.5</TRNAMT>
+                    <FITID>2150372036</FITID>
+                    <NAME>AtAmp;TBill Payment 800-331-0500</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150121</DTPOSTED>
+                    <TRNAMT>-21.39</TRNAMT>
+                    <FITID>3953654036</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150122</DTPOSTED>
+                    <TRNAMT>-39.5</TRNAMT>
+                    <FITID>4272391698</FITID>
+                    <NAME>New Roots Organics 206-261-2500 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150122</DTPOSTED>
+                    <TRNAMT>-32.15</TRNAMT>
+                    <FITID>3187186473</FITID>
+                    <NAME>Chevron 00092815 Seattle Wa 9813</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150123</DTPOSTED>
+                    <TRNAMT>-25.66</TRNAMT>
+                    <FITID>1764847679</FITID>
+                    <NAME>VpiPet Insurance 800-Usapets Ca </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150123</DTPOSTED>
+                    <TRNAMT>-152.77</TRNAMT>
+                    <FITID>1717635702</FITID>
+                    <NAME>The Home Depot 4706 Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150123</DTPOSTED>
+                    <TRNAMT>-6.75</TRNAMT>
+                    <FITID>2596638892</FITID>
+                    <NAME>Seattle 684-Park Seattle Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150123</DTPOSTED>
+                    <TRNAMT>-8.25</TRNAMT>
+                    <FITID>3656631709</FITID>
+                    <NAME>Seattle 684-Park Seattle Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150123</DTPOSTED>
+                    <TRNAMT>-50.34</TRNAMT>
+                    <FITID>1294758057</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150124</DTPOSTED>
+                    <TRNAMT>-30.84</TRNAMT>
+                    <FITID>288711314</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150124</DTPOSTED>
+                    <TRNAMT>-39.15</TRNAMT>
+                    <FITID>2043560865</FITID>
+                    <NAME>QFC 5822 Bellevue Wa 98006 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-24.61</TRNAMT>
+                    <FITID>1260699261</FITID>
+                    <NAME>Shell Oil 57444033104 Bellevue W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-19.45</TRNAMT>
+                    <FITID>171023779</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-25.79</TRNAMT>
+                    <FITID>3520757991</FITID>
+                    <NAME>Pagliacci Lake City Way 206-726-</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-8.18</TRNAMT>
+                    <FITID>491639068</FITID>
+                    <NAME>Maple Leaf Ace Seattle Wa 98115 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-49.73</TRNAMT>
+                    <FITID>733038622</FITID>
+                    <NAME>Maple Leaf Ace Seattle Wa 98115 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-25.48</TRNAMT>
+                    <FITID>2834076787</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-10.94</TRNAMT>
+                    <FITID>1774218468</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-41.72</TRNAMT>
+                    <FITID>2731476699</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-18.36</TRNAMT>
+                    <FITID>3950489922</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-19.95</TRNAMT>
+                    <FITID>4283281353</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150126</DTPOSTED>
+                    <TRNAMT>-45.45</TRNAMT>
+                    <FITID>1781028163</FITID>
+                    <NAME>All The Best Pet Care Seattle Wa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150127</DTPOSTED>
+                    <TRNAMT>-4.38</TRNAMT>
+                    <FITID>1543447265</FITID>
+                    <NAME>Venue Seattle Wa 98107 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150127</DTPOSTED>
+                    <TRNAMT>-16.25</TRNAMT>
+                    <FITID>2916431799</FITID>
+                    <NAME>Maple Leaf Ace Seattle Wa 98115 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150128</DTPOSTED>
+                    <TRNAMT>-6.35</TRNAMT>
+                    <FITID>772664808</FITID>
+                    <NAME>Ampco Parking 1St Amp; Colum 407</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150129</DTPOSTED>
+                    <TRNAMT>-21.22</TRNAMT>
+                    <FITID>3828891106</FITID>
+                    <NAME>Shell Oil 63652220248 Stanwood W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150129</DTPOSTED>
+                    <TRNAMT>-61.46</TRNAMT>
+                    <FITID>2175332748</FITID>
+                    <NAME>Flying Squirrel Pizza Seattle Wa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150129</DTPOSTED>
+                    <TRNAMT>-10</TRNAMT>
+                    <FITID>3336811343</FITID>
+                    <NAME>430 Gh Family Health Ctr Seattle</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150130</DTPOSTED>
+                    <TRNAMT>-32.25</TRNAMT>
+                    <FITID>2937908592</FITID>
+                    <NAME>Snappy Dragon Seattle Wa 98115 U</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150130</DTPOSTED>
+                    <TRNAMT>-215.44</TRNAMT>
+                    <FITID>2879600798</FITID>
+                    <NAME>Seattle Public Utilities 206-684</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150131</DTPOSTED>
+                    <TRNAMT>-70.66</TRNAMT>
+                    <FITID>56772946</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-20.23</TRNAMT>
+                    <FITID>2940018799</FITID>
+                    <NAME>VpiPet Insurance 800-Usapets Ca </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-65</TRNAMT>
+                    <FITID>1259633660</FITID>
+                    <NAME>Toronado Seattle Wa 98115 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-11.31</TRNAMT>
+                    <FITID>496311445</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-11.75</TRNAMT>
+                    <FITID>1346519212</FITID>
+                    <NAME>Ghb - Bellevue Bellevue Wa 98006</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-66.95</TRNAMT>
+                    <FITID>2948276558</FITID>
+                    <NAME>Comcast Cable Comm 800-Comcast W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-23.52</TRNAMT>
+                    <FITID>1761682375</FITID>
+                    <NAME>Chevron 00090451 Seattle Wa 9811</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-15.35</TRNAMT>
+                    <FITID>87811457</FITID>
+                    <NAME>Ampco Parking 1St Amp; Colum 407</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150202</DTPOSTED>
+                    <TRNAMT>-13.09</TRNAMT>
+                    <FITID>3638619217</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150203</DTPOSTED>
+                    <TRNAMT>-23.38</TRNAMT>
+                    <FITID>3103780602</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150203</DTPOSTED>
+                    <TRNAMT>-9.98</TRNAMT>
+                    <FITID>2418563077</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150204</DTPOSTED>
+                    <TRNAMT>-21.2</TRNAMT>
+                    <FITID>215792465</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150204</DTPOSTED>
+                    <TRNAMT>-25.19</TRNAMT>
+                    <FITID>1465357188</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150205</DTPOSTED>
+                    <TRNAMT>-36.35</TRNAMT>
+                    <FITID>4189719648</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150205</DTPOSTED>
+                    <TRNAMT>-56.6</TRNAMT>
+                    <FITID>4235350284</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150205</DTPOSTED>
+                    <TRNAMT>-39.5</TRNAMT>
+                    <FITID>2923480899</FITID>
+                    <NAME>New Roots Organics 206-261-2500 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150206</DTPOSTED>
+                    <TRNAMT>-32.83</TRNAMT>
+                    <FITID>2133642421</FITID>
+                    <NAME>Bed Bath Amp; Beyond 1207 Seattl</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150206</DTPOSTED>
+                    <TRNAMT>-8.71</TRNAMT>
+                    <FITID>520457200</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150209</DTPOSTED>
+                    <TRNAMT>-308.87</TRNAMT>
+                    <FITID>2006168383</FITID>
+                    <NAME>Target 00012849 Seattle Wa 98125</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150209</DTPOSTED>
+                    <TRNAMT>-21.34</TRNAMT>
+                    <FITID>3044943224</FITID>
+                    <NAME>Sq Cloud City Coffee Seattle Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150209</DTPOSTED>
+                    <TRNAMT>-11</TRNAMT>
+                    <FITID>3271768300</FITID>
+                    <NAME>Sea Ppg Pof Amp; In Lane Seattle</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150209</DTPOSTED>
+                    <TRNAMT>-7</TRNAMT>
+                    <FITID>2499847095</FITID>
+                    <NAME>Cirque Du Soleil Kurios Redmond </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150209</DTPOSTED>
+                    <TRNAMT>-10</TRNAMT>
+                    <FITID>3365972606</FITID>
+                    <NAME>Cirque Du Soleil Kurios Redmond </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150209</DTPOSTED>
+                    <TRNAMT>-21.89</TRNAMT>
+                    <FITID>4135790804</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150209</DTPOSTED>
+                    <TRNAMT>-5.84</TRNAMT>
+                    <FITID>1029302523</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150210</DTPOSTED>
+                    <TRNAMT>-35</TRNAMT>
+                    <FITID>1137398120</FITID>
+                    <NAME>Rudys Barber Shop - Un Seattle W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150210</DTPOSTED>
+                    <TRNAMT>-20.06</TRNAMT>
+                    <FITID>1533549910</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150210</DTPOSTED>
+                    <TRNAMT>-225</TRNAMT>
+                    <FITID>4158404949</FITID>
+                    <NAME>Purple Cafe Amp; Wine Bar Woodin</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150210</DTPOSTED>
+                    <TRNAMT>-10.05</TRNAMT>
+                    <FITID>2943748891</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150211</DTPOSTED>
+                    <TRNAMT>-35.97</TRNAMT>
+                    <FITID>392234210</FITID>
+                    <NAME>Pacific Fabrics Northgat Seattle</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150211</DTPOSTED>
+                    <TRNAMT>-8.75</TRNAMT>
+                    <FITID>2852886283</FITID>
+                    <NAME>Netflix.Com Netflix.Com Ca 95032</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150211</DTPOSTED>
+                    <TRNAMT>-23.85</TRNAMT>
+                    <FITID>1550675537</FITID>
+                    <NAME>76 10061059 Lake Stevens Wa 9825</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150212</DTPOSTED>
+                    <TRNAMT>-4.09</TRNAMT>
+                    <FITID>73544989</FITID>
+                    <NAME>Target 00012849 Seattle Wa 98125</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150212</DTPOSTED>
+                    <TRNAMT>-32</TRNAMT>
+                    <FITID>1932627261</FITID>
+                    <NAME>Sq Audra Sanderhoff Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150212</DTPOSTED>
+                    <TRNAMT>-22</TRNAMT>
+                    <FITID>1522825366</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150214</DTPOSTED>
+                    <TRNAMT>-12.55</TRNAMT>
+                    <FITID>1834253498</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150214</DTPOSTED>
+                    <TRNAMT>-32.19</TRNAMT>
+                    <FITID>2011415296</FITID>
+                    <NAME>Chaiyo Thai Cuisine Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150216</DTPOSTED>
+                    <TRNAMT>-13.54</TRNAMT>
+                    <FITID>1100838163</FITID>
+                    <NAME>Sq Wailua Shave Ice Kapaa Hi 967</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150216</DTPOSTED>
+                    <TRNAMT>-20.76</TRNAMT>
+                    <FITID>414656700</FITID>
+                    <NAME>Sq Great American Bagel Seatac W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150216</DTPOSTED>
+                    <TRNAMT>-8.51</TRNAMT>
+                    <FITID>2887215359</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150217</DTPOSTED>
+                    <TRNAMT>-20.82</TRNAMT>
+                    <FITID>2973916275</FITID>
+                    <NAME>Big Save Markets Hanalei Hi 9671</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150218</DTPOSTED>
+                    <TRNAMT>-7.28</TRNAMT>
+                    <FITID>2019847999</FITID>
+                    <NAME>Village Variety Hanalei Hi 96714</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150218</DTPOSTED>
+                    <TRNAMT>-14.23</TRNAMT>
+                    <FITID>1952792796</FITID>
+                    <NAME>Bubbas Burgers Hanalei Hi 96714 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150218</DTPOSTED>
+                    <TRNAMT>-12.94</TRNAMT>
+                    <FITID>1527963654</FITID>
+                    <NAME>Big Save Markets Hanalei Hi 9671</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150219</DTPOSTED>
+                    <TRNAMT>-5.2</TRNAMT>
+                    <FITID>3710680800</FITID>
+                    <NAME>Pedal N Paddle Hanalei Hi 96714 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150219</DTPOSTED>
+                    <TRNAMT>-22.26</TRNAMT>
+                    <FITID>204431692</FITID>
+                    <NAME>Bubbas Burgers Hanalei Hi 96714 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150220</DTPOSTED>
+                    <TRNAMT>-10.31</TRNAMT>
+                    <FITID>490158852</FITID>
+                    <NAME>Lapperts Hawaii Marketpla Kapaa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150221</DTPOSTED>
+                    <TRNAMT>-11.42</TRNAMT>
+                    <FITID>7940907</FITID>
+                    <NAME>Kauai Mini Golf Kilauea Hi 96754</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150221</DTPOSTED>
+                    <TRNAMT>-37.5</TRNAMT>
+                    <FITID>3699781928</FITID>
+                    <NAME>Kauai Mini Golf Kilauea Hi 96754</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150221</DTPOSTED>
+                    <TRNAMT>-4.77</TRNAMT>
+                    <FITID>2476275373</FITID>
+                    <NAME>Kauai Mini Golf Kilauea Hi 96754</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150221</DTPOSTED>
+                    <TRNAMT>-379.03</TRNAMT>
+                    <FITID>3444170993</FITID>
+                    <NAME>Enterprise Rent-A-Car Lihue Hi 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150221</DTPOSTED>
+                    <TRNAMT>-149.9</TRNAMT>
+                    <FITID>3913092026</FITID>
+                    <NAME>AtAmp;TBill Payment 800-331-0500</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150223</DTPOSTED>
+                    <TRNAMT>-25.66</TRNAMT>
+                    <FITID>1675168449</FITID>
+                    <NAME>VpiPet Insurance 800-Usapets Ca </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150223</DTPOSTED>
+                    <TRNAMT>-29.23</TRNAMT>
+                    <FITID>2321131819</FITID>
+                    <NAME>Shell Oil 57444727705 Kapaa Hi 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150223</DTPOSTED>
+                    <TRNAMT>-32.34</TRNAMT>
+                    <FITID>2028368652</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150223</DTPOSTED>
+                    <TRNAMT>-9.4</TRNAMT>
+                    <FITID>2452136810</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150223</DTPOSTED>
+                    <TRNAMT>-25.17</TRNAMT>
+                    <FITID>353282861</FITID>
+                    <NAME>Pagliacci Lake City Way Seattle </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150223</DTPOSTED>
+                    <TRNAMT>-66.95</TRNAMT>
+                    <FITID>3932696455</FITID>
+                    <NAME>Comcast Bellingh Cs 1X 800-266-2</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150223</DTPOSTED>
+                    <TRNAMT>-30.62</TRNAMT>
+                    <FITID>3695123609</FITID>
+                    <NAME>All The Best Pet Care Seattle Wa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150225</DTPOSTED>
+                    <TRNAMT>-17.26</TRNAMT>
+                    <FITID>2758662235</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150225</DTPOSTED>
+                    <TRNAMT>-44.96</TRNAMT>
+                    <FITID>3518224485</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150226</DTPOSTED>
+                    <TRNAMT>-31.92</TRNAMT>
+                    <FITID>3949352263</FITID>
+                    <NAME>Shell Oil 57444033104 Bellevue W</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150226</DTPOSTED>
+                    <TRNAMT>-25.48</TRNAMT>
+                    <FITID>916317034</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150226</DTPOSTED>
+                    <TRNAMT>-47.82</TRNAMT>
+                    <FITID>3147684268</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150226</DTPOSTED>
+                    <TRNAMT>-8.25</TRNAMT>
+                    <FITID>567150557</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150226</DTPOSTED>
+                    <TRNAMT>10.05</TRNAMT>
+                    <FITID>3270071959</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150228</DTPOSTED>
+                    <TRNAMT>-35.09</TRNAMT>
+                    <FITID>2242961415</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150228</DTPOSTED>
+                    <TRNAMT>-27.25</TRNAMT>
+                    <FITID>1948472401</FITID>
+                    <NAME>Shell Oil 57444032908 Arlington </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150228</DTPOSTED>
+                    <TRNAMT>-4.49</TRNAMT>
+                    <FITID>4073141854</FITID>
+                    <NAME>QFC 5822 Bellevue Wa 98006 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150228</DTPOSTED>
+                    <TRNAMT>-3.68</TRNAMT>
+                    <FITID>1155900339</FITID>
+                    <NAME>PbpSeattle Paybyphone Pa 866-783</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150302</DTPOSTED>
+                    <TRNAMT>-20.23</TRNAMT>
+                    <FITID>1546440323</FITID>
+                    <NAME>VpiPet Insurance 800-Usapets Ca </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150302</DTPOSTED>
+                    <TRNAMT>-24.34</TRNAMT>
+                    <FITID>1643490321</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150302</DTPOSTED>
+                    <TRNAMT>-28.96</TRNAMT>
+                    <FITID>3203536180</FITID>
+                    <NAME>Chevron 00091292 North Bend Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150302</DTPOSTED>
+                    <TRNAMT>-9.35</TRNAMT>
+                    <FITID>743465824</FITID>
+                    <NAME>Ampco Parking 1St Amp; Colum 407</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150302</DTPOSTED>
+                    <TRNAMT>-5</TRNAMT>
+                    <FITID>3998118646</FITID>
+                    <NAME>036 Gh Pharmacy 888-901-4636 Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150303</DTPOSTED>
+                    <TRNAMT>-33.97</TRNAMT>
+                    <FITID>375459164</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150304</DTPOSTED>
+                    <TRNAMT>-29</TRNAMT>
+                    <FITID>1056110795</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150304</DTPOSTED>
+                    <TRNAMT>-36.64</TRNAMT>
+                    <FITID>1370338733</FITID>
+                    <NAME>Pagliacci Lake City Way Seattle </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150305</DTPOSTED>
+                    <TRNAMT>-19.88</TRNAMT>
+                    <FITID>830860702</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150305</DTPOSTED>
+                    <TRNAMT>-3.75</TRNAMT>
+                    <FITID>3965641329</FITID>
+                    <NAME>Seattle 684-Park Seattle Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150305</DTPOSTED>
+                    <TRNAMT>-39.5</TRNAMT>
+                    <FITID>21095983</FITID>
+                    <NAME>New Roots Organics 206-261-2500 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150305</DTPOSTED>
+                    <TRNAMT>-29.56</TRNAMT>
+                    <FITID>2230002632</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150306</DTPOSTED>
+                    <TRNAMT>-103.97</TRNAMT>
+                    <FITID>751555880</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150306</DTPOSTED>
+                    <TRNAMT>-38.39</TRNAMT>
+                    <FITID>1108652745</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150307</DTPOSTED>
+                    <TRNAMT>-29.06</TRNAMT>
+                    <FITID>3790135223</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-11</TRNAMT>
+                    <FITID>1045601759</FITID>
+                    <NAME>Texaco 00203442 Bellevue Wa 9800</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-3.74</TRNAMT>
+                    <FITID>2439150562</FITID>
+                    <NAME>Starbucks 03326 Leavenwo Leavenw</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-10.83</TRNAMT>
+                    <FITID>2341318308</FITID>
+                    <NAME>Safeway Store00015891 Leavenwort</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-21.77</TRNAMT>
+                    <FITID>4288772106</FITID>
+                    <NAME>Safeway Fuel 10015899 Leavenwort</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-128.42</TRNAMT>
+                    <FITID>3762930609</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-5.75</TRNAMT>
+                    <FITID>1007892577</FITID>
+                    <NAME>Munchen Haus Leavenworth Wa 9882</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-15</TRNAMT>
+                    <FITID>2732771301</FITID>
+                    <NAME>Munchen Haus Leavenworth Wa 9882</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150309</DTPOSTED>
+                    <TRNAMT>-18.59</TRNAMT>
+                    <FITID>1759575460</FITID>
+                    <NAME>All The Best Pet Care Seattle Wa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150310</DTPOSTED>
+                    <TRNAMT>-21.89</TRNAMT>
+                    <FITID>157542499</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150310</DTPOSTED>
+                    <TRNAMT>-27.44</TRNAMT>
+                    <FITID>279063843</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150310</DTPOSTED>
+                    <TRNAMT>-24</TRNAMT>
+                    <FITID>3265601998</FITID>
+                    <NAME>Etsy.Com 888-961-4798 Ny 11201 U</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150311</DTPOSTED>
+                    <TRNAMT>-8.75</TRNAMT>
+                    <FITID>1546167425</FITID>
+                    <NAME>Netflix.Com Netflix.Com Ca 95032</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150311</DTPOSTED>
+                    <TRNAMT>-40.9</TRNAMT>
+                    <FITID>266637016</FITID>
+                    <NAME>My Baby Rocks 801-906-0693 Ut 84</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150312</DTPOSTED>
+                    <TRNAMT>-29</TRNAMT>
+                    <FITID>722896174</FITID>
+                    <NAME>Sq Audra Sanderhoff Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150312</DTPOSTED>
+                    <TRNAMT>-28.9</TRNAMT>
+                    <FITID>3190980332</FITID>
+                    <NAME>Gus Cooper Services Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150313</DTPOSTED>
+                    <TRNAMT>-4.49</TRNAMT>
+                    <FITID>2257778847</FITID>
+                    <NAME>QFC 5822 Bellevue Wa 98006 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150313</DTPOSTED>
+                    <TRNAMT>-28.62</TRNAMT>
+                    <FITID>368544484</FITID>
+                    <NAME>Chaiyo Thai Cuisine Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150313</DTPOSTED>
+                    <TRNAMT>-20.24</TRNAMT>
+                    <FITID>3927724310</FITID>
+                    <NAME>Bed Bath Amp; Beyond 1207 Seattl</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-16.96</TRNAMT>
+                    <FITID>2829056921</FITID>
+                    <NAME>Trader Joe'S 135 Qps Seattle Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-8.75</TRNAMT>
+                    <FITID>3677076789</FITID>
+                    <NAME>The Home Depot 4707 Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-14</TRNAMT>
+                    <FITID>3646435696</FITID>
+                    <NAME>Sq Movie Siff Cinema Upt Seattle</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-24</TRNAMT>
+                    <FITID>1296584353</FITID>
+                    <NAME>Siff Seattle Wa 98109 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-27</TRNAMT>
+                    <FITID>2847082168</FITID>
+                    <NAME>Pcc - Greenlake Seattle Wa 98115</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-70.13</TRNAMT>
+                    <FITID>1893658604</FITID>
+                    <NAME>Paragon Seattle Wa 98109 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-4.83</TRNAMT>
+                    <FITID>799783093</FITID>
+                    <NAME>MenchieS Of Seattle Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150316</DTPOSTED>
+                    <TRNAMT>-10.98</TRNAMT>
+                    <FITID>3203319808</FITID>
+                    <NAME>Diamond Parking A396 Seattle Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150317</DTPOSTED>
+                    <TRNAMT>-41.09</TRNAMT>
+                    <FITID>346898016</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150317</DTPOSTED>
+                    <TRNAMT>12.81</TRNAMT>
+                    <FITID>653171637</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150318</DTPOSTED>
+                    <TRNAMT>-114.75</TRNAMT>
+                    <FITID>1019282001</FITID>
+                    <NAME>Wa Vehicle Licensing 360-902-747</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150318</DTPOSTED>
+                    <TRNAMT>-7.72</TRNAMT>
+                    <FITID>1123960037</FITID>
+                    <NAME>Pcc - Greenlake Seattle Wa 98115</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150318</DTPOSTED>
+                    <TRNAMT>-29</TRNAMT>
+                    <FITID>3695706296</FITID>
+                    <NAME>Livingsocial 202-695-8945 Dc 200</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150318</DTPOSTED>
+                    <TRNAMT>-22.98</TRNAMT>
+                    <FITID>2432050073</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150318</DTPOSTED>
+                    <TRNAMT>-15.32</TRNAMT>
+                    <FITID>4285170681</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150318</DTPOSTED>
+                    <TRNAMT>-43.67</TRNAMT>
+                    <FITID>2277846130</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150319</DTPOSTED>
+                    <TRNAMT>-8.6</TRNAMT>
+                    <FITID>607330917</FITID>
+                    <NAME>Sq Restrant Cloud City C Seattle</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150319</DTPOSTED>
+                    <TRNAMT>-1.9</TRNAMT>
+                    <FITID>2629460688</FITID>
+                    <NAME>PbpSeattle Paybyphone Pa 866-783</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150319</DTPOSTED>
+                    <TRNAMT>-39.5</TRNAMT>
+                    <FITID>3497693726</FITID>
+                    <NAME>New Roots Organics 206-261-2500 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150319</DTPOSTED>
+                    <TRNAMT>-37.99</TRNAMT>
+                    <FITID>2656381297</FITID>
+                    <NAME>All The Best Pet Care Seattle Wa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150320</DTPOSTED>
+                    <TRNAMT>-27.12</TRNAMT>
+                    <FITID>3098048510</FITID>
+                    <NAME>Wholefds Rsq 10103 Seattle Wa 98</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150320</DTPOSTED>
+                    <TRNAMT>-149.9</TRNAMT>
+                    <FITID>3076425949</FITID>
+                    <NAME>AtAmp;TBill Payment 800-331-0500</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150320</DTPOSTED>
+                    <TRNAMT>-129.53</TRNAMT>
+                    <FITID>180528730</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150321</DTPOSTED>
+                    <TRNAMT>-26.03</TRNAMT>
+                    <FITID>3477948591</FITID>
+                    <NAME>Ups000000Y124V3115 800-811-1648 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150323</DTPOSTED>
+                    <TRNAMT>-25.66</TRNAMT>
+                    <FITID>1199223147</FITID>
+                    <NAME>VpiPet Insurance 800-Usapets Ca </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150323</DTPOSTED>
+                    <TRNAMT>-147.39</TRNAMT>
+                    <FITID>3885036109</FITID>
+                    <NAME>Target 00013318 Lake Stevens Wa </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150323</DTPOSTED>
+                    <TRNAMT>-38.27</TRNAMT>
+                    <FITID>4015716772</FITID>
+                    <NAME>Shell Oil 57444040604 Seattle Wa</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150323</DTPOSTED>
+                    <TRNAMT>-5.49</TRNAMT>
+                    <FITID>3691089893</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150323</DTPOSTED>
+                    <TRNAMT>-64.75</TRNAMT>
+                    <FITID>3523735685</FITID>
+                    <NAME>Pies And Pints Seattle Wa 98115 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150323</DTPOSTED>
+                    <TRNAMT>-57.99</TRNAMT>
+                    <FITID>876053408</FITID>
+                    <NAME>Maple Leaf Ace Seattle Wa 98115 </NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150323</DTPOSTED>
+                    <TRNAMT>-29.66</TRNAMT>
+                    <FITID>2075192694</FITID>
+                    <NAME>76 10108538 Seattle Wa 98103 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150324</DTPOSTED>
+                    <TRNAMT>-23.56</TRNAMT>
+                    <FITID>293139798</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150324</DTPOSTED>
+                    <TRNAMT>-64.57</TRNAMT>
+                    <FITID>2563328069</FITID>
+                    <NAME>Nordstrom Rack 0111 Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150324</DTPOSTED>
+                    <TRNAMT>-80.83</TRNAMT>
+                    <FITID>832343472</FITID>
+                    <NAME>Amazon.Com Amzn.Com/Bill Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150325</DTPOSTED>
+                    <TRNAMT>-17.49</TRNAMT>
+                    <FITID>2149213642</FITID>
+                    <NAME>Amazon Mktplace Pmts Amzn.Com/Bi</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150326</DTPOSTED>
+                    <TRNAMT>-19.73</TRNAMT>
+                    <FITID>3639758065</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150327</DTPOSTED>
+                    <TRNAMT>-30</TRNAMT>
+                    <FITID>607601244</FITID>
+                    <NAME>Recreation.Gov 888-448-1474 Ny 1</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150327</DTPOSTED>
+                    <TRNAMT>-30.77</TRNAMT>
+                    <FITID>825603198</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150328</DTPOSTED>
+                    <TRNAMT>-60</TRNAMT>
+                    <FITID>1545246869</FITID>
+                    <NAME>Uw Kuow Fund 206-5432710 Wa 9810</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150328</DTPOSTED>
+                    <TRNAMT>-72.42</TRNAMT>
+                    <FITID>641470682</FITID>
+                    <NAME>Shelter Seattle Wa 98115 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150328</DTPOSTED>
+                    <TRNAMT>-30</TRNAMT>
+                    <FITID>1261562408</FITID>
+                    <NAME>Recreation.Gov 888-448-1474 Ny 1</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150328</DTPOSTED>
+                    <TRNAMT>-10</TRNAMT>
+                    <FITID>2178109636</FITID>
+                    <NAME>Recreation.Gov 888-448-1474 Ny 1</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-18.7</TRNAMT>
+                    <FITID>2854679511</FITID>
+                    <NAME>Tubs Gourmet Subs Seattle Wa 981</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-77.57</TRNAMT>
+                    <FITID>1861706189</FITID>
+                    <NAME>The Home Depot 4706 Seattle Wa 9</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-21.68</TRNAMT>
+                    <FITID>2654139521</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-12.47</TRNAMT>
+                    <FITID>4148668843</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-75.75</TRNAMT>
+                    <FITID>1006343670</FITID>
+                    <NAME>QFC 5866 Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-51.4</TRNAMT>
+                    <FITID>2177311446</FITID>
+                    <NAME>Old Navy 4216 Seattle Wa 98125 U</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-30</TRNAMT>
+                    <FITID>248917991</FITID>
+                    <NAME>Good2Go Replenishment 866-936-82</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-60.12</TRNAMT>
+                    <FITID>1234375973</FITID>
+                    <NAME>Dsw Seattle Wa 98125 Us</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150330</DTPOSTED>
+                    <TRNAMT>-9.35</TRNAMT>
+                    <FITID>3213759002</FITID>
+                    <NAME>Ampco Parking 1St Amp; Colum 407</NAME>
+                </STMTTRN>
+                <STMTTRN>
+                    <TRNTYPE>OTHER</TRNTYPE>
+                    <DTPOSTED>20150331</DTPOSTED>
+                    <TRNAMT>-209.71</TRNAMT>
+                    <FITID>1942983134</FITID>
+                    <NAME>Seattle Public Utilities 206-684</NAME>
+                </STMTTRN>
+            </BANKTRANLIST>
+            
+            <LEDGERBAL>
+                <BALAMT>0</BALAMT>
+                <DTASOF>20150403</DTASOF>
+            </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX> 
